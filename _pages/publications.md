@@ -1,70 +1,48 @@
-## Preprint
+## Book:
 
-[15] Continuous data assimilation for hydrodynamics: consistent discretization and application to moment recovery, *submitted*, 2024.
-with *Jingcheng Lu*, *Li Wang* and *Jeff Calder*.
-arXiv:[2409.03872](http://arxiv.org/abs/2409.03872).
+[19] Mitchell Luskin, Christoph Ortner and **Yangshuai Wang**, *Mathematical Modeling of Materials at the Atomic Scale*, Book Series Texts in Applied Mathematics, **Springer Nature**, under the contract.
 
-[14] From the Boltzmann equation for gas mixture to the two-fluid incompressible hydrodynamic system, *submitted*, 2024.
-with *Zhendong Fang*.
-arXiv:[2408.03570](https://arxiv.org/abs/2408.03570).
+## Submitted and Preprints:
 
-[13] The small Deborah number limit for the fluid-particle flows II: compressible case, *submitted*, 2024.
-with *Zhendong Fang* and *Huanyao Wen*.
+[18] Xinyi Wei, **Yangshuai Wang**, Kai Jiang and Lei Zhang, *Amplitude Expansion Phase Field Crystal (APFC) Modeling based Efficient Dislocation Simulations using Fourier Pseudospectral Method*, under review, 2024, [arXiv:2410.22720](https://arxiv.org/pdf/2410.22720).
 
-[12] Global existence and moment creation for the inelastic Boltzmann equation for hard potentials without angular cutoff, *submitted*, 2023.
-with *Jin Woo Jang*.
-arXiv:[2206.09636v2](https://arxiv.org/abs/2206.09636v2).
+[17] (Corresponding author) Kejie Fu, Mingjie Liao, **Yangshuai Wang**, Jianjun Chen and Lei Zhang, *MeshAC: A 3D Mesh Generation and Adaptation Package for Multiscale Coupling Methods*, under review, 2024, [arXiv:2402.09446](https://arxiv.org/pdf/2402.09446).
 
-------
+[16] Ilyes Batatia, Philipp Benner, Yuan Chiang, Alin M. Elena, Dávid P. Kovács, and Janosh Riebesell et al. (62 authors not shown), *A Foundation Model for Atomistic Materials Chemistry*, under review, 2024, [arXiv:2401.00096](https://arxiv.org/pdf/2401.00096).
 
-## Published/Accepted
+[15] **Yangshuai Wang**, *A Posteriori Analysis and Adaptive Algorithms for Blended Type Atomistic-to-Continuum Coupling with Higher-Order Finite Elements*, under review, 2024,
+[arXiv:2308.16467](https://arxiv.org/pdf/2308.16467).
 
-[11] Radiative transport in a periodic structure with band crossings, *accepted by **SIAM J. Appl. Math.***, 2024.
-with *Li Wang* and *Alexander B. Watson*.
-arXiv:[2402.06828](http://arxiv.org/abs/2402.06828).
+[14] (Corresponding author) Hao Wang and **Yangshuai Wang**, *Adaptive Multiscale Coupling Methods of Molecular Mechanics Based on a Unified Framework of a Posteriori Error Estimates*, under review, 2023, [arXiv:2309.13255](https://arxiv.org/pdf/2309.13255).
 
-[10] On the kinetic description of the objective molecular dynamics, *accepted by **SIAM Multiscale Model. Simul.***, 2024.
-with *Richard D. James* and *Li Wang*.
-arXiv:[2307.16814](https://arxiv.org/abs/2307.16814).
+[13] (Corresponding author) Julian Braun, Christoph Ortner, **Yangshuai Wang** and Lei Zhang, *Higher Order Far-Field Boundary Conditions for Crystalline Defects*, under review, 2022, [arXiv:2210.05573](https://arxiv.org/pdf/2210.05573).
 
-[9] The small Deborah number limit for the fluid-particle flows I: incompressible case,
-***Math. Models Methods Appl. Sci.(M3AS)***, 12(34), 2024.
-with *Zhendong Fang* and *Huanyao Wen*.
-DOI: [10.1142/S0218202524500489](https://doi.org/10.1142/S0218202524500489).
 
-[8] Spectral convergence of a semi-discretized numerical system for the spatially homogeneous Boltzmann equation with uncertainties, ***SIAM/ASA J. Uncertain. Quantif.***, 12(3), 812–841, 2024.
-with *Liu Liu*.
-DOI:[10.1137/24M1638483](https://doi.org/10.1137/24M1638483).
+## Published and Accepted:
 
-[7] Convergence of the Fourier-Galerkin spectral method for the Boltzmann equation with uncertainties, ***Commun. Math. Sci.***, 22(7), 1897-1925, 2024.
-with *Liu Liu*.
-DOI:[10.4310/CMS.240918035418](https://dx.doi.org/10.4310/CMS.240918035418).
+[12] (Co-corresponding author) Tina Torabi, Christoph Ortner and **Yangshuai Wang**, [*Surrogate models for vibrational entropy based on a spatial decomposition*](https://arxiv.org/abs/2402.12744), accepted by **Multiscale Model. Simul.**, 2024.  
 
-[6] Measure valued solution to the spatially homogeneous Boltzmann equation with inelastic long-range interactions, ***J. Math. Phys.***, 63(2), 021503, 2022.
-DOI:[10.1063/5.0062859](https://doi.org/10.1063/5.0062859).
+[11] **Yangshuai Wang**, James Kermode, Christoph Ortner and Lei Zhang, [*A Posteriori Error Estimate and Adaptivity for QM/MM Models of Crystalline Defects*](https://www.sciencedirect.com/science/article/abs/pii/S0045782524003530), **Comput. Methods Appl. Mech. Engrg.**, 428:117097, 2024.
 
-[5] A new stability and convergence proof of the Fourier-Galerkin spectral method for the spatially homogeneous Boltzmann equation, ***SIAM J. Numer. Anal.***, 59(2), 613–633, 2021.
-with *Jingwei Hu* and *Tong Yang*.
-DOI:[10.1137/20M1351813](https://doi.org/10.1137/20M1351813).
+[10] **Yangshuai Wang**, Shashwat Patel and Christoph Ortner, [*A Theoretical Case Study of the Generalisation of Machine-learned Potentials*](https://www.sciencedirect.com/science/article/pii/S0045782524000872), **Comput. Methods Appl. Mech. Engrg.**, 422:116831, 2024.
 
-[4] On the measure valued solution to the inelastic Boltzmann equation with soft potentials, ***J. Stat. Phys.***, 183(2), 27, 2021.
-DOI:[10.1007/s10955-021-02762-w](https://doi.org/10.1007/s10955-021-02762-w).
+[9] **Yangshuai Wang** and Hao Wang, [*Efficient a Posteriori Error Control of a Consistent Atomistic/Continuum Coupling Method for Two Dimensional Crystalline Defects*](https://link.springer.com/article/10.1007/s10915-023-02362-8), **J. Sci. Comput.**, 97:51, 2023.
 
-[3] A fast Fourier spectral method for the homogeneous Boltzmann equation with non-cutoff collision kernels, ***J. Comput. Phys.***, 423:109806, 2020.
-with *Jingwei Hu*.
-DOI:[10.1016/j.jcp.2020.109806](https://doi.org/10.1016/j.jcp.2020.109806).
+[8] (Corresponding author) Derek Olson, Christoph Ortner, **Yangshuai Wang** and Lei Zhang, [*Elastic Far-field Decay from Dislocations in Multilattices*](https://epubs.siam.org/doi/abs/10.1137/22M1502021?journalCode=mmsubt), **Multiscale Model. Simul.**, 21(4), 2023.
 
-------
+[7] (Corresponding author) Christoph Ortner and **Yangshuai Wang**, [*A Framework for a Generalisation Analysis of Machine-learned Interatomic Potentials*](https://epubs.siam.org/doi/10.1137/22M152267X), **Multiscale Model. Simul.**, 21:1053-1080, 2023.
 
-## Conference Proceedings
+[6] (Corresponding author) Kejie Fu, Mingjie Liao, **Yangshuai Wang**, Jianjun Chen and Lei Zhang, [*Adaptive Multigrid Strategy for Large-scale Molecular Mechanics Optimization*](https://www.sciencedirect.com/science/article/abs/pii/S0021999123002085?via%3Dihub), **J. Comp. Phys.**, 485,112113, 2023.
 
-[2] Measure-valued solution to the inelastic Boltzmann equation for hard potentials without angular cutoff, ***Proceedings of the 32nd International Symposium on Rarefied Gas Dynamics***, AIP Conf. Proc. 2996, 040008, 2024.
-with *Jin Woo Jang*.
-DOI:[10.1063/5.0187383](https://doi.org/10.1063/5.0187383).
+[5] (Corresponding author) Huajie Chen, Christoph Ortner and **Yangshuai Wang**, [*QM/MM Methods for Crystalline Defects. Part 3: Machine-learned MM Models*](https://epubs.siam.org/doi/10.1137/21M1441122), **Multiscale Model. Simul.**, 20:1490-1518, 2022.
 
-------
+[4] **Yangshuai Wang**, Huajie Chen, Mingjie Liao, Christoph Ortner, Hao Wang and Lei Zhang, [*A Posteriori Error Estimates for Adaptive QM/MM Coupling Methods*](https://epubs.siam.org/doi/10.1137/20M1353678), **SIAM J Sci. Comp.**, 43:A2785-A2808, 2021.
+
+[3] **Yangshuai Wang**, Hao Wang and Lei Zhang, [*A Priori Analysis of a Higher Order Nonlinear Elasticity Model for an Atomistic Chain with Periodic Boundary Condition*](https://academic.oup.com/imajna/article-abstract/41/2/1465/5837821?redirectedFrom=fulltext&login=false), **IMA J. Numer. Anal.**, 41:1465-1495, 2020.
+
+[2] (Alphabetic order) Huajie Chen, Mingjie Liao, Hao Wang, **Yangshuai Wang** and Lei Zhang, [*Adaptive QM/MM Coupling for Crystalline Defects*](https://www.sciencedirect.com/science/article/abs/pii/S0045782519302233?via%3Dihub), **Comput. Methods Appl. Mech. Engrg.**, 354:351-368, 2019. 
+
 
 ## Thesis
 
-[1] Research on the kinetic type equations with relevant numerical methods, 2021.
-which has been awarded *“[2020-2021 HKMS Best Thesis Award](https://kunlun-qi.github.io/files/Best_Thesis_Award_KQ.pdf)“* by The Hong Kong Mathematical Society.
+[1] Multiscale Methods, SJTU, 2021.
