@@ -12,7 +12,7 @@ title                    : "Yangshuai Wang (王阳帅)'s Homepage"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://yangshuaiwang.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://YangshuaiWang.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
@@ -22,34 +22,35 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "yswang.png"
-  name             : "Your Sidebar Name"
+  name             : "Yangshuai Wang"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Peng Tsu Ann Assitant Professor (Visiting Fellow), Department of Mathematics"
+  location         : "Singapore"
+  employer         : "National University of Singapore"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "yswang@nus.edu.sg" 
 
   # Academic websites
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
-  semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
+  arxiv            : "https://arxiv.org/search/?query=Yangshuai+Wang&searchtype=all&source=header"
+  googlescholar    : "https://scholar.google.com/citations?user=MDfgwG0AAAAJ&hl=zh-CN"
+  # impactstory      : # URL
+  orcid            : "https://orcid.org/my-orcid?orcid=0000-0003-0226-2613"
+  # semantic         : # URL
+  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  researchgate     : "https://www.researchgate.net/profile/Yangshuai-Wang"
+  # scopus           : # URL
+  googlesite       : "https://sites.google.com/view/yangshuaiwang/about-me" 
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "YangshuaiWang"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
