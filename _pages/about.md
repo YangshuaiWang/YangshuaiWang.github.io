@@ -7,20 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-**Office Address**: S17-06-16, Department of Mathematics, 10 Lower Kent Ridge Road, National University of Singapore, 119076, Singapore.
-
-**Office Phone**: +65-6516-1955
-
+**Office Address**: S17-06-16, Department of Mathematics, 10 Lower Kent Ridge Road, National University of Singapore, 119076, Singapore.   
+**Office Phone**: +65-6516-1955  
 **Email**: yswang@nus.edu.sg
 
 Bio
 ------
-- July 2024 - Present: Peng Tsu Ann Asssitant Professor at National University of Singapore, mentored by [Prof. Weizhu Bao](https://blog.nus.edu.sg/matbwz/).
-
+- July 2024 - Present: Peng Tsu Ann Asssitant Professor at National University of Singapore, mentored by [Prof. Weizhu Bao](https://blog.nus.edu.sg/matbwz/).  
 - Dec. 2021 - July 2024: Postdoc fellow at University of British Columbia, supervised by [Prof. Christoph Ortner](https://personal.math.ubc.ca/~ortner/).
-
 - Sept. 2016 - Dec. 2021: Ph.D at Shanghai Jiao Tong University, supervised by [Prof. Lei Zhang](https://ins.sjtu.edu.cn/people/lzhang/home.html). 
-
 - Sept. 2012 - June 2016: B.S. at Sichuan University, supervised by [Dr. Hao Wang](https://math.scu.edu.cn/en/info/1013/6696.htm). 
 
 
