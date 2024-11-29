@@ -5,32 +5,197 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Preprint</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
 
-{% include base_path %}
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
 
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
 
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
 
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <h2 id="preprint">Preprint</h2>
+<p>[15] Continuous data assimilation for hydrodynamics: consistent discretization and application to moment recovery, <em>submitted</em>, 2024.
+with <em>Jingcheng Lu</em>, <em>Li Wang</em> and <em>Jeff Calder</em>.
+arXiv:<a href="http://arxiv.org/abs/2409.03872">2409.03872</a>.</p>
+<p>[14] From the Boltzmann equation for gas mixture to the two-fluid incompressible hydrodynamic system, <em>submitted</em>, 2024.
+with <em>Zhendong Fang</em>.
+arXiv:<a href="https://arxiv.org/abs/2408.03570">2408.03570</a>.</p>
+<p>[13] The small Deborah number limit for the fluid-particle flows II: compressible case, <em>submitted</em>, 2024.
+with <em>Zhendong Fang</em> and <em>Huanyao Wen</em>.</p>
+<p>[12] Global existence and moment creation for the inelastic Boltzmann equation for hard potentials without angular cutoff, <em>submitted</em>, 2023.
+with <em>Jin Woo Jang</em>.
+arXiv:<a href="https://arxiv.org/abs/2206.09636v2">2206.09636v2</a>.</p>
+<hr>
+<h2 id="publishedaccepted">Published/Accepted</h2>
+<p>[11] Radiative transport in a periodic structure with band crossings, <em>accepted by <strong>SIAM J. Appl. Math.</strong></em>, 2024.
+with <em>Li Wang</em> and <em>Alexander B. Watson</em>.
+arXiv:<a href="http://arxiv.org/abs/2402.06828">2402.06828</a>.</p>
+<p>[10] On the kinetic description of the objective molecular dynamics, <em>accepted by <strong>SIAM Multiscale Model. Simul.</strong></em>, 2024.
+with <em>Richard D. James</em> and <em>Li Wang</em>.
+arXiv:<a href="https://arxiv.org/abs/2307.16814">2307.16814</a>.</p>
+<p>[9] The small Deborah number limit for the fluid-particle flows I: incompressible case,
+<em><strong>Math. Models Methods Appl. Sci.(M3AS)</strong></em>, 12(34), 2024.
+with <em>Zhendong Fang</em> and <em>Huanyao Wen</em>.
+DOI: <a href="https://doi.org/10.1142/S0218202524500489">10.1142/S0218202524500489</a>.</p>
+<p>[8] Spectral convergence of a semi-discretized numerical system for the spatially homogeneous Boltzmann equation with uncertainties, <em><strong>SIAM/ASA J. Uncertain. Quantif.</strong></em>, 12(3), 812–841, 2024.
+with <em>Liu Liu</em>.
+DOI:<a href="https://doi.org/10.1137/24M1638483">10.1137/24M1638483</a>.</p>
+<p>[7] Convergence of the Fourier-Galerkin spectral method for the Boltzmann equation with uncertainties, <em><strong>Commun. Math. Sci.</strong></em>, 22(7), 1897-1925, 2024.
+with <em>Liu Liu</em>.
+DOI:<a href="https://dx.doi.org/10.4310/CMS.240918035418">10.4310/CMS.240918035418</a>.</p>
+<p>[6] Measure valued solution to the spatially homogeneous Boltzmann equation with inelastic long-range interactions, <em><strong>J. Math. Phys.</strong></em>, 63(2), 021503, 2022.
+DOI:<a href="https://doi.org/10.1063/5.0062859">10.1063/5.0062859</a>.</p>
+<p>[5] A new stability and convergence proof of the Fourier-Galerkin spectral method for the spatially homogeneous Boltzmann equation, <em><strong>SIAM J. Numer. Anal.</strong></em>, 59(2), 613–633, 2021.
+with <em>Jingwei Hu</em> and <em>Tong Yang</em>.
+DOI:<a href="https://doi.org/10.1137/20M1351813">10.1137/20M1351813</a>.</p>
+<p>[4] On the measure valued solution to the inelastic Boltzmann equation with soft potentials, <em><strong>J. Stat. Phys.</strong></em>, 183(2), 27, 2021.
+DOI:<a href="https://doi.org/10.1007/s10955-021-02762-w">10.1007/s10955-021-02762-w</a>.</p>
+<p>[3] A fast Fourier spectral method for the homogeneous Boltzmann equation with non-cutoff collision kernels, <em><strong>J. Comput. Phys.</strong></em>, 423:109806, 2020.
+with <em>Jingwei Hu</em>.
+DOI:<a href="https://doi.org/10.1016/j.jcp.2020.109806">10.1016/j.jcp.2020.109806</a>.</p>
+<hr>
+<h2 id="conference-proceedings">Conference Proceedings</h2>
+<p>[2] Measure-valued solution to the inelastic Boltzmann equation for hard potentials without angular cutoff, <em><strong>Proceedings of the 32nd International Symposium on Rarefied Gas Dynamics</strong></em>, AIP Conf. Proc. 2996, 040008, 2024.
+with <em>Jin Woo Jang</em>.
+DOI:<a href="https://doi.org/10.1063/5.0187383">10.1063/5.0187383</a>.</p>
+<hr>
+<h2 id="thesis">Thesis</h2>
+<p>[1] Research on the kinetic type equations with relevant numerical methods, 2021.
+which has been awarded <em>“<a href="https://kunlun-qi.github.io/files/Best_Thesis_Award_KQ.pdf">2020-2021 HKMS Best Thesis Award</a>“</em> by The Hong Kong Mathematical Society.</p>
+
+            
+            
+        </body>
+        </html>
