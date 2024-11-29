@@ -5,10 +5,24 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
-Office Address: S17-06-16, Department of Mathematics, 10 Lower Kent Ridge Road, National University of Singapore, 119076, Singapore.
-Office Phone: +65-6516-1955
-Email: yswang@nus.edu.sg
 ---
+
+**Office Address**: S17-06-16, Department of Mathematics, 10 Lower Kent Ridge Road, National University of Singapore, 119076, Singapore.
+
+**Office Phone**: +65-6516-1955
+
+**Email**: yswang@nus.edu.sg
+
+Bio
+======
+
+- July 2024 - Present: Peng Tsu Ann Asssitant Professor at National University of Singapore, mentored by [Prof. Weizhu Bao](https://blog.nus.edu.sg/matbwz/).
+
+- Dec. 2021 - July 2024: Postdoc fellow at University of British Columbia, supervised by [Prof. Christoph Ortner](https://personal.math.ubc.ca/~ortner/).
+
+- Sept. 2016 - Dec. 2021: Ph.D at Shanghai Jiao Tong University, supervised by [Prof. Lei Zhang](https://ins.sjtu.edu.cn/people/lzhang/home.html). 
+
+- Sept. 2012 - June 2016: B.S. at Sichuan University, supervised by [Dr. Hao Wang](https://math.scu.edu.cn/en/info/1013/6696.htm). 
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
