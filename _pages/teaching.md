@@ -20,7 +20,7 @@
   *Semester*: Spring 2023  
   *Description*: A hands-on introduction to data analysis and visualization using Python libraries like Pandas and Matplotlib.
 
-## Additional Resources
+<!-- ## Additional Resources
 Here are some additional materials for students:
 - [Teaching Guide](assets/files/teaching-guide.pdf)
-- [Office Hours Schedule](https://example.com/office-hours)
+- [Office Hours Schedule](https://example.com/office-hours) -->
