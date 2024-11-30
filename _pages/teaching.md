@@ -1,24 +1,42 @@
 
 
 ## Current Courses
-- **Machine Learning Fundamentals**  
+- **MA4230 Matrix Computation**  
   *Semester*: Fall 2024  
-  *Description*: Introduction to the principles of machine learning, covering supervised and unsupervised learning.  
-  *Resources*: [Syllabus](https://example.com/syllabus), [Slides](https://example.com/slides)
-
-- **Advanced Data Science**  
-  *Semester*: Spring 2024  
-  *Description*: Advanced topics in data science, including big data processing and visualization.  
-  *Resources*: [Syllabus](https://example.com/syllabus)
+  *Role*: **Instructor**  
+  *Location*: National University of Singapore, Singapore 
 
 ## Past Courses
-- **Introduction to Artificial Intelligence**  
+- **MATH 100 Calculus**  
   *Semester*: Fall 2023  
-  *Description*: Basic concepts and applications of AI, with a focus on problem-solving and reasoning.
+  *Role*: **Instructor**  
+  *Location*: University of British Columbia, Canada
 
-- **Python for Data Analysis**  
-  *Semester*: Spring 2023  
-  *Description*: A hands-on introduction to data analysis and visualization using Python libraries like Pandas and Matplotlib.
+- **Advanced Computational Methods**  
+  *Semester*: Fall 2021  
+  *Role*: Teaching Assistant  
+  *Location*: Shanghai Jiao Tong University, China
+
+- **Numerical Methods for Partial Differential Equations**  
+  *Semester*: Spring 2019  
+  *Role*: Teaching Assistant  
+  *Location*: Shanghai Jiao Tong University, China
+
+- **Applied Mathematics Methods**  
+  *Semester*: Spring 2018   
+  *Role*: Teaching Assistant    
+  *Location*: Shanghai Jiao Tong University, China
+
+- **Scientific Computing**  
+  *Semester*: Spring 2017  
+  *Role*: Teaching Assistant  
+  *Location*: Shanghai Jiao Tong University, China
+
+- **Mathematical Analysis**  
+  *Semester*: Fall 2017  
+  *Role*: Teaching Assistant  
+  *Location*: Shanghai Jiao Tong University, China
+
 
 <!-- ## Additional Resources
 Here are some additional materials for students:
