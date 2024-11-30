@@ -1,14 +1,22 @@
 I am broadly interested in the numerical analysis and scientific computing, especially in molecular modeling in materials science, including:
 
 ## Machine-learned Interatomic Potentials (MLIPs)
-I am interested in the numerical analysis of MLIPs, integrating concepts from physics, materials science, and data science to develop a systematic approach to interatomic potential modeling. My work emphasizes understanding approximation errors and their propagation in MLIPs frameworks.
+
+My research focuses on the numerical analysis and development of Machine-learned Interatomic Potentials (MLIPs), integrating interdisciplinary concepts from physics, materials science, applied mathematics, and data science. I aim to establish a systematic framework for modeling interatomic interactions, with a particular emphasis on understanding and minimizing approximation errors and propagating them through MLIP models to improve predictive accuracy and reliability.
 
 **Highlights:**
-- *Mathematical theory of MLIPs*: generalisation error analysis;
-uncertainty quantification and active learning; inverse problems;
-- *Modeling and simulations of MLIPs*: crystalline defects
-(dislocations, grain-boundaries and random alloys); 2D materials; vibrational entropy; coarse-grained
-molecular dynamics; accelerated molecular dynamics;
+- *Mathematical Foundations of MLIPs*: 
+  - Analysis of generalization error and uncertainty quantification to assess model robustness;
+  - Active learning strategies to optimize data efficiency and improve model performance;
+  - Solving inverse problems for data-driven discovery of interatomic interactions.
+- *Modeling and simulations of MLIPs*: 
+  - Study of crystalline defects, including dislocations, grain boundaries, and random alloys;
+  - Exploration of 2D materials and their unique interatomic behaviors;
+  - Modeling vibrational entropy for thermodynamic property predictions;
+  - Development of coarse-grained molecular dynamics approaches for large-scale systems;
+  - Accelerated molecular dynamics simulations for efficient exploration of atomic-scale phenomena.
+
+
 
 **Corresponding Papers:**  
 >
@@ -26,15 +34,25 @@ els in Atomistic Materials Science*, **In preparation**.
 
 
 
-## Mathematical Modeling and Algorithms of Modeling Materials
+## Mathematical Modeling and Algorithms for Material Simulations
+
+My research is dedicated to developing advanced mathematical models and computational algorithms for simulating material behaviors, particularly in the context of defects, multi-lattice structures, and phase transitions. The goal is to bridge theoretical insights with efficient numerical techniques, enabling accurate and scalable solutions for complex material systems.
 
 **Highlights:**
-- boundary conditions of defect simulations;
-- regularity estimate of defect equilibrium; 
-- multi-lattices modeling; 
-- Cauchy-Born rule;
-- Fast algorithms of geometry optimization and minmum energy path and transition state finding;
-- Phase Field Crystals model and numerical algorithm;
+
+- *Boundary Conditions for Defect Simulations*:
+  - Development of mathematically rigorous and physically consistent boundary conditions to model defects in crystalline materials.
+
+- **Regularity Estimates for Defect Equilibrium**:
+  - Analytical study of the regularity properties of defect solutions, ensuring stability and well-posedness in equilibrium configurations.
+
+- *Efficient Algorithms for Geometry Optimization and Transition State Calculations*:
+  - Development of fast and reliable algorithms for geometry optimization, minimum energy path identification, and transition state finding in material systems.
+
+- **Phase-Field Crystal (PFC) Models, Cauchy-Born Rule, and Numerical Algorithms**:
+  - Design and implementation of PFC models to study mesoscale material behaviors, coupled with efficient numerical algorithms for dynamic simulations.
+  - Extensions and applications of the Cauchy-Born framework for linking atomistic and continuum scales in material simulations.
+
 
 **Corresponding Papers:**  
 >
@@ -50,13 +68,18 @@ Simulations*, **In preparation**.
 
 ## Analysis and Applications of Multi-scale Coupling Methods
 
-for atomistic-to-continuum (A/C) and quantum
-mechanics/molecular mechanics (QM/MM) coupling methods;
+My research centers on the development and analysis of multi-scale coupling techniques for integrating atomistic-to-continuum (A/C) and quantum mechanics/molecular mechanics (QM/MM) methods. These approaches enable accurate simulations of material systems by bridging scales from quantum-level interactions to macroscopic behavior.
 
 **Highlights:**
-- a priori analysis, 
-- a posteriori error control 
-- adaptive algorithm design 
+
+- *A Priori Analysis*:
+  - Theoretical investigation of the stability, convergence, and error bounds of multi-scale coupling methods.
+
+- *A Posteriori Error Control*:
+  - Development of error estimators to assess the reliability of simulation results and guide computational efficiency.
+
+- *Adaptive Algorithm Design*:
+  - Creation of adaptive algorithms that dynamically refine simulations based on error indicators, ensuring computational resources are used optimally.
 
 **Corresponding Papers:**  
 >
@@ -74,12 +97,19 @@ approximation with periodic boundary condition for an atomistic chain*, **In pre
 
 
 ## Scientific Machine Learning:
-I explore data-driven and machine learning techniques to solve partial differential equations (PDEs) and related scientific and mathematical problems.
+
+My research focuses on leveraging data-driven and machine learning techniques to address partial differential equations (PDEs) and other complex scientific and mathematical problems. By integrating computational methods with machine learning, I aim to develop efficient and robust tools for solving real-world challenges.
 
 **Highlights:**
-- Approximation theory and error analysis
-- Random feature methods
-- Operator learning
+
+- *Approximation Theory and Error Analysis*:
+  - Investigating the theoretical underpinnings of machine learning models for PDEs, including convergence rates and error bounds.
+
+- *Random Feature Methods*:
+  - Exploring random feature techniques to improve computational efficiency and scalability in high-dimensional problems.
+
+- *Operator Learning*:
+  - Developing machine learning models to approximate solution operators of PDEs, enabling rapid predictions and simulations.
 
 **Corresponding Papers:**  
 >
