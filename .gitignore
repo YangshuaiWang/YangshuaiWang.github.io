@@ -15,6 +15,9 @@ resources/
 # Hugo build lock
 .hugo_build.lock
 
+# Claude Code harness-local state
+.claude/
+
 # Hugo stats
 hugo_stats.json
 
