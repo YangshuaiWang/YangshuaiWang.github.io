@@ -6,8 +6,7 @@
 # Website name (set in params.yaml under hugoblox.branding.name)
 title: ''
 # Website URL
-# TODO: replace with your real deployed URL (e.g. GitHub Pages: https://<username>.github.io/)
-baseURL: 'https://example.com/'
+baseURL: 'https://royyu0509.github.io/yangshuai-web/'
 
 ############################
 ## LANGUAGE

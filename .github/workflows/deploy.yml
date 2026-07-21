@@ -1,9 +1,11 @@
 name: Deploy website to GitHub Pages
 
 on:
-  # Trigger the workflow every time you push to the `main` branch
+  # Trigger the workflow every time you push to the `main` or `master` branch
+  # (this repo's default branch is `master`; `main` is kept too in case it's
+  # ever renamed to match the more common convention)
   push:
-    branches: ['main']
+    branches: ['main', 'master']
   # Allows you to run this workflow manually from the Actions tab on GitHub
   workflow_dispatch:
 
