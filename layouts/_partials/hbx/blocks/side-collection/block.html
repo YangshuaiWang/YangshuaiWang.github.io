@@ -1,0 +1,113 @@
+{{/* Side-heading collection: same side-heading/indent shell as side-section, but for a queried,
+     filtered, sorted list of content (publications/talks/etc.), rendered through the existing
+     view partials. Shows only `count` items with a "see all" link to the full archive when more
+     exist. Content options: title, count, filters { folders, tag, exclude_tag, exclude_featured },
+     archive { link, text }. Design options: view. */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $content := $block.content }}
+{{ if not (reflect.IsMap $content) }}{{ $content = dict }}{{ end }}
+{{ $design := $block.design }}
+{{ if not (reflect.IsMap $design) }}{{ $design = dict }}{{ end }}
+
+{{ $view := "citation" }}
+{{ $view_raw := index $design "view" }}
+{{ if eq (printf "%T" $view_raw) "string" }}
+  {{ $view = lower (strings.TrimSpace $view_raw) }}
+{{ end }}
+
+{{ $items_count := partial "functions/coerce_int" (dict "value" (index $content "count") "default" 5 "min" 0) }}
+{{ if eq $items_count 0 }}
+  {{ $items_count = 65535 }}
+{{ end }}
+
+{{/* Query + filters (trimmed subset of content-collection's filter set, plus exclude_tag) */}}
+{{ $query := where site.Pages "Kind" "in" (slice "page") }}
+{{ $archive_page := "" }}
+
+{{ $filters := index $content "filters" }}
+{{ if not (reflect.IsMap $filters) }}{{ $filters = dict }}{{ end }}
+
+{{ $folders_raw := index $filters "folders" }}
+{{ $folders := slice }}
+{{ if reflect.IsSlice $folders_raw }}
+  {{ range $folders_raw }}
+    {{ $folder := strings.TrimSpace (printf "%v" .) }}
+    {{ if $folder }}{{ $folders = $folders | append $folder }}{{ end }}
+  {{ end }}
+{{ else if eq (printf "%T" $folders_raw) "string" }}
+  {{ $folder := strings.TrimSpace $folders_raw }}
+  {{ if $folder }}{{ $folders = slice $folder }}{{ end }}
+{{ end }}
+{{ if gt (len $folders) 0 }}
+  {{ $query = where $query "Section" "in" $folders }}
+  {{ $main_folder := strings.TrimSpace (printf "%v" (index $folders 0)) }}
+  {{ if $main_folder }}{{ $archive_page = site.GetPage "Section" $main_folder }}{{ end }}
+{{ end }}
+
+{{ $tag := "" }}
+{{ with index $filters "tag" }}{{ $tag = strings.TrimSpace (printf "%v" .) }}{{ end }}
+{{ if $tag }}
+  {{ with site.GetPage (printf "tags/%s" (urlize $tag)) }}
+    {{ $archive_page = . }}
+    {{ $query = $query | intersect .Pages }}
+  {{ end }}
+{{ end }}
+
+{{ $exclude_tag := "" }}
+{{ with index $filters "exclude_tag" }}{{ $exclude_tag = strings.TrimSpace (printf "%v" .) }}{{ end }}
+{{ if $exclude_tag }}
+  {{ with site.GetPage (printf "tags/%s" (urlize $exclude_tag)) }}
+    {{ $query = $query | complement .Pages }}
+  {{ end }}
+{{ end }}
+
+{{ $exclude_featured := partial "functions/coerce_bool" (dict "value" (index $filters "exclude_featured") "default" false) }}
+{{ if $exclude_featured }}
+  {{ $query = where $query "Params.featured" "!=" true }}
+{{ end }}
+
+{{ $count := len $query }}
+{{ $query = first $items_count (sort $query "Date" "desc") }}
+
+{{ $title := "" }}
+{{ with index $content "title" }}{{ $title = printf "%v" . | emojify | $page.RenderString }}{{ end }}
+
+{{/* "See all" archive link: explicit content.archive.link wins, else the resolved section/tag page */}}
+{{ $archive := index $content "archive" }}
+{{ if not (reflect.IsMap $archive) }}{{ $archive = dict }}{{ end }}
+{{ $show_archive_link := gt $count $items_count }}
+{{ $archive_link := "" }}
+{{ with index $archive "link" }}{{ $archive_link = strings.TrimSpace (printf "%v" .) }}{{ end }}
+{{ if and $show_archive_link (not $archive_link) $archive_page }}
+  {{ $archive_link = $archive_page.RelPermalink }}
+{{ end }}
+{{ if $archive_link }}
+  {{ $scheme := (urls.Parse $archive_link).Scheme }}
+  {{ if and (not $scheme) (not (hasPrefix $archive_link "#")) }}
+    {{ $archive_link = $archive_link | relLangURL }}
+  {{ end }}
+{{ end }}
+{{ $archive_text := "" }}
+{{ with index $archive "text" }}{{ $archive_text = strings.TrimSpace (printf "%v" .) }}{{ end }}
+{{ if not $archive_text }}{{ $archive_text = printf "See all %d →" $count }}{{ end }}
+
+<div class="max-w-5xl mx-auto px-6 py-10 border-t border-gray-200 dark:border-gray-800">
+  <div class="md:grid md:grid-cols-12 md:gap-8">
+    <div class="md:col-span-4">
+      <div class="text-3xl font-extrabold tracking-tight text-primary-700 dark:text-primary-400">{{ $title }}</div>
+    </div>
+    <div class="md:col-span-8 mt-4 md:mt-0">
+      <div class="flex flex-col space-y-3">
+        {{ range $index, $item := $query }}
+          {{ partial "functions/render_view" (dict "page" $block "item" . "view" $view "index" $index "config" dict) }}
+        {{ end }}
+      </div>
+      {{ if and $show_archive_link $archive_link }}
+      <div class="mt-6">
+        <a href="{{ $archive_link | safeURL }}" class="text-primary-700 dark:text-primary-400 font-medium hover:underline">{{ $archive_text }}</a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>

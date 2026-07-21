@@ -1,0 +1,35 @@
+{{/* Side-heading section: large heading in a left column, content indented in a right column. */}}
+{{/* Content options: title, text (markdown), collapsible (bool, default false) */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $content := $block.content }}
+{{ if not (reflect.IsMap $content) }}{{ $content = dict }}{{ end }}
+
+{{ $title := "" }}
+{{ with index $content "title" }}{{ $title = printf "%v" . | emojify | $page.RenderString }}{{ end }}
+{{ $text := "" }}
+{{ with index $content "text" }}{{ $text = printf "%v" . | emojify | $page.RenderString | safeHTML }}{{ end }}
+{{ $collapsible := false }}
+{{ if isset $content "collapsible" }}
+  {{ $collapsible = partial "functions/coerce_bool" (dict "value" (index $content "collapsible") "default" false) }}
+{{ end }}
+
+<div class="max-w-5xl mx-auto px-6 py-10 border-t border-gray-200 dark:border-gray-800">
+{{ if $collapsible }}
+  <details>
+    <summary class="cursor-pointer text-3xl font-extrabold tracking-tight text-primary-700 dark:text-primary-400">{{ $title }}</summary>
+    <div class="mt-6 md:pl-56 prose prose-lg prose-slate dark:prose-invert prose-p:font-medium prose-li:font-medium prose-td:font-medium prose-th:font-semibold">
+      {{ $text }}
+    </div>
+  </details>
+{{ else }}
+  <div class="md:grid md:grid-cols-12 md:gap-8">
+    <div class="md:col-span-4">
+      <div class="text-3xl font-extrabold tracking-tight text-primary-700 dark:text-primary-400">{{ $title }}</div>
+    </div>
+    <div class="md:col-span-8 mt-4 md:mt-0 prose prose-lg prose-slate dark:prose-invert prose-p:font-medium prose-li:font-medium prose-td:font-medium prose-th:font-semibold">
+      {{ $text }}
+    </div>
+  </div>
+{{ end }}
+</div>

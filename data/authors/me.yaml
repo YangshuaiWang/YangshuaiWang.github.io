@@ -12,32 +12,10 @@ postnominals: []
 status:
   icon: ''
 role: Peng Tsu Ann Assistant Professor (Visiting Fellow)
-bio: |
-  My research is situated at the intersection of Numerical Analysis, Scientific Computing, and Computational Materials Science. I focus on developing mathematically rigorous and computationally efficient methods for molecular modeling and multi-scale simulation. My specific research directions include:
-
-  **1. AI for Science (AI4Science) & Foundation Models**
-
-  - *LLMs for Scientific Discovery:* Investigating the integration of Large Language Models (LLMs) and specialized foundation models to accelerate scientific workflows, automate property prediction, and facilitate "inverse design" in materials science.
-  - *Scientific & Quantum Machine Learning:* Developing data-driven solvers and Quantum Machine Learning (QML) techniques for solving high-dimensional PDEs. My work emphasizes the development of robust numerical algorithms with a focus on Uncertainty Quantification (UQ) and the theoretical analysis of convergence and generalization.
-
-  **2. Machine-Learned Interatomic Potentials (MLIPs)**
-
-  - *Numerical Analysis of MLIPs:* Advancing the mathematical foundation of interatomic potentials by investigating approximation errors, stability, and the reliability of force-field predictions.
-  - *Multi-Fidelity & Coarse-Graining:* Developing systematic approaches for fine-tuning pre-trained models and constructing coarse-grained (CG) force fields for soft-matter systems.
-  - *Applications in Materials:* Applying these potentials to study complex phenomena in energy storage and conversion materials, ensuring a seamless integration of physics-based priors with data-driven flexibility.
-
-  **3. Multi-scale Modeling of Crystalline Defects**
-
-  - *Coupling Methods:* Engineering and analyzing Atomistic-to-Continuum (A/C) and Quantum Mechanics/Molecular Mechanics (QM/MM) coupling schemes.
-  - *Rigorous Error Estimation:* Implementing both a priori and a posteriori error analysis to guide the development of adaptive algorithms that balance accuracy and computational cost.
-  - *Boundary Conditions:* Formulating sophisticated boundary conditions to accurately capture the long-range strain fields associated with crystalline defects.
-
-  **4. Microstructure Evolution & Computational Materials Design**
-
-  - *Data-Driven Microstructure Modeling:* Utilizing machine learning to decipher the kinetics of microstructure evolution in complex systems, including optical and magnetic materials.
-  - *Multi-scale Property Prediction:* Intersection of multiscale behavior and surrogate modeling to predict macroscopic material performance from mesoscopic morphological data, facilitating the accelerated design of high-performance materials.
-
-  Office: S17-05-16, 10 Lower Kent Ridge Road, National University of Singapore, Singapore 119076.
+# Full bio prose lives in the standalone "biography" side-section in
+# content/_index.md (positioned after Research Interests) rather than here,
+# so the identity block above the fold stays short.
+bio: ''
 
 affiliations:
   - name: Department of Mathematics, National University of Singapore
@@ -47,6 +25,9 @@ links:
   - icon: at-symbol
     url: mailto:yswang@nus.edu.sg
     label: E-mail Me
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=MDfgwG0AAAAJ&hl=en
+    label: Google Scholar
 
 interests:
   - AI for Science (AI4Science) & Foundation Models

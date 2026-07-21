@@ -1,0 +1,17 @@
+{{/* Plain citation-style line for a conference talk: Title. Event, Location, Year. (Organizer) */}}
+{{ $item := .item }}
+{{ $year_value := $item.Params.event_start | default $item.Date }}
+{{ $year := (time $year_value).Format "2006" }}
+{{ $event_name := "" }}
+{{ with $item.Params.event_name }}{{ $event_name = . }}{{ end }}
+{{ $location := "" }}
+{{ with $item.Params.location }}{{ $location = . }}{{ end }}
+{{ $is_organizer := false }}
+{{ range $item.Params.tags }}{{ if eq . "organizer" }}{{ $is_organizer = true }}{{ end }}{{ end }}
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <a href="{{ $item.RelPermalink }}" class="underline">{{ $item.Title }}</a>.
+  {{ with $event_name }}{{ . | markdownify }}. {{ end }}
+  {{ with $location }}{{ . }}, {{ end }}{{ $year }}.
+  {{ if $is_organizer }}<span class="text-gray-500 dark:text-gray-400">(Organizer)</span>{{ end }}
+</div>

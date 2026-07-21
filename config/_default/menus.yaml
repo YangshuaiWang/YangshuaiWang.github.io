@@ -1,24 +1,29 @@
 # Navigation Links
-#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-  #     desired widget in your `content/home/` folder.
-  #   The weight parameter defines the order that the links will appear in.
+#   Single-page site: every entry anchors into a section on the homepage
+#   (matching the `id:` set on that section in content/_index.md) rather
+#   than navigating to a separate page. Publications/Preprints/Talks show a
+#   partial list on the homepage with a "see all" link to their own full,
+#   paginated archive page.
 
 main:
-  - name: About Me
-    url: /
+  - name: Home
+    url: /#about
     weight: 10
-  - name: CV
-    url: experience/
-    weight: 20
   - name: Publications
-    url: publications/
+    url: /#publications
+    weight: 20
+  - name: Preprints
+    url: /#preprints
     weight: 30
-  - name: Selected Preprints
-    url: preprints/
+  - name: Talks
+    url: /#talks
     weight: 40
-  - name: Conferences
-    url: conferences/
-    weight: 50
   - name: Teaching
-    url: teaching/
+    url: /#teaching
+    weight: 50
+  - name: Awards
+    url: /#awards
     weight: 60
+  - name: Contact
+    url: /#contact
+    weight: 70

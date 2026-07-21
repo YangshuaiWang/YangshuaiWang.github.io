@@ -1,7 +1,8 @@
 ---
-title: 'Teaching'
+title: Teaching
 date: 2023-10-24
 type: landing
+cms_exclude: true
 
 design:
   spacing: '5rem'

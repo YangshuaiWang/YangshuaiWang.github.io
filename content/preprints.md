@@ -1,7 +1,8 @@
 ---
-title: Selected Preprints
+title: Preprints
 date: 2023-10-24
 type: landing
+cms_exclude: true
 
 design:
   spacing: '5rem'
@@ -9,7 +10,7 @@ design:
 sections:
   - block: collection
     content:
-      title: ''
+      title: 'Preprints'
       text: ''
       count: 0
       filters:
