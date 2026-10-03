@@ -1,0 +1,62 @@
+{{/* Add accessible state and dismissal to the theme's existing navbar toggle. */}}
+<script>
+(() => {
+  const initializeNavigation = () => {
+    const menu = document.getElementById('collapse-main-navbar');
+    const toggle = document.querySelector('button[aria-controls="collapse-main-navbar"]');
+    if (!menu || !toggle) return;
+
+    const isMobile = () => getComputedStyle(toggle).display !== 'none';
+    const synchronizeExpanded = () => {
+      toggle.setAttribute('aria-expanded', String(getComputedStyle(menu).display !== 'none'));
+    };
+    const closeMenu = (restoreFocus = false) => {
+      menu.classList.add('hidden');
+      menu.classList.remove('flex');
+      synchronizeExpanded();
+      if (restoreFocus) toggle.focus();
+    };
+
+    // The theme owns the button click. Observe its result instead of toggling twice.
+    new MutationObserver(synchronizeExpanded).observe(menu, {
+      attributes: true,
+      attributeFilter: ['class'],
+    });
+    window.addEventListener('resize', synchronizeExpanded);
+    menu.addEventListener('click', (event) => {
+      if (event.target.closest('a[href]') && isMobile()) closeMenu();
+    });
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && !event.defaultPrevented && isMobile()
+          && toggle.getAttribute('aria-expanded') === 'true') {
+        event.preventDefault();
+        closeMenu(true);
+      }
+    });
+
+    // The upstream template marks every link current; only the selected destination is current.
+    const links = Array.from(menu.querySelectorAll('a[data-te-nav-link-ref]'));
+    const synchronizeCurrent = () => {
+      let currentMarked = false;
+      for (const link of links) {
+        const destination = new URL(link.href, location.href);
+        link.removeAttribute('aria-current');
+        const samePage = destination.origin === location.origin && destination.pathname === location.pathname;
+        const matchesHash = location.hash ? destination.hash === location.hash : true;
+        if (!currentMarked && samePage && matchesHash) {
+          link.setAttribute('aria-current', destination.hash ? 'location' : 'page');
+          currentMarked = true;
+        }
+      }
+    };
+    window.addEventListener('hashchange', synchronizeCurrent);
+    synchronizeExpanded();
+    synchronizeCurrent();
+  };
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeNavigation, { once: true });
+  } else {
+    initializeNavigation();
+  }
+})();
+</script>

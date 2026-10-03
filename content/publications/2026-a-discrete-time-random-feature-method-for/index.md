@@ -1,21 +1,32 @@
 ---
-title: "A Discrete-Time Random Feature Method for Nonlinear Evolution Equations with Implicit-Explicit Runge–Kutta Time Stepping"
+title: A Discrete-Time Random Feature Method for Nonlinear Evolution Equations with Implicit-Explicit Runge–Kutta
+  Time Stepping
 authors:
 - Haoran Zhou
 - Zhaohui Fu
 - me
 - Xinlong Feng
-date: "2026-01-01T00:00:00Z"
-publication_types: ["manuscript"]
+publication_year: 2026
+date_precision: year
+publication_types:
+- manuscript
+publication:
+  name: Preprint · Under review
 peer_reviewed: false
-summary: ''
-abstract: ''
-tags: ['preprint']
+tags:
+- preprint
 featured: false
+source_order: 13
+source_checked: '2026-10-03'
+source_url: https://sites.google.com/view/yangshuaiwang/selected-preprints
+status: under review
+author_note: Co-corresponding author
 links:
-  - type: preprint
-    provider: arxiv
-    url: "http://arxiv.org/abs/2604.25502"
+- type: preprint
+  url: https://arxiv.org/abs/2604.25502
+  provider: arxiv
+summary: "A Discrete-Time Random Feature Method for Nonlinear Evolution Equations with Implicit-Explicit Runge–Kutta Time Stepping. Preprint · Under review, 2026."
 ---
-*(Co-corresponding author)*
-*Under review.*
+*Co-corresponding author.*
+
+Under review.

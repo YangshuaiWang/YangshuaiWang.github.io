@@ -1,0 +1,15 @@
+{{ define "main" }}
+<main class="academic-paper max-w-5xl mx-auto px-6" id="main-content">
+  <nav aria-label="Breadcrumb" class="academic-breadcrumb">
+    <a href="{{ "/" | relURL }}">Home</a> / {{ if in .Params.tags "publication" }}<a href="{{ "/publications/" | relURL }}">Publications</a>{{ else }}<a href="{{ "/preprints/" | relURL }}">Preprints & other writing</a>{{ end }}
+  </nav>
+  <article>
+    <h1 class="text-3xl sm:text-4xl font-bold tracking-tight" data-pagefind-meta="title" data-pagefind-body>{{ .Title }}</h1>
+    <p class="academic-authors">{{ partial "academic-authors.html" . }}</p>
+    <p class="academic-venue">{{ partial "academic-venue.html" . }}</p>
+    {{ with .Params.author_note }}<p class="academic-note">{{ . }}</p>{{ end }}
+    {{ partial "academic-links.html" . }}
+    {{ with .Params.abstract }}<section class="prose dark:prose-invert mt-8"><h2>Abstract</h2>{{ . | markdownify }}</section>{{ end }}
+  </article>
+</main>
+{{ end }}

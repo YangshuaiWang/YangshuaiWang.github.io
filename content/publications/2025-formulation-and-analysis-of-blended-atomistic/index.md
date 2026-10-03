@@ -1,20 +1,31 @@
 ---
-title: "Formulation and Analysis of Blended Atomistic to Higher-Order Continuum Coupling Methods for Crystalline Defects"
+title: Formulation and Analysis of Blended Atomistic to Higher-Order Continuum Coupling Methods for Crystalline
+  Defects
 authors:
 - Junfeng Lu
 - Hao Wang
 - me
-date: "2025-01-01T00:00:00Z"
-publication_types: ["manuscript"]
+publication_year: 2025
+date_precision: year
+publication_types:
+- manuscript
+publication:
+  name: Preprint
 peer_reviewed: false
-summary: ''
-abstract: ''
-tags: ['preprint']
+tags:
+- preprint
 featured: false
+source_order: 5
+source_checked: '2026-10-03'
+source_url: https://sites.google.com/view/yangshuaiwang/selected-preprints
+status: preprint
+author_note: Co-corresponding author
 links:
-  - type: preprint
-    provider: arxiv
-    url: "https://arxiv.org/abs/2502.18854"
+- type: preprint
+  url: https://arxiv.org/abs/2502.18854
+  provider: arxiv
+summary: "Formulation and Analysis of Blended Atomistic to Higher-Order Continuum Coupling Methods for Crystalline Defects. Preprint, 2025."
 ---
+*Co-corresponding author.*
 
-*(Co-corresponding author)*
+Preprint.

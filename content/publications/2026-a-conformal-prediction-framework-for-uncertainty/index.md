@@ -4,19 +4,25 @@ authors:
 - Yifan Yu
 - Cheuk Hin Ho
 - me
-date: '2026-01-01T00:00:00Z'
+publication_year: 2026
+date_precision: year
 publication_types:
 - article-journal
 publication:
-  name: J. Comp. Phys.
-  pages: '114979'
+  name: J. Comput. Phys., 114979
 peer_reviewed: true
-summary: ''
-abstract: ''
-tags: []
+tags:
+- publication
 featured: false
+source_order: 24
+source_checked: '2026-10-03'
+source_url: https://sites.google.com/view/yangshuaiwang/publications
+status: published
+author_note: Corresponding author
 links:
-- type: pdf
+- type: url
   url: https://doi.org/10.1016/j.jcp.2026.114979
+  name: Publisher
+summary: "A Conformal Prediction Framework for Uncertainty Quantification in Physics-Informed Neural Networks. J. Comput. Phys., 114979, 2026."
 ---
-*(Corresponding author)*
+*Corresponding author.*

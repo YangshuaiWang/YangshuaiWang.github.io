@@ -1,23 +1,28 @@
 ---
-title: Amplitude Expansion Phase Field Crystal (APFC) Modeling based Efficient Dislocation Simulations using Fourier Pseudospectral Method
+title: Amplitude Expansion Phase Field Crystal (APFC) Modeling based Efficient Dislocation Simulations using Fourier
+  Pseudospectral Method
 authors:
 - Xinyi Wei
 - me
 - Kai Jiang
 - Lei Zhang
-date: '2026-01-01T00:00:00Z'
+publication_year: 2026
+date_precision: year
 publication_types:
 - article-journal
 publication:
-  name: J. Sci. Comput.
-  volume: '108'
-  pages: '57'
+  name: J. Sci. Comput., 108:57
 peer_reviewed: true
-summary: ''
-abstract: ''
-tags: []
+tags:
+- publication
 featured: false
+source_order: 26
+source_checked: '2026-10-03'
+source_url: https://sites.google.com/view/yangshuaiwang/publications
+status: published
 links:
-- type: pdf
-  url: https://link.springer.com/epdf/10.1007/s10915-026-03376-8?sharing_token=S_RCrz-k2nLi2XKH7PMYDPe4RwlQNchNByi7wbcMAY6ytA1Xukv2AQZGTbDQqxrxR31inTpCxkhcWJzSFSPYZz7qKHgpM1ts2ZsgooTy3UMOOiHhO5uOW2_iiOIYocrZfs-KR5_L-he72eMJOvMy0MuUY25X_CwEm4ZOQGizKDY%3D
+- type: url
+  url: https://doi.org/10.1007/s10915-026-03376-8
+  name: Publisher
+summary: "Amplitude Expansion Phase Field Crystal (APFC) Modeling based Efficient Dislocation Simulations using Fourier Pseudospectral Method. J. Sci. Comput., 108:57, 2026."
 ---

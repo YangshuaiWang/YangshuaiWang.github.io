@@ -5,19 +5,23 @@ authors:
 - James Kermode
 - Christoph Ortner
 - Lei Zhang
-date: '2024-01-01T00:00:00Z'
+publication_year: 2024
+date_precision: year
 publication_types:
 - article-journal
 publication:
-  name: Comput. Methods Appl. Mech. Engrg.
-  volume: '428'
-  pages: '117097'
+  name: Comput. Methods Appl. Mech. Engrg., 428:117097
 peer_reviewed: true
-summary: ''
-abstract: ''
-tags: []
+tags:
+- publication
 featured: false
+source_order: 10
+source_checked: '2026-10-03'
+source_url: https://sites.google.com/view/yangshuaiwang/publications
+status: published
 links:
-- type: pdf
+- type: url
   url: https://www.sciencedirect.com/science/article/pii/S0045782524003530
+  name: Publisher
+summary: "A Posteriori Error Estimate and Adaptivity for QM/MM Models of Crystalline Defects. Comput. Methods Appl. Mech. Engrg., 428:117097, 2024."
 ---

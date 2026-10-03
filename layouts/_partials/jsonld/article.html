@@ -1,0 +1,15 @@
+{{ $page := .page }}
+{{ $kind := "Article" }}
+{{ if eq $page.Section "publications" }}{{ $kind = "ScholarlyArticle" }}{{ end }}
+{{ if in $page.Params.tags "book" }}{{ $kind = "Book" }}{{ end }}
+{{ if in $page.Params.tags "thesis" }}{{ $kind = "Thesis" }}{{ end }}
+{{ $authors := slice }}
+{{ range $page.Params.authors }}
+  {{ $name := . }}{{ if eq . "me" }}{{ $name = "Yangshuai Wang" }}{{ end }}
+  {{ if ne $name "et al." }}{{ $authors = $authors | append (dict "@type" "Person" "name" $name) }}{{ end }}
+{{ end }}
+{{ $data := dict "@context" "https://schema.org" "@type" $kind "headline" $page.Title "name" $page.Title "url" $page.Permalink "author" $authors "description" .summary }}
+{{ with $page.Params.status }}{{ $data = merge $data (dict "creativeWorkStatus" .) }}{{ end }}
+{{/* ISO 8601 reduced precision preserves the known year without inventing a month/day. */}}
+{{ with $page.Params.publication_year }}{{ $data = merge $data (dict "datePublished" (printf "%v" .)) }}{{ end }}
+<script type="application/ld+json">{{ $data | jsonify | safeJS }}</script>

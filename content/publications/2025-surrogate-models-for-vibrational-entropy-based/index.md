@@ -1,22 +1,28 @@
 ---
-title: "Surrogate models for vibrational entropy based on a spatial decomposition"
+title: Surrogate models for vibrational entropy based on a spatial decomposition
 authors:
 - Tina Torabi
 - Christoph Ortner
 - me
-date: "2025-01-01T00:00:00Z"
-publication_types: ["article-journal"]
+publication_year: 2025
+date_precision: year
+publication_types:
+- article-journal
 publication:
-  name: "SIAM Multiscale Model. Simul."
-  volume: "23"
-  issue: "1"
+  name: Multiscale Model. Simul., 23(1)
 peer_reviewed: true
-summary: ''
-abstract: ''
-tags: []
+tags:
+- publication
 featured: false
+source_order: 13
+source_checked: '2026-10-03'
+source_url: https://sites.google.com/view/yangshuaiwang/publications
+status: published
+author_note: Corresponding author
 links:
-  - type: pdf
-    url: "https://epubs.siam.org/doi/abs/10.1137/24M165168X?journalCode=mmsubt"
+- type: url
+  url: https://epubs.siam.org/doi/abs/10.1137/24M165168X
+  name: Publisher
+summary: "Surrogate models for vibrational entropy based on a spatial decomposition. Multiscale Model. Simul., 23(1), 2025."
 ---
-*(Corresponding author)*
+*Corresponding author.*

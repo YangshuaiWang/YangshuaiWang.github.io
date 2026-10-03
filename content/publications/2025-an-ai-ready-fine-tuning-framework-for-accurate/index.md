@@ -1,5 +1,6 @@
 ---
-title: "An AI-Ready Fine-Tuning Framework for Accurate Machine-Learning Interatomic Potentials in Solid–Solid Battery Interfaces"
+title: An AI-Ready Fine-Tuning Framework for Accurate Machine-Learning Interatomic Potentials in Solid–Solid Battery
+  Interfaces
 authors:
 - Xiaoqing Liu
 - Xinyu Yu
@@ -10,18 +11,27 @@ authors:
 - Teng Zhao
 - Shou-Hang Bo
 - Zhenli Xu
-date: "2025-01-01T00:00:00Z"
-publication_types: ["manuscript"]
+publication_year: 2025
+date_precision: year
+publication_types:
+- manuscript
+publication:
+  name: Preprint · Under review
 peer_reviewed: false
-summary: ''
-abstract: ''
-tags: ['preprint']
+tags:
+- preprint
 featured: false
+source_order: 7
+source_checked: '2026-10-03'
+source_url: https://sites.google.com/view/yangshuaiwang/selected-preprints
+status: under review
+author_note: Co-first author
 links:
-  - type: preprint
-    provider: arxiv
-    url: "https://arxiv.org/abs/2601.17847"
+- type: preprint
+  url: https://arxiv.org/abs/2601.17847
+  provider: arxiv
+summary: "An AI-Ready Fine-Tuning Framework for Accurate Machine-Learning Interatomic Potentials in Solid–Solid Battery Interfaces. Preprint · Under review, 2025."
 ---
+*Co-first author.*
 
-*(Co-first author)*
-*Under review.*
+Under review.

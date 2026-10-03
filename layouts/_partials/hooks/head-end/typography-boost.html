@@ -1,11 +1,40 @@
 <style>
-  /* Requested: bigger, bolder type throughout. Scales all rem-based sizing
-     (Tailwind is rem-based) and lifts the base body weight off the
-     "geometric" font pack's default light (300) body weight. Headings and
-     prose text get more deliberate weight bumps at the class level in the
-     custom side-section/side-collection/keyword-tags/resume-biography
-     blocks — this is the global fallback for everything else (nav, buttons,
-     citation list items, footer). */
-  html { font-size: 18px; }
-  body { font-weight: 400; }
+  /* Readable system type keeps the page independent of external font services. */
+  html { font-size: 16px; scroll-padding-top: 6rem; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.65;
+  }
+  h1, h2, h3, h4, h5, h6 { font-family: inherit; }
+  @media (min-width: 768px) { html { font-size: 18px; } }
+
+  .hbb-section:has(> .academic-section) { padding-top: 0; padding-bottom: 0; }
+  .hbb-section:has(> .resume-biography) { padding-top: 2.5rem; padding-bottom: 3rem; }
+  .academic-section h2 { margin: 0; line-height: 1.25; }
+  .academic-section-content { min-width: 0; overflow-wrap: anywhere; }
+  .academic-prose { max-width: none; }
+  .academic-prose > :first-child { margin-top: 0; }
+  .academic-prose > :last-child { margin-bottom: 0; }
+  .academic-table-scroll { max-width: 100%; overflow-x: auto; }
+  .academic-table-scroll table { width: 100%; }
+  .academic-table-scroll th, .academic-table-scroll td { overflow-wrap: normal; word-break: normal; }
+  .academic-table-scroll[aria-label^="Teaching"] table { min-width: 36rem; }
+  .academic-table-scroll[aria-label^="Teaching"] th, .academic-table-scroll[aria-label^="Teaching"] td:nth-child(2), .academic-table-scroll[aria-label^="Teaching"] td:nth-child(4) { white-space: nowrap; }
+  .academic-table-scroll[aria-label^="Teaching"] td:first-child { min-width: 6rem; }
+  .academic-table-scroll th, .academic-table-scroll td { padding: 0.65rem 0.75rem; }
+  .academic-table-scroll th:first-child, .academic-table-scroll td:first-child { padding-left: 0; }
+  .academic-collection .pub-list-item { line-height: 1.65; }
+  .resume-biography .network-icon a {
+    display: inline-flex;
+    min-width: 44px;
+    min-height: 44px;
+    align-items: center;
+    justify-content: center;
+  }
+  a:focus-visible, summary:focus-visible, .academic-table-scroll:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 4px;
+    border-radius: 2px;
+  }
 </style>

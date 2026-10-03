@@ -2,7 +2,7 @@
      filtered, sorted list of content (publications/talks/etc.), rendered through the existing
      view partials. Shows only `count` items with a "see all" link to the full archive when more
      exist. Content options: title, count, filters { folders, tag, exclude_tag, exclude_featured },
-     archive { link, text }. Design options: view. */}}
+     archive { link, text }, sort_by (date or source_order), numbered (bool). Design options: view. */}}
 {{ $page := .wcPage }}
 {{ $block := .wcBlock }}
 {{ $content := $block.content }}
@@ -68,7 +68,13 @@
 {{ end }}
 
 {{ $count := len $query }}
-{{ $query = first $items_count (sort $query "Date" "desc") }}
+{{ $numbered := partial "functions/coerce_bool" (dict "value" (index $content "numbered") "default" false) }}
+{{ $query = sort $query "Date" "desc" }}
+{{ if eq (index $content "sort_by") "source_order" }}
+  {{/* Source numbering is numeric, with the newest entries assigned the largest number. */}}
+  {{ $query = sort $query "Params.source_order" "desc" }}
+{{ end }}
+{{ $query = first $items_count $query }}
 
 {{ $title := "" }}
 {{ with index $content "title" }}{{ $title = printf "%v" . | emojify | $page.RenderString }}{{ end }}
@@ -90,19 +96,29 @@
 {{ end }}
 {{ $archive_text := "" }}
 {{ with index $archive "text" }}{{ $archive_text = strings.TrimSpace (printf "%v" .) }}{{ end }}
-{{ if not $archive_text }}{{ $archive_text = printf "See all %d →" $count }}{{ end }}
+{{ if not $archive_text }}{{ $archive_text = printf "See all %d %s →" $count ($title | plainify | lower) }}{{ end }}
 
-<div class="max-w-5xl mx-auto px-6 py-10 border-t border-gray-200 dark:border-gray-800">
+<div class="academic-section academic-collection max-w-5xl mx-auto px-5 sm:px-6 py-8 md:py-10 border-t border-gray-200 dark:border-gray-800">
   <div class="md:grid md:grid-cols-12 md:gap-8">
     <div class="md:col-span-4">
-      <div class="text-3xl font-extrabold tracking-tight text-primary-700 dark:text-primary-400">{{ $title }}</div>
+      <h2 class="text-2xl md:text-3xl font-bold tracking-tight text-primary-700 dark:text-primary-400">{{ $title }}</h2>
     </div>
-    <div class="md:col-span-8 mt-4 md:mt-0">
+    <div class="academic-section-content md:col-span-8 mt-4 md:mt-0">
+      {{ if $numbered }}
+      <ol class="academic-citation-list" reversed start="{{ $count }}">
+        {{ range $index, $item := $query }}
+          <li value="{{ sub $count $index }}">
+            {{ partial "functions/render_view" (dict "page" $block "item" . "view" $view "index" $index "config" dict) }}
+          </li>
+        {{ end }}
+      </ol>
+      {{ else }}
       <div class="flex flex-col space-y-3">
         {{ range $index, $item := $query }}
           {{ partial "functions/render_view" (dict "page" $block "item" . "view" $view "index" $index "config" dict) }}
         {{ end }}
       </div>
+      {{ end }}
       {{ if and $show_archive_link $archive_link }}
       <div class="mt-6">
         <a href="{{ $archive_link | safeURL }}" class="text-primary-700 dark:text-primary-400 font-medium hover:underline">{{ $archive_text }}</a>

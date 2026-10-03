@@ -1,20 +1,29 @@
 ---
-title: "Trainability-Oriented Hybrid Quantum Regression via Geometric Preconditioning and Curriculum Optimization"
+title: Trainability-Oriented Hybrid Quantum Regression via Geometric Preconditioning and Curriculum Optimization
 authors:
 - Qingyu Meng
 - me
-date: "2026-01-01T00:00:00Z"
-publication_types: ["manuscript"]
+publication_year: 2026
+date_precision: year
+publication_types:
+- manuscript
+publication:
+  name: Preprint · Under review
 peer_reviewed: false
-summary: ''
-abstract: ''
-tags: ['preprint']
+tags:
+- preprint
 featured: false
+source_order: 9
+source_checked: '2026-10-03'
+source_url: https://sites.google.com/view/yangshuaiwang/selected-preprints
+status: under review
+author_note: Corresponding author
 links:
-  - type: preprint
-    provider: arxiv
-    url: "https://arxiv.org/abs/2601.11942"
+- type: preprint
+  url: https://arxiv.org/abs/2601.11942
+  provider: arxiv
+summary: "Trainability-Oriented Hybrid Quantum Regression via Geometric Preconditioning and Curriculum Optimization. Preprint · Under review, 2026."
 ---
+*Corresponding author.*
 
-*(Corresponding author)*
-*Under review.*
+Under review.

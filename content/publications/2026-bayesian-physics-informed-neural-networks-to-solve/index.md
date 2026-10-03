@@ -6,19 +6,23 @@ authors:
 - Xiao Ning
 - me
 - Lei Zhang
-date: '2026-01-01T00:00:00Z'
+publication_year: 2026
+date_precision: year
 publication_types:
 - article-journal
 publication:
-  name: Innov. Inform. (Editorial)
-  volume: '2'
-  pages: '100039'
+  name: The Innovation Informatics (Editorial), 2:100039
 peer_reviewed: true
-summary: ''
-abstract: ''
-tags: []
+tags:
+- publication
 featured: false
+source_order: 22
+source_checked: '2026-10-03'
+source_url: https://sites.google.com/view/yangshuaiwang/publications
+status: published
 links:
-- type: pdf
+- type: url
   url: https://www.the-innovation.org/article/doi/10.59717/j.xinn-inform.2026.100039
+  name: Publisher
+summary: "Bayesian Physics-Informed Neural Networks to Solve the PDEs with Noise or Incomplete Constraints. The Innovation Informatics (Editorial), 2:100039, 2026."
 ---

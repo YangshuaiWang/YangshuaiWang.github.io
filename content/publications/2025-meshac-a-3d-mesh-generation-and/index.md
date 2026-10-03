@@ -6,22 +6,28 @@ authors:
 - me
 - Jianjun Chen
 - Lei Zhang
-date: '2025-01-01T00:00:00Z'
+publication_year: 2025
+date_precision: year
 publication_types:
 - article-journal
 publication:
-  name: Comput. Phys. Commun. (Computer Programs in Physics)
-  volume: '310'
-  pages: '109523'
+  name: Comput. Phys. Commun. (Computer Programs in Physics), 310:109523
 peer_reviewed: true
-summary: ''
-abstract: ''
-tags: []
+tags:
+- publication
 featured: false
+source_order: 11
+source_checked: '2026-10-03'
+source_url: https://sites.google.com/view/yangshuaiwang/publications
+status: published
+author_note: Corresponding author
 links:
-- type: pdf
-  url: https://www.sciencedirect.com/science/article/abs/pii/S0010465525000268?CMX_ID=&SIS_ID=&dgcid=STMJ_219742_AUTH_SERV_PA&utm_acid=270809738&utm_campaign=STMJ_219742_AUTH_SERV_PA&utm_in=DM540521&utm_medium=email&utm_source=AC_
+- type: url
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0010465525000268
+  name: Publisher
 - type: code
   url: https://github.com/kjfu/MeshAC
+  name: Code
+summary: "MeshAC: A 3D Mesh Generation and Adaptation Package for Multiscale Coupling Methods. Comput. Phys. Commun. (Computer Programs in Physics), 310:109523, 2025."
 ---
-*(Corresponding author)*
+*Corresponding author.*

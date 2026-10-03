@@ -1,0 +1,8 @@
+{{ $item := .item }}
+<article class="pub-list-item academic-citation">
+  <p class="academic-citation-title"><a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a></p>
+  <p class="academic-authors">{{ partial "academic-authors.html" $item }}</p>
+  <p class="academic-venue">{{ partial "academic-venue.html" $item }}</p>
+  {{ with $item.Params.author_note }}<p class="academic-note">{{ . }}</p>{{ end }}
+  {{ partial "academic-links.html" $item }}
+</article>

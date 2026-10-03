@@ -256,10 +256,10 @@
 {{ with index $button "text" }}{{ $button_text = strings.TrimSpace (printf "%v" .) }}{{ end }}
 {{ with index $button "url" }}{{ $button_link = strings.TrimSpace (printf "%v" .) }}{{ end }}
 
-<div id="profile" class="resume-biography max-w-5xl mx-auto px-6 dark:text-white">
+<div id="profile" class="resume-biography max-w-5xl mx-auto px-5 sm:px-6 dark:text-white">
 <div class="md:grid md:grid-cols-12 md:gap-10 md:items-center">
 
-  <div class="flex flex-col items-center text-center md:col-span-5">
+  <div class="min-w-0 flex flex-col items-center text-center md:col-span-5">
   {{ if $avatar }}
 
   <div class="avatar-wrapper {{ if $img }}-mt-[105px]{{else}}mt-6{{end}}" style="width: {{$display_size}}px; height: {{$display_size}}px;">
@@ -281,22 +281,22 @@
 
   {{/* Name with optional ruby pronunciation — enlarged/emboldened identity type-scale */}}
   {{ if and $profile_title $name_pronunciation }}
-    <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight mb-1 mt-3">
+    <h1 class="text-3xl sm:text-4xl font-bold tracking-tight mb-2 mt-3">
       <ruby class="hb-ruby-name">{{ $profile_title }}<rt>{{ $name_pronunciation }}</rt></ruby>
     </h1>
   {{ else }}
-    <div class="text-4xl sm:text-5xl font-extrabold tracking-tight mb-1 mt-3">
+    <h1 class="text-3xl sm:text-4xl font-bold tracking-tight mb-2 mt-3">
       {{- $profile_title -}}
-    </div>
+    </h1>
   {{ end }}
   {{- with $profile_pronouns -}}
     <div class="text-lg font-normal text-gray-600 dark:text-gray-400 -mt-1 mb-1">({{ . }})</div>
   {{- end -}}
 
-  {{ with $profile_role }}<h3 class="text-lg sm:text-xl font-bold mb-0.5">{{ . | markdownify | emojify }}</h3>{{ end }}
+  {{ with $profile_role }}<p class="text-lg font-semibold mb-1">{{ . | markdownify | emojify }}</p>{{ end }}
 
   {{ range $affiliations }}
-  <div class="mb-1 text-base sm:text-lg font-medium">
+  <div class="mb-1 text-base font-normal">
     {{ $name := index . "name" }}
     {{ $url := index . "url" }}
     {{ if $url }}
@@ -347,7 +347,7 @@
   {{ end }}
 
   {{ if $bio_content }}
-  <div class="pt-2 d-flex justify-content-center prose prose-slate lg:prose-xl dark:prose-invert">
+  <div class="academic-prose pt-2 prose prose-slate dark:prose-invert">
     <div class="bio-text" {{ if $bio_style }}{{ (printf "style=\"%s\"" $bio_style) | safeHTMLAttr }}{{ end }}>
       {{ $bio_content | emojify | $page.RenderString }}
     </div>
@@ -374,13 +374,13 @@
   </div>
 
   {{ if gt (len $tags) 0 }}
-  <div class="mt-8 md:mt-0 md:col-span-7 flex flex-wrap content-start justify-center md:justify-start gap-2">
+  <ul aria-label="Research areas" class="min-w-0 mt-8 md:mt-0 md:col-span-7 flex flex-wrap content-start justify-center md:justify-start gap-2 list-none p-0">
     {{ range $tags }}
-    <span class="inline-block max-w-full rounded-full bg-primary-50 dark:bg-primary-900/40 border border-primary-200 dark:border-primary-800 text-primary-800 dark:text-primary-200 text-xs sm:text-sm font-semibold px-3 py-1.5">
+    <li class="inline-block max-w-full rounded bg-primary-50 dark:bg-primary-900/40 text-primary-800 dark:text-primary-200 text-sm font-medium px-3 py-2">
       {{ . }}
-    </span>
+    </li>
     {{ end }}
-  </div>
+  </ul>
   {{ end }}
 
 </div>

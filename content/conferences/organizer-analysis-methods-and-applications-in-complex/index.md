@@ -6,6 +6,7 @@ location: "Waseda University"
 authors:
   - me
 tags: ['organizer']
+role: Co-organizer
 featured: false
 ---
 

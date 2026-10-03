@@ -1,21 +1,27 @@
 ---
-title: "Flexible Boundary Sequential Coupling for Atomistic Simulation of Crystal Defects"
+title: Flexible Boundary Sequential Coupling for Atomistic Simulation of Crystal Defects
 authors:
 - Yanbo Zhan
 - me
 - Xingyu Gao
 - Hao Wang
-date: "2026-01-01T00:00:00Z"
-publication_types: ["manuscript"]
+publication_year: 2026
+date_precision: year
+publication_types:
+- manuscript
+publication:
+  name: Preprint
 peer_reviewed: false
-summary: ''
-abstract: ''
-tags: ['preprint']
+tags:
+- preprint
 featured: false
-links:
-  - type: preprint
-    provider: arxiv
-    url: "https://arxiv.org/abs/2506.07401"
+source_order: 11
+source_checked: '2026-10-03'
+source_url: https://sites.google.com/view/yangshuaiwang/selected-preprints
+status: preprint
+author_note: Co-first author
+summary: "Flexible Boundary Sequential Coupling for Atomistic Simulation of Crystal Defects. Preprint, 2026."
 ---
+*Co-first author.*
 
-*(Co-first author)*
+Preprint.

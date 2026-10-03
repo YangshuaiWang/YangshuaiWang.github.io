@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ''
-summary: ''
+summary: 'Yangshuai Wang — numerical analysis, scientific computing, AI for science, and multiscale materials modeling at the National University of Singapore.'
 date: 2022-10-24
 type: landing
 
@@ -70,7 +70,7 @@ sections:
       title: Experience
       text: |-
         **Peng Tsu Ann Assistant Professor**, National University of Singapore — Jul 2024 – Present
-        Mentored by Prof. Weizhu Bao.
+        Mentored by [Prof. Weizhu Bao](https://blog.nus.edu.sg/matbwz/).
 
         **Postdoc**, University of British Columbia — Dec 2021 – Jul 2024
         Supervised by [Prof. Christoph Ortner](https://personal.math.ubc.ca/~ortner/).
@@ -80,10 +80,14 @@ sections:
     content:
       title: Publications
       count: 8
+      sort_by: source_order
+      numbered: true
       filters:
         folders:
           - publications
-        exclude_tag: preprint
+        tag: publication
+      archive:
+        link: /publications/
     design:
       view: citation
 
@@ -92,6 +96,8 @@ sections:
     content:
       title: Preprints
       count: 6
+      sort_by: source_order
+      numbered: true
       filters:
         folders:
           - publications
@@ -109,6 +115,7 @@ sections:
       filters:
         folders:
           - conferences
+        exclude_tag: organizer
     design:
       view: citation-talk
 
@@ -146,4 +153,6 @@ sections:
         [yswang@nus.edu.sg](mailto:yswang@nus.edu.sg)
 
         S17-05-16, 10 Lower Kent Ridge Road, National University of Singapore, Singapore 119076
+
+        [Google Sites homepage](https://sites.google.com/view/yangshuaiwang) · [Google Scholar](https://scholar.google.com/citations?user=MDfgwG0AAAAJ&hl=en)
 ---

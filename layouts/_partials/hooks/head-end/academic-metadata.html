@@ -1,0 +1,10 @@
+{{ if .IsHome }}
+  {{ $profile := hugo.Data.authors.me }}
+  {{ $person := dict "@context" "https://schema.org" "@type" "Person" "@id" (printf "%s#person" site.BaseURL) "name" $profile.name.display "url" site.BaseURL "jobTitle" $profile.role "email" "mailto:yswang@nus.edu.sg" "affiliation" (dict "@type" "Organization" "name" "National University of Singapore") "sameAs" (slice "https://sites.google.com/view/yangshuaiwang" "https://scholar.google.com/citations?user=MDfgwG0AAAAJ") }}
+  {{ with $profile.name.alternate }}{{ $person = merge $person (dict "alternateName" .) }}{{ end }}
+  <script type="application/ld+json">{{ $person | jsonify | safeJS }}</script>
+{{ else if and .IsPage (eq .Section "publications") }}
+  <meta name="citation_title" content="{{ .Title }}">
+  {{ range .Params.authors }}{{ if ne . "et al." }}<meta name="citation_author" content="{{ if eq . "me" }}Yangshuai Wang{{ else }}{{ . }}{{ end }}">{{ end }}{{ end }}
+  {{ with .Params.publication_year }}<meta name="citation_publication_date" content="{{ . }}">{{ end }}
+{{ end }}

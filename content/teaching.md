@@ -8,9 +8,11 @@ design:
   spacing: '5rem'
 
 sections:
-  - block: markdown
+  - block: side-section
+    id: teaching-record
     content:
       title: 'Teaching'
+      heading_level: 1
       subtitle: ''
       text: |-
         | Term | Role | Course | Institution |

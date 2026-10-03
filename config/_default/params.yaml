@@ -21,7 +21,7 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: "Peng Tsu Ann Assistant Professor (Visiting Fellow), Department of Mathematics, National University of Singapore"
     # Site meta description for search engines and social sharing
-    description: "Yangshuai Wang's homepage — Peng Tsu Ann Assistant Professor (Visiting Fellow), Department of Mathematics, National University of Singapore."
+    description: "Yangshuai Wang, National University of Singapore. Research in numerical analysis, scientific computing, AI for science, machine-learned interatomic potentials, and multiscale materials modeling. Publications, teaching, and contact information."
     # Social accounts (used for meta tags like Twitter Cards)
     social: {}
 
@@ -61,7 +61,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   typography:
     # Theme pack: name from data/fonts/
-    pack: "geometric"
+    pack: "system"
 
   # ────────────────────────────────────────────────────────────────────────────
   # LAYOUT
@@ -105,9 +105,9 @@ hugoblox:
   footer:
     # Footer style variant
     style: minimal # minimal | columns | centered
-    language_switcher: true
+    language_switcher: false
     # Custom footer text (HTML supported)
-    text: ""
+    text: "Content updated 3 October 2026"
 
   # ────────────────────────────────────────────────────────────────────────────
   # COPYRIGHT
@@ -162,7 +162,7 @@ hugoblox:
       enable: true
     # Reading time estimates
     reading_time:
-      enable: true
+      enable: false
     # Academic citations
     citations:
       style: apa # apa | mla | chicago | ieee

@@ -9,19 +9,23 @@ authors:
 - Vikram Gavini
 - Mitchell Luskin
 - Christoph Ortner
-date: '2025-01-01T00:00:00Z'
+publication_year: 2025
+date_precision: year
 publication_types:
 - article-journal
 publication:
-  name: 'Mach. Learn.: Sci. Technol.'
-  volume: '6'
-  pages: '045040'
+  name: 'Mach. Learn.: Sci. Technol., 6:045040'
 peer_reviewed: true
-summary: ''
-abstract: ''
-tags: []
+tags:
+- publication
 featured: false
+source_order: 16
+source_checked: '2026-10-03'
+source_url: https://sites.google.com/view/yangshuaiwang/publications
+status: published
 links:
-- type: pdf
+- type: url
   url: https://iopscience.iop.org/article/10.1088/2632-2153/ae1807
+  name: Publisher
+summary: "An Atomic Cluster Expansion Potential for Twisted Multilayer Graphene. Mach. Learn.: Sci. Technol., 6:045040, 2025."
 ---

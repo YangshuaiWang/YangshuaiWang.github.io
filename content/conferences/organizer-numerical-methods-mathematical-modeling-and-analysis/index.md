@@ -8,6 +8,7 @@ location: "Vancouver Convention Centre, Vancouver"
 authors:
   - me
 tags: ['organizer']
+role: Organizer
 featured: false
 ---
 

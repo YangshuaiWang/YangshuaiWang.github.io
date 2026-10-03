@@ -3,20 +3,25 @@ title: A Framework for a Generalisation Analysis of Machine-learned Interatomic 
 authors:
 - Christoph Ortner
 - me
-date: '2023-01-01T00:00:00Z'
+publication_year: 2023
+date_precision: year
 publication_types:
 - article-journal
 publication:
-  name: SIAM Multiscale Model. Simul.
-  volume: '21'
-  pages: 1053-1080
+  name: Multiscale Model. Simul., 21:1053–1080
 peer_reviewed: true
-summary: ''
-abstract: ''
-tags: []
+tags:
+- publication
 featured: false
+source_order: 6
+source_checked: '2026-10-03'
+source_url: https://sites.google.com/view/yangshuaiwang/publications
+status: published
+author_note: Corresponding author
 links:
-- type: pdf
+- type: url
   url: https://epubs.siam.org/doi/10.1137/22M152267X
+  name: Publisher
+summary: "A Framework for a Generalisation Analysis of Machine-learned Interatomic Potentials. Multiscale Model. Simul., 21:1053–1080, 2023."
 ---
-*(Corresponding author)*
+*Corresponding author.*

@@ -6,20 +6,25 @@ authors:
 - Hao Wang
 - me
 - Lei Zhang
-date: '2019-01-01T00:00:00Z'
+publication_year: 2019
+date_precision: year
 publication_types:
 - article-journal
 publication:
-  name: Comput. Methods Appl. Mech. Engrg.
-  volume: '354'
-  pages: 351-368
+  name: Comput. Methods Appl. Mech. Engrg., 354:351–368
 peer_reviewed: true
-summary: ''
-abstract: ''
-tags: []
+tags:
+- publication
 featured: false
+source_order: 1
+source_checked: '2026-10-03'
+source_url: https://sites.google.com/view/yangshuaiwang/publications
+status: published
+author_note: Alphabetic order
 links:
-- type: pdf
-  url: https://www.sciencedirect.com/science/article/pii/S0045782519302233?via%3Dihub
+- type: url
+  url: https://www.sciencedirect.com/science/article/pii/S0045782519302233
+  name: Publisher
+summary: "Adaptive QM/MM Coupling for Crystalline Defects. Comput. Methods Appl. Mech. Engrg., 354:351–368, 2019."
 ---
-*(Alphabetic order)*
+*Alphabetic order.*

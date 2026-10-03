@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name (set in params.yaml under hugoblox.branding.name)
-title: ''
+title: 'Yangshuai Wang'
 # Website URL
 baseURL: 'https://yangshuaiwang.github.io/'
 
@@ -22,6 +22,10 @@ removePathAccents: true
 ############################
 
 cascade:
+  - target:
+      kind: page
+    params:
+      reading_time: false
   - target:
       path: /slides/**
       kind: page
@@ -41,7 +45,7 @@ enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
-disableAliases: true
+disableAliases: false
 outputs:
   home: [HTML, RSS, headers, redirects, backlinks]
   section: [HTML, RSS]

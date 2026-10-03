@@ -1,0 +1,14 @@
+{{- with .Params.links -}}
+<div class="academic-links">
+  {{- range . -}}
+    {{- $label := .name | default .label -}}
+    {{- if not $label -}}
+      {{- if eq .provider "arxiv" -}}{{ $label = "arXiv" }}
+      {{- else if eq .type "code" -}}{{ $label = "Code" }}
+      {{- else if eq .type "pdf" -}}{{ $label = "Paper (PDF)" }}
+      {{- else -}}{{ $label = "Paper" }}{{- end -}}
+    {{- end -}}
+    <a href="{{ .url | safeURL }}" rel="noopener">{{ $label }} <span aria-hidden="true">↗</span></a>
+  {{- end -}}
+</div>
+{{- end -}}

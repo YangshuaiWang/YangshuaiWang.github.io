@@ -13,5 +13,5 @@
   <a href="{{ $item.RelPermalink }}" class="underline">{{ $item.Title }}</a>.
   {{ with $event_name }}{{ . | markdownify }}. {{ end }}
   {{ with $location }}{{ . }}, {{ end }}{{ $year }}.
-  {{ if $is_organizer }}<span class="text-gray-500 dark:text-gray-400">(Organizer)</span>{{ end }}
+  {{ if $is_organizer }}<span class="text-gray-500 dark:text-gray-400">({{ $item.Params.role | default "Organizer" }})</span>{{ end }}
 </div>

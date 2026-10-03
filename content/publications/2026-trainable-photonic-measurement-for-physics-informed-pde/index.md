@@ -1,20 +1,30 @@
 ---
-title: "Trainable Photonic Measurement for Physics-Informed PDE Learning"
+title: Trainable Photonic Measurement for Physics-Informed PDE Learning
 authors:
 - Jiale Linghu
 - Hao Dong
 - me
-date: "2026-01-01T00:00:00Z"
-publication_types: ["manuscript"]
+publication_year: 2026
+date_precision: year
+publication_types:
+- manuscript
+publication:
+  name: Preprint · Under review
 peer_reviewed: false
-summary: ''
-abstract: ''
-tags: ['preprint']
+tags:
+- preprint
 featured: false
+source_order: 18
+source_checked: '2026-10-03'
+source_url: https://sites.google.com/view/yangshuaiwang/selected-preprints
+status: under review
+author_note: Corresponding author
 links:
-  - type: preprint
-    provider: arxiv
-    url: "http://arxiv.org/abs/2606.18713"
+- type: preprint
+  url: https://arxiv.org/abs/2606.18713
+  provider: arxiv
+summary: "Trainable Photonic Measurement for Physics-Informed PDE Learning. Preprint · Under review, 2026."
 ---
-*(Corresponding author)*
-*Under review.*
+*Corresponding author.*
+
+Under review.

@@ -1,22 +1,28 @@
 ---
-title: Adaptive Multiscale Coupling Methods of Molecular Mechanics Based on a Unified Framework of a Posteriori Error Estimates
+title: Adaptive quasicontinuum methods and simulations for crystal defects with a theory based unified a posteriori
+  error estimate
 authors:
 - Hao Wang
 - me
-date: '2026-01-01T00:00:00Z'
+publication_year: 2026
+date_precision: year
 publication_types:
 - article-journal
 publication:
-  name: Comput. Phys. Commun.
-  volume: '322'
-  pages: '110085'
+  name: Comput. Phys. Commun., 322:110085
 peer_reviewed: true
-summary: ''
-abstract: ''
-tags: []
+tags:
+- publication
 featured: false
+source_order: 19
+source_checked: '2026-10-03'
+source_url: https://sites.google.com/view/yangshuaiwang/publications
+status: published
+author_note: Corresponding author
 links:
-- type: pdf
-  url: https://www.sciencedirect.com/science/article/pii/S0010465526000676?dgcid=author
+- type: url
+  url: https://doi.org/10.1016/j.cpc.2026.110085
+  name: Publisher
+summary: "Adaptive quasicontinuum methods and simulations for crystal defects with a theory based unified a posteriori error estimate. Comput. Phys. Commun., 322:110085, 2026."
 ---
-*(Corresponding author)*
+*Corresponding author.*

@@ -1,0 +1,4 @@
+{{- range $i, $author := .Params.authors -}}
+  {{- if $i }}, {{ end -}}
+  {{- if eq $author "me" -}}<strong>Yangshuai Wang</strong>{{- else -}}{{ $author }}{{- end -}}
+{{- end -}}

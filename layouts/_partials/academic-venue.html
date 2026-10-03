@@ -1,0 +1,12 @@
+{{- $page := . -}}
+{{- with $page.Params.publication.name -}}
+  {{- $venue := . -}}
+  {{- if in $page.Params.tags "publication" -}}
+    {{- /* Keep volume numbers and parenthetical status outside the bold venue name. */ -}}
+    {{- $name := replaceRE "(?:,\\s*[0-9]|\\s+\\().*$" "" $venue -}}
+    <strong>{{ $name }}</strong>{{ strings.TrimPrefix $name $venue }}
+  {{- else -}}
+    {{- $venue -}}
+  {{- end -}}
+{{- end -}}
+{{- with $page.Params.publication_year -}}{{- if $page.Params.publication.name -}}, {{ end }}{{ . }}{{- end -}}
