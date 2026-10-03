@@ -1,6 +1,7 @@
 ---
 title: Selected Preprints
 summary: Selected preprints, submitted manuscripts, and other writing by Yangshuai Wang.
+lastmod: 2026-10-03
 type: landing
 cms_exclude: true
 

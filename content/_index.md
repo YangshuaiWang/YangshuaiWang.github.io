@@ -3,6 +3,7 @@
 title: ''
 summary: 'Yangshuai Wang — numerical analysis, scientific computing, AI for science, and multiscale materials modeling at the National University of Singapore.'
 date: 2022-10-24
+lastmod: 2026-10-03
 type: landing
 
 # Single-page CV: every section below lives on this one page, in reading

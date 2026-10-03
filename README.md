@@ -18,6 +18,8 @@
 
 Google Sites 仍可手动维护；本仓库不会自动抓取并发布其变动。没有当前 CV PDF 时不展示虚构的下载入口。
 
+页面内容有实质更新时，在对应 Markdown 文件的 front matter 中填写实际修改日 `lastmod: YYYY-MM-DD`。论文列表变更时，同时更新首页、`content/publications/_index.md` 或 `content/preprints.md` 中受影响列表页的 `lastmod`。它表示网页修改时间，与论文出版年份及页面最初的 `date` 分开维护；不要在每次构建时统一刷新未修改页面的日期。
+
 ## 本地预览与检查
 
 需要 Hugo Extended **0.164.0**、Go、Node.js，以及项目指定的 **pnpm 10.14.0**。保持 `.npmrc` 的 `node-linker=hoisted`；pnpm 11 的不同配置行为会导致此 Hugo 版本无法解析 Tailwind 启动脚本。
@@ -42,6 +44,18 @@ python3 scripts/check_site.py
 仓库为 `YangshuaiWang/YangshuaiWang.github.io`，默认分支为 `master`。`.github/workflows/deploy.yml` 在 `master` / `main` 推送后构建并发布，GitHub 的 Settings → Pages → Source 应使用 GitHub Actions。构建使用锁定的依赖文件；依赖更新应单独检查。
 
 本地源码文件夹可能来自下载的 ZIP，缺少 `.git`；请勿把它当作已连接的仓库直接推送。发布时先与远端最新版本比较，将确认的修改提交到真实仓库。`public/`、`node_modules/`、`resources/` 和本地测试缓存不应提交。
+
+## 搜索引擎验证与站点地图
+
+站点地图地址为 `https://yangshuaiwang.github.io/sitemap.xml`。Google、Bing、百度提供 HTML 标签验证时，将标签中 `content` 属性的值填入 `config/_default/params.yaml` 的 `hugoblox.verification` 对应字段，只填验证码，不粘贴整段 HTML：
+
+| 配置字段 | 构建后生成的 meta name |
+|---|---|
+| `hugoblox.verification.google` | `google-site-verification` |
+| `hugoblox.verification.bing` | `msvalidate.01` |
+| `hugoblox.verification.baidu` | `baidu-site-verification` |
+
+当前主题已负责生成这些标签，无需另加脚本或启用访问统计。将含真实验证码的配置部署到 GitHub Pages，确认公开首页源码中的标签正确后，再在对应站长平台完成验证并提交站点地图。验证成功后保留这些配置，供平台后续检查所有权；平台显示的验证及收录状态才是结果依据。
 
 ## 已知待补信息
 

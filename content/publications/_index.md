@@ -1,6 +1,7 @@
 ---
 title: Publications
 summary: Published and accepted research papers by Yangshuai Wang.
+lastmod: 2026-10-03
 type: landing
 cms_exclude: true
 sections:
