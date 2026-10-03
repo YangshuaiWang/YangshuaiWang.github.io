@@ -1,7 +1,9 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ''
-summary: 'Yangshuai Wang — numerical analysis, scientific computing, AI for science, and multiscale materials modeling at the National University of Singapore.'
+summary: 'Yangshuai Wang（王阳帅） — numerical analysis, scientific computing, AI for science, and multiscale materials modeling at the National University of Singapore.'
+seo:
+  title: 'Yangshuai Wang | 王阳帅'
 date: 2022-10-24
 lastmod: 2026-10-03
 type: landing

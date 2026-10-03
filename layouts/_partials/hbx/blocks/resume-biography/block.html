@@ -279,16 +279,17 @@
     {{ end }}
   {{ end }}
 
-  {{/* Name with optional ruby pronunciation — enlarged/emboldened identity type-scale */}}
-  {{ if and $profile_title $name_pronunciation }}
-    <h1 class="text-3xl sm:text-4xl font-bold tracking-tight mb-2 mt-3">
+  {{/* Keep the English name primary, with a confirmed Chinese name on its own line. */}}
+  <h1 class="text-3xl sm:text-4xl font-bold tracking-tight mb-2 mt-3">
+    {{ if and $profile_title $name_pronunciation }}
       <ruby class="hb-ruby-name">{{ $profile_title }}<rt>{{ $name_pronunciation }}</rt></ruby>
-    </h1>
-  {{ else }}
-    <h1 class="text-3xl sm:text-4xl font-bold tracking-tight mb-2 mt-3">
-      {{- $profile_title -}}
-    </h1>
-  {{ end }}
+    {{ else }}
+      {{ $profile_title }}
+    {{ end }}
+    {{ with $profile.name_alternate }}
+      <span lang="zh-Hans" class="block mt-2 text-xl sm:text-2xl font-medium tracking-normal">{{ . }}</span>
+    {{ end }}
+  </h1>
   {{- with $profile_pronouns -}}
     <div class="text-lg font-normal text-gray-600 dark:text-gray-400 -mt-1 mb-1">({{ . }})</div>
   {{- end -}}
