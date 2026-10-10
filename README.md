@@ -10,7 +10,7 @@
 - `content/teaching.md`：完整教学记录；首页只展示其中最近五条。
 - `content/conferences/*/index.md`：报告和会议组织记录。
 - `assets/media/authors/me.png`：本地头像。
-- `_extraction/source-data.json`、`_extraction/EXTRACTION-TABLE.md`：2026-10-03 核对记录、原始来源、正式出版信息及待补链接。它们是审计记录，不会自动改写网页。
+- `_extraction/source-data.json`、`_extraction/EXTRACTION-TABLE.md`：内容核对记录、原始来源、正式出版信息及待补链接，最近核对日期为 2026-10-10。它们是审计记录，不会自动改写网页。
 
 论文元数据使用 `publication`、`preprint`、`book`、`thesis` 标签明确分类；已接收论文归入 `publication`，并在刊物名称中保留 accepted 状态。`source_order` 按各列表的来源编号降序显示，不使用虚构的具体出版日期排序。`publication_year` 用于页面展示；只知道年份时仅填写 `publication_year` 和 `date_precision: year`，不填写虚构的月日。作者列表中 `me` 会显示并加粗 Yangshuai Wang，其他作者仅显示真实姓名。
 
@@ -59,4 +59,4 @@ python3 scripts/check_site.py
 
 ## 已知待补信息
 
-4 个预印本在 Google Sites 中的 arXiv 链接实际指向其他论文，已去掉错误链接并保留论文信息；详见核对记录。部分已接收论文尚未提供公开链接。中文姓名等待本人确认后再加入搜索信息。当前构建不能证明网站在所有中国大陆网络中均可访问。
+4 个预印本在 Google Sites 中的 arXiv 链接实际指向其他论文，已去掉错误链接并保留论文信息；详见核对记录。部分已接收论文尚未提供公开链接。中文姓名“王阳帅”已由本人确认并加入主页和搜索信息。当前构建不能证明网站在所有中国大陆网络中均可访问。

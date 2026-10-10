@@ -28,7 +28,22 @@
       "Teaching source has no course title for MATH 100 (Autumn 2023); course code retained without an invented title.",
       "Only publication_year is retained when the publication date is known to year precision. Synthetic January 1 dates were removed so search metadata cannot mistake them for actual publication dates. The book source has no year and no year is assigned."
     ],
-    "last_checked": "2026-10-03"
+    "last_checked": "2026-10-10",
+    "latest_sync": {
+      "date": "2026-10-10",
+      "changes": [
+        "Added NeurIPS Top Reviewer (2026) from the published Google Sites CV page."
+      ],
+      "reviewed_pages": [
+        "https://sites.google.com/view/yangshuaiwang/about-me",
+        "https://sites.google.com/view/yangshuaiwang/cv",
+        "https://sites.google.com/view/yangshuaiwang/publications",
+        "https://sites.google.com/view/yangshuaiwang/selected-preprints",
+        "https://sites.google.com/view/yangshuaiwang/conferences",
+        "https://sites.google.com/view/yangshuaiwang/teaching"
+      ],
+      "comparison": "All 32 publication records and 23 preprint records match the previous source text after whitespace normalization. Profile, education, experience, teaching, talks, book, and thesis remain unchanged. Publication 28 source link now points to the public APS accepted page; the site already uses its public DOI."
+    }
   },
   "profile": {
     "name_display": "Yangshuai Wang",
@@ -143,6 +158,12 @@
     }
   ],
   "awards": [
+    {
+      "title": "NeurIPS Top Reviewer",
+      "date": "2026",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/cv",
+      "source_checked": "2026-10-10"
+    },
     {
       "title": "National Scholarship for Doctoral Students",
       "date": "2020"

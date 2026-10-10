@@ -5,7 +5,7 @@ summary: 'Yangshuai Wang（王阳帅） — numerical analysis, scientific compu
 seo:
   title: 'Yangshuai Wang | 王阳帅'
 date: 2022-10-24
-lastmod: 2026-10-03
+lastmod: 2026-10-10
 type: landing
 
 # Single-page CV: every section below lives on this one page, in reading
@@ -144,6 +144,7 @@ sections:
       text: |-
         | Year | Award |
         |---|---|
+        | 2026 | NeurIPS Top Reviewer |
         | 2020 | National Scholarship for Doctoral Students |
         | 2019 | Qiushi Postgraduates Scholarship |
         | 2015 – 2021 | Tanglixin Scholarship |

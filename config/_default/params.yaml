@@ -107,7 +107,7 @@ hugoblox:
     style: minimal # minimal | columns | centered
     language_switcher: false
     # Custom footer text (HTML supported)
-    text: "Content updated 3 October 2026"
+    text: "Content updated 10 October 2026"
 
   # ────────────────────────────────────────────────────────────────────────────
   # COPYRIGHT

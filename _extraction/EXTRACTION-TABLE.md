@@ -1,6 +1,8 @@
 # 网站内容核对记录
 
-核对日期：2026-10-03。主要来源：[Google Sites](https://sites.google.com/view/yangshuaiwang/about-me)。结构化记录保存在 `source-data.json`；每条论文保留源站原文、来源编号和原链接，已确认的出版方信息优先于旧的源站条目。
+核对日期：2026-10-10（首次完整核对：2026-10-03）。主要来源：[Google Sites](https://sites.google.com/view/yangshuaiwang/about-me)。结构化记录保存在 `source-data.json`；每条论文保留源站原文、来源编号和原链接，已确认的出版方信息优先于旧的源站条目。
+
+2026-10-10 同步：根据 [CV 页](https://sites.google.com/view/yangshuaiwang/cv)新增 NeurIPS Top Reviewer（2026）。逐条比对 32 篇已发表/已接收论文和 23 篇预印本，原文内容未变；简介、研究方向、教学、报告、书稿和学位论文亦无新增。论文 28 的来源链接已从作者投稿后台改为 APS 公开页面；GitHub 网站此前已使用相同论文的公开 DOI，保持不变。下方已知差异中的初始链接问题记录于 2026-10-03。
 
 ## 已知差异与处理
 
@@ -45,6 +47,7 @@
 ## Awards
 | 名称 | 时间 |
 |---|---|
+| NeurIPS Top Reviewer | 2026 |
 | National Scholarship for Doctoral Students | 2020 |
 | Qiushi Postgraduates Scholarship | 2019 |
 | Tanglixin Scholarship | 2015-2021 |
