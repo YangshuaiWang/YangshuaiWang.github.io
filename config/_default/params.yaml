@@ -199,7 +199,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   analytics:
     google:
-      measurement_id: "" # Google Analytics 4: G-XXXXXXXXXX
+      measurement_id: "G-HF4JN6YKF7" # Shared with the Google Sites personal website
     google_tag_manager:
       container_id: "" # GTM-XXXXXXX
     plausible:

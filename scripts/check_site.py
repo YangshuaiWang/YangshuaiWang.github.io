@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Check a production Hugo build: archives, local links, headings, remote assets."""
 import json
+import re
 import sys
 from html.parser import HTMLParser
 from pathlib import Path
@@ -9,6 +10,9 @@ from urllib.parse import unquote, urljoin, urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / "public"
 ORIGIN = "https://yangshuaiwang.github.io"
+PARAMS = (ROOT / "config/_default/params.yaml").read_text()
+GA_ID = re.search(r'^\s+measurement_id:\s*"([A-Z0-9-]*)"', PARAMS, re.M).group(1)
+GA_SCRIPT = f"https://www.googletagmanager.com/gtag/js?id={GA_ID}" if GA_ID else ""
 
 
 class Page(HTMLParser):
@@ -16,6 +20,7 @@ class Page(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.links = []
         self.remote_assets = []
+        self.scripts = []
         self.ids = set()
         self.duplicate_ids = []
         self.h1 = 0
@@ -31,6 +36,8 @@ class Page(HTMLParser):
             self.ids.add(a["id"])
         if tag == "h1":
             self.h1 += 1
+        if tag == "script" and a.get("src"):
+            self.scripts.append((a["src"], "async" in a))
         if tag == "article" and "academic-citation" in a.get("class", ""):
             self.in_citation = True
         if tag == "a" and a.get("href"):
@@ -76,7 +83,13 @@ def main():
         for duplicate in page.duplicate_ids:
             errors.append(f"{relative}: duplicate element id {duplicate}")
         for url in page.remote_assets:
-            errors.append(f"{relative}: external runtime asset {url}")
+            if not GA_SCRIPT or url != GA_SCRIPT:
+                errors.append(f"{relative}: unexpected external runtime asset {url}")
+        # Canonical content pages (not aliases) must have exactly one async tag.
+        if GA_SCRIPT and page.h1:
+            tags = [is_async for url, is_async in page.scripts if url == GA_SCRIPT]
+            if tags != [True]:
+                errors.append(f"{relative}: expected exactly one async GA4 tag")
 
     source = json.loads((ROOT / "_extraction/source-data.json").read_text())
     for path in ["index.html", "publications/index.html", "preprints/index.html", "teaching/index.html", "conferences/index.html"]:
@@ -94,7 +107,9 @@ def main():
     if errors:
         print("\n".join(sorted(set(errors))))
         return 1
-    print(f"PASS: {len(pages)} HTML files; internal links and anchors resolve; runtime assets are local.")
+    print(f"PASS: {len(pages)} HTML files; internal links and anchors resolve; no unexpected remote runtime assets.")
+    if GA_SCRIPT:
+        print(f"PASS: one asynchronous {GA_ID} tag per content page; other runtime assets remain local.")
     print(f"PASS: {len(source['publications'])} publications, {len(source['preprints'])} preprints, book and thesis appear in the correct archives and order.")
     print("PASS: each main page has one h1.")
     return 0

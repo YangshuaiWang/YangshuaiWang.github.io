@@ -1,0 +1,15 @@
+{{- $ga := site.Params.hugoblox.analytics.google.measurement_id | default "" -}}
+{{- if and hugo.IsProduction $ga -}}
+{{/* GA4 handles page views and configured enhanced measurement. Avoid the
+     theme's additional outbound-click handler, which can change navigation. */}}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ $ga }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', {{ $ga }}, {
+    'allow_google_signals': false,
+    'allow_ad_personalization_signals': false
+  });
+</script>
+{{- end -}}
