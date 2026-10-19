@@ -8,6 +8,9 @@ on:
     branches: ['main', 'master']
   # Allows you to run this workflow manually from the Actions tab on GitHub
   workflow_dispatch:
+  # Refresh the public visitor summary hourly, away from the busiest minute.
+  schedule:
+    - cron: '23 * * * *'
 
 # Provide permission to clone the repo and deploy it to GitHub Pages
 permissions:

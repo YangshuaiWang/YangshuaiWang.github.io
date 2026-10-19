@@ -1,0 +1,20 @@
+{{- $key := .site_key -}}
+{{- $data := hugo.Data.visitor_stats -}}
+{{- $stats := index $data.sites $key -}}
+{{- $ready := and (eq $data.status "ok") $stats -}}
+<section id="visitor-statistics" class="visitor-stats" aria-label="Visitor statistics"
+  {{ if $ready }}data-report-date="{{ $data.date }}" data-timezone="{{ $data.timezone }}" data-updated="{{ $data.generated_at }}"{{ end }}>
+  <div class="visitor-stats__heading"><h2>Visitor statistics</h2><span>{{ if eq $key "github" }}GitHub website{{ else }}Google Sites website{{ end }}</span></div>
+  <dl class="visitor-stats__numbers">
+    <div><dt data-today-label>Visits today</dt><dd>{{ if $ready }}{{ $stats.today_sessions | lang.FormatNumber 0 }}{{ else }}—{{ end }}</dd></div>
+    <div><dt>Total visits</dt><dd>{{ if $ready }}{{ $stats.total_sessions | lang.FormatNumber 0 }}{{ else }}—{{ end }}</dd></div>
+    <div><dt>Countries / regions</dt><dd>{{ if $ready }}{{ $stats.country_count }}{{ else }}—{{ end }}</dd></div>
+  </dl>
+  {{ if $ready }}
+  <div class="visitor-stats__countries" aria-label="Top visitor countries and regions">
+    {{ range $stats.top_countries }}<span>{{ .name }} <strong>{{ .sessions | lang.FormatNumber 0 }}</strong></span>{{ else }}<span>Location data is still being processed.</span>{{ end }}
+  </div>
+  <p class="visitor-stats__note">Reported sessions since 19 Oct 2026 · {{ $data.timezone }}<br>
+    Updated <time datetime="{{ $data.generated_at }}">{{ (time.AsTime $data.generated_at).Format "2 Jan 2006, 15:04 UTC" }}</time> · Data may take 24–48 hours to settle.</p>
+  {{ else }}<p class="visitor-stats__note">Statistics are being connected. Counts will appear after the first update.</p>{{ end }}
+</section>

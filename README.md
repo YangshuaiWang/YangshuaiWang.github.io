@@ -65,6 +65,20 @@ Google Analytics 4 衡量 ID 为 `G-HF4JN6YKF7`，配置在 `config/_default/par
 
 统计仅在正式构建中加载；本地 `hugo server` 不发送访问。自定义 GA4 partial 使用异步加载，不启用 Google Signals 或广告个性化信号，也不添加额外的出站跳转处理。Google 统计服务不可用时，网页内容仍可正常显示。检查器只允许这个配置编号对应的 GA4 脚本作为外部运行时资源，并检查每个内容页只有一个异步标签。
 
+### 公开统计卡片
+
+两个网站底部展示各自的今日访问、累计访问、国家/地区数量和前五个地区。指标为 GA4 会话数（sessions），不是页面浏览量或去重人数；累计从 2026-10-19 开始。日期使用 GA4 媒体资源的时区，卡片显示数据更新时间。报表有处理延迟，不能当作实时在线人数；过了午夜但尚未刷新时，“今日”会自动改为快照的实际日期。
+
+`scripts/public-analytics/Code.gs` 和 `appsscript.json` 是用户本人 Apps Script 项目的源码，只申请 `analytics.readonly`，固定读取媒体资源 `559511734` 内上述两个主机名。Web 应用以所有者身份执行，允许匿名访问，只输出汇总数字；不接受查询参数，不输出访客标识、IP、账号信息或凭据。脚本缓存结果 30 分钟。不要把 OAuth token 或任何私钥放进仓库。
+
+在 Apps Script 编辑器启用 Analytics Data 高级服务并完成只读授权，部署为 Web 应用后，将 `/exec` URL 填入 `config/public-stats.json`。更新脚本时需要将 Web 应用切换到新版本。`scripts/fetch_public_stats.py` 验证返回数据并只保留公开字段，写入 `data/visitor_stats.json` 和 `static/visitor-stats.json`。`.github/workflows/deploy.yml` 每小时第 23 分钟触发构建发布；GitHub 调度可能延迟，长期没有仓库活动时也可能暂停，届时在 Actions 中重新启用。也可手动运行发布工作流。
+
+读取失败时优先保留线上最后一个有效快照，不会把失败变成零访问。若尚无任何有效快照，卡片显示等待连接。展示卡片使用 GitHub Pages 本地资源，不要求访客连接 Google 报表服务；但 GA4 本身被网络或浏览器拦截时，访问可能漏记。
+
+Google Sites 的全站页脚通过“嵌入 → 网址”使用 `https://yangshuaiwang.github.io/site-statistics/google-sites/`。这个独立页面不加载 GA4，以免每次打开 Google Sites 都被额外计作 GitHub 访问。修改后需在 Google Sites 发布。
+
+处理逻辑检查：`node --test scripts/tests/public-analytics.test.cjs` 和 `python3 -m unittest discover -s scripts/tests -p 'test_*.py'`；构建后 `python3 scripts/check_site.py` 还会检查页脚卡片和嵌入页无统计标签。
+
 ## 已知待补信息
 
 4 个预印本在 Google Sites 中的 arXiv 链接实际指向其他论文，已去掉错误链接并保留论文信息；详见核对记录。部分已接收论文尚未提供公开链接。中文姓名“王阳帅”已由本人确认并加入主页和搜索信息。当前构建不能证明网站在所有中国大陆网络中均可访问。

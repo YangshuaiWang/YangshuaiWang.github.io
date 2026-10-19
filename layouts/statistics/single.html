@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en"><head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,follow"><title>{{ .Title }}</title>
+  <link rel="stylesheet" href="{{ "css/visitor-stats.css" | relURL }}">
+  <style>body{margin:0;padding:0;background:transparent;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.visitor-stats{margin:.25rem;max-width:none}</style>
+</head><body>
+  {{ partial "visitor-statistics.html" (dict "site_key" .Params.site_key) }}
+  <script defer src="{{ "js/visitor-stats.js" | relURL }}"></script>
+</body></html>

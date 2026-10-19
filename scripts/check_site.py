@@ -90,12 +90,22 @@ def main():
             tags = [is_async for url, is_async in page.scripts if url == GA_SCRIPT]
             if tags != [True]:
                 errors.append(f"{relative}: expected exactly one async GA4 tag")
+        if relative == "site-statistics/google-sites/index.html":
+            if page.remote_assets or any("gtag" in url for url, _ in page.scripts):
+                errors.append(f"{relative}: embedded card must not send analytics or load remote assets")
+            if "visitor-statistics" not in page.ids:
+                errors.append(f"{relative}: missing visitor statistics card")
 
     source = json.loads((ROOT / "_extraction/source-data.json").read_text())
     for path in ["index.html", "publications/index.html", "preprints/index.html", "teaching/index.html", "conferences/index.html"]:
         page = pages.get(SITE / path)
         if not page or page.h1 != 1:
             errors.append(f"{path}: expected exactly one h1")
+        if not page or "visitor-statistics" not in page.ids:
+            errors.append(f"{path}: missing visitor statistics footer")
+
+    if SITE / "site-statistics/google-sites/index.html" not in pages:
+        errors.append("Missing standalone Google Sites statistics card")
 
     for path, records in [("publications/index.html", source["publications"]),
                           ("preprints/index.html", source["preprints"] + [source["book"], source["thesis"]])]:

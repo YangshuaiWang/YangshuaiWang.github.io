@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "status": "ok",
+  "source": "Google Analytics 4",
+  "metric": "sessions",
+  "since": "2026-10-19",
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T06:01:25.217000+00:00",
+  "timezone": "Asia/Singapore",
+  "sites": {
+    "github": {
+      "host": "yangshuaiwang.github.io",
+      "today_sessions": 0,
+      "total_sessions": 0,
+      "country_count": 0,
+      "top_countries": []
+    },
+    "google_sites": {
+      "host": "sites.google.com",
+      "today_sessions": 0,
+      "total_sessions": 0,
+      "country_count": 0,
+      "top_countries": []
+    }
+  }
+}
