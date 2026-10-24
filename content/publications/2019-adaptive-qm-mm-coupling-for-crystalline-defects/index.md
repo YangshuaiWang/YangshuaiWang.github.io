@@ -17,8 +17,8 @@ tags:
 - publication
 featured: false
 source_order: 1
-source_checked: '2026-10-03'
-source_url: https://sites.google.com/view/yangshuaiwang/publications
+source_checked: '2026-10-24'
+source_url: https://sites.google.com/view/yangshuaiwang/selected-publications
 status: published
 author_note: Alphabetic order
 links:

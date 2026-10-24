@@ -5,7 +5,7 @@ summary: 'Yangshuai Wang（王阳帅） — numerical analysis, scientific compu
 seo:
   title: 'Yangshuai Wang | 王阳帅'
 date: 2022-10-24
-lastmod: 2026-10-10
+lastmod: 2026-10-24
 type: landing
 
 # Single-page CV: every section below lives on this one page, in reading
@@ -81,7 +81,7 @@ sections:
   - block: side-collection
     id: publications
     content:
-      title: Publications
+      title: Selected Publications
       count: 8
       sort_by: source_order
       numbered: true
@@ -97,7 +97,7 @@ sections:
   - block: side-collection
     id: preprints
     content:
-      title: Preprints
+      title: Selected Preprints
       count: 6
       sort_by: source_order
       numbered: true
@@ -129,13 +129,13 @@ sections:
       text: |-
         | Term | Role | Course | Institution |
         |---|---|---|---|
+        | 2026 Autumn | Lecturer | MA4230 — Matrix Computation | NUS |
         | 2025 Autumn | Lecturer | MA4270 — Data Modeling and Computation | NUS |
         | 2025 Autumn | Lecturer | MA4230 — Matrix Computation | NUS |
         | 2025 Spring | Lecturer | MA5240 — Finite Element Method | NUS |
         | 2024 Autumn | Lecturer | MA4230 — Matrix Computation | NUS |
-        | 2023 Autumn | Instructor | MATH 100 | UBC |
 
-        [See all 10 →](/teaching/)
+        [See all 6 →](/teaching/)
 
   - block: side-section
     id: awards
@@ -158,5 +158,5 @@ sections:
 
         S17-05-16, 10 Lower Kent Ridge Road, National University of Singapore, Singapore 119076
 
-        [Google Sites homepage](https://sites.google.com/view/yangshuaiwang) · [Google Scholar](https://scholar.google.com/citations?user=MDfgwG0AAAAJ&hl=en)
+        [Full CV (PDF)](/files/Yangshuai_Wang_CV.pdf) · [Google Sites homepage](https://sites.google.com/view/yangshuaiwang) · [Google Scholar](https://scholar.google.com/citations?user=MDfgwG0AAAAJ&hl=en)
 ---

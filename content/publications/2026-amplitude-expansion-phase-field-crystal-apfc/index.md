@@ -16,9 +16,9 @@ peer_reviewed: true
 tags:
 - publication
 featured: false
-source_order: 26
-source_checked: '2026-10-03'
-source_url: https://sites.google.com/view/yangshuaiwang/publications
+source_order: 22
+source_checked: '2026-10-24'
+source_url: https://sites.google.com/view/yangshuaiwang/selected-publications
 status: published
 links:
 - type: url

@@ -10,13 +10,13 @@
 - `content/teaching.md`：完整教学记录；首页只展示其中最近五条。
 - `content/conferences/*/index.md`：报告和会议组织记录。
 - `assets/media/authors/me.png`：本地头像。
-- `_extraction/source-data.json`、`_extraction/EXTRACTION-TABLE.md`：内容核对记录、原始来源、正式出版信息及待补链接，最近核对日期为 2026-10-10。它们是审计记录，不会自动改写网页。
+- `_extraction/source-data.json`、`_extraction/EXTRACTION-TABLE.md`：内容核对记录、原始来源、正式出版信息及待补链接，最近核对日期为 2026-10-24。它们是审计记录，不会自动改写网页。
 
 论文元数据使用 `publication`、`preprint`、`book`、`thesis` 标签明确分类；已接收论文归入 `publication`，并在刊物名称中保留 accepted 状态。`source_order` 按各列表的来源编号降序显示，不使用虚构的具体出版日期排序。`publication_year` 用于页面展示；只知道年份时仅填写 `publication_year` 和 `date_precision: year`，不填写虚构的月日。作者列表中 `me` 会显示并加粗 Yangshuai Wang，其他作者仅显示真实姓名。
 
-更新论文时同时核对题目、作者顺序、刊物、状态、年份和公开链接。将预印本转为已接收论文时直接更新原文件及标签，保留 URL。需要改 URL 时添加 `aliases`。旧条目若仅从 Selected Preprints 列表消失，先标为 `draft: true`，不据此宣称撤稿。不要将编辑部投稿后台地址用作公开论文链接。
+更新论文时同时核对题目、作者顺序、刊物、状态、年份和公开链接。将预印本转为已接收论文时直接更新原文件及标签，保留 URL。需要改 URL 时添加 `aliases`。旧条目若仅从 Selected Publications 或 Selected Preprints 列表消失，先标为 `draft: true`，不据此宣称撤稿。不要将编辑部投稿后台地址用作公开论文链接。
 
-Google Sites 仍可手动维护；本仓库不会自动抓取并发布其变动。没有当前 CV PDF 时不展示虚构的下载入口。
+Google Sites 仍可手动维护；本仓库不会自动抓取并发布其变动。`content/cv.md` 提供完整 CV，公开 PDF 保存在 `static/files/Yangshuai_Wang_CV.pdf`。2026-10-24 版本来自 Google Sites 当前公开链接，下载内容已核对；更新时保持相同路径。Selected Publications 与 Selected Preprints 仅展示当前精选，完整发表记录请见 CV。
 
 页面内容有实质更新时，在对应 Markdown 文件的 front matter 中填写实际修改日 `lastmod: YYYY-MM-DD`。论文列表变更时，同时更新首页、`content/publications/_index.md` 或 `content/preprints.md` 中受影响列表页的 `lastmod`。它表示网页修改时间，与论文出版年份及页面最初的 `date` 分开维护；不要在每次构建时统一刷新未修改页面的日期。
 

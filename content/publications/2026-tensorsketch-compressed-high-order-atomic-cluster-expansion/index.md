@@ -14,11 +14,13 @@ peer_reviewed: true
 tags:
 - publication
 featured: false
-source_order: 29
-source_checked: '2026-10-03'
-source_url: https://sites.google.com/view/yangshuaiwang/publications
+source_order: 24
+source_checked: '2026-10-24'
+source_url: https://sites.google.com/view/yangshuaiwang/selected-publications
 status: accepted
 author_note: Corresponding author
 summary: "TensorSketch-Compressed High-Order Atomic Cluster Expansion Potentials: Accuracy, Mechanics, and Vibrational Thermodynamics. J. Phys. Chem. A (accepted), 2026."
+links: []
+lastmod: '2026-10-24'
 ---
 *Corresponding author.*

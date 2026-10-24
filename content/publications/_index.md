@@ -1,7 +1,7 @@
 ---
-title: Publications
+title: Selected Publications
 summary: Published and accepted research papers by Yangshuai Wang.
-lastmod: 2026-10-03
+lastmod: 2026-10-24
 type: landing
 cms_exclude: true
 sections:
@@ -9,9 +9,9 @@ sections:
     id: publications-heading
     content:
       heading_level: 1
-      title: Publications
+      title: Selected Publications
       text: |-
-        Published and accepted papers, with publication status shown for each entry.
+        Selected published and accepted papers, with publication status shown for each entry. For a complete list of publications, please see my [CV](/cv/).
 
         [Selected preprints and other writing →](/preprints/)
   - block: side-collection

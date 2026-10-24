@@ -24,5 +24,7 @@ links:
   url: https://iopscience.iop.org/article/10.1088/3050-287X/ae5078
   name: Publisher
 summary: "Beyond Adam: Disentangling Optimizer Effects in the Fine-Tuning of Atomistic Foundation Models. AI for Science, 2(1), 2026."
+draft: true
+lastmod: '2026-10-24'
 ---
 *Corresponding author.*

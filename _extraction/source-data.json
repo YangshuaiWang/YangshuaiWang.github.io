@@ -4,45 +4,52 @@
     "subpages": [
       "https://sites.google.com/view/yangshuaiwang/about-me",
       "https://sites.google.com/view/yangshuaiwang/cv",
-      "https://sites.google.com/view/yangshuaiwang/publications",
+      "https://sites.google.com/view/yangshuaiwang/selected-publications",
       "https://sites.google.com/view/yangshuaiwang/selected-preprints",
       "https://sites.google.com/view/yangshuaiwang/conferences",
       "https://sites.google.com/view/yangshuaiwang/teaching"
     ],
-    "extraction_method": "Google Sites public HTML read on 2026-10-03. Publication/preprint titles, author order, source numbering, status and links reconciled with existing files; suspicious links checked against arXiv/APS/ICML and final published metadata preferred when verified. Exact source text and source links retained per record. Profile/teaching/conference sources separately checked; verified external corrections are recorded.",
+    "extraction_method": "Google Sites public HTML freshly fetched on 2026-10-24. Current selected publication and preprint membership, ordering, titles, author order, status, years and source links reconciled with existing records. Existing verified public links retained; previously identified incorrect links remain omitted. Existing slugs preserved.",
     "known_source_anomalies": [
-      "Preprint 23 (metallic systems) links to arXiv:2608.19797, which is Optimal Sobolev Approximation (preprint 22). Wrong link omitted; correct link unresolved.",
-      "Preprint 21 (Autonomous Knowledge Distillation) links to arXiv:2607.19786, which is Structure-Adaptive Random Feature Method (preprint 20). Wrong link omitted; correct link unresolved.",
-      "Preprints 11 (Flexible Boundary) and 8 (NanoTitan) link to arXiv:2506.07401, which is A Study on Fine-Tuning U-MLIPs (preprint 6). Wrong links omitted from both unrelated entries; correct links unresolved.",
-      "Publication 32 contains an empty whitespace anchor to IADR OpenReview; it is not a link to Configuration Selection. It is intentionally omitted.",
-      "Publication 28 links to the APS author-submission dashboard. Replaced with verified public DOI 10.1103/j89c-3k2s. Earlier Symmetry-Protected title consolidated with the accepted Geometry-conditioned title based on strongly matching primary-source abstracts; title continuity is an inference recorded on the publication.",
-      "The Tutorial (publication 18) lists a different author sequence on Google Sites; the final AIP author order is used. Yangshuai Wang is corresponding author.",
-      "The CPC article (publication 19) uses an earlier title on Google Sites; final publisher title is used, preserving its existing local URL.",
-      "The IMA JNA article (publication 2) gives author order Yangshuai Wang, Hao Wang, Lei Zhang and year 2020 on Google Sites. Oxford final version gives Yangshuai Wang, Lei Zhang, Hao Wang, volume 41(2), 2021; online publication was 19 May 2020. Final citation updated; existing URL preserved.",
-      "Preprint 7 (AI-ready battery interfaces) is dated 2025 on Google Sites but arXiv first submission is January 2026. The source manuscript year 2025 is retained; no 2025 arXiv-deposit date is claimed.",
+      "Selected preprint 22 (metallic systems) links to arXiv:2608.19797, which is Optimal Sobolev Approximation (selected preprint 21). Wrong link omitted; correct link unresolved.",
+      "Selected preprint 20 (Autonomous Knowledge Distillation) links to arXiv:2607.19786, which is Structure-Adaptive Random Feature Method (selected preprint 19). Wrong link omitted; correct link unresolved.",
+      "Selected preprints 10 (Flexible Boundary) and 7 (NanoTitan) link to arXiv:2506.07401, which is A Study on Fine-Tuning U-MLIPs (selected preprint 5). Wrong links omitted from both unrelated entries; correct links unresolved.",
       "Three preprints absent from the latest Selected Preprints page are preserved locally as drafts, not described as withdrawn: Stopping Reliability, Geometry of Adapter Placement, Long-Range Operator Learning.",
       "OpenReview IADR and LDD-RFM URLs were preserved from Google Sites; automated fetch reaches a browser-verification page, so public paper metadata was not independently rechecked there.",
       "The incorrect Google Sites mentor hyperlink for Weizhu Bao was replaced with the NUS-confirmed homepage https://blog.nus.edu.sg/matbwz/.",
-      "CV page still says updated September 2023 and exposes no downloadable current CV; no current CV PDF was fabricated.",
       "The existing local portrait and Google Scholar link are retained from the repository. No new personal profile links or portrait were invented; the current Google Sites homepage also contains an image.",
       "Teaching source has no course title for MATH 100 (Autumn 2023); course code retained without an invented title.",
-      "Only publication_year is retained when the publication date is known to year precision. Synthetic January 1 dates were removed so search metadata cannot mistake them for actual publication dates. The book source has no year and no year is assigned."
+      "Only publication_year is retained when the publication date is known to year precision. Synthetic January 1 dates were removed so search metadata cannot mistake them for actual publication dates. The book source has no year and no year is assigned.",
+      "Five papers omitted from the current Selected Publications page are preserved as drafts, not described as withdrawn; full citations remain in archived_publications.",
+      "The J. Sci. Comput. accepted paper retains its original preprint URL and arXiv link; its title, four-author list and accepted status follow the current Google Sites publication record."
     ],
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-24",
     "latest_sync": {
-      "date": "2026-10-10",
-      "changes": [
-        "Added NeurIPS Top Reviewer (2026) from the published Google Sites CV page."
-      ],
+      "date": "2026-10-24",
       "reviewed_pages": [
         "https://sites.google.com/view/yangshuaiwang/about-me",
         "https://sites.google.com/view/yangshuaiwang/cv",
-        "https://sites.google.com/view/yangshuaiwang/publications",
+        "https://sites.google.com/view/yangshuaiwang/selected-publications",
         "https://sites.google.com/view/yangshuaiwang/selected-preprints",
         "https://sites.google.com/view/yangshuaiwang/conferences",
         "https://sites.google.com/view/yangshuaiwang/teaching"
       ],
-      "comparison": "All 32 publication records and 23 preprint records match the previous source text after whitespace normalization. Profile, education, experience, teaching, talks, book, and thesis remain unchanged. Publication 28 source link now points to the public APS accepted page; the site already uses its public DOI."
+      "changes": [
+        "Selected publications now contain 28 papers; five omitted papers preserved as drafts.",
+        "Linear-elasticity-enhanced coupling manuscript promoted to accepted J. Sci. Comput. paper with updated title, four authors, year 2026, and original URL preserved.",
+        "PRA and SIAM J. Sci. Comput. publication details updated; multigrid title updated.",
+        "Selected preprints now contain 22 manuscripts; battery-interfaces manuscript year corrected to 2026.",
+        "CV page now links a complete CV PDF updated 24 October 2026.",
+        "Synchronized six formal teaching entries; added Autumn 2026 MA4230 and removed teaching-assistant entries.",
+        "Added the current public CV as a local PDF and CV page; verified PDF bytes against the source Drive download."
+      ],
+      "comparison": "Selected membership and source order exactly follow freshly fetched public source pages. Profile, teaching and conference text checked separately; CV updated."
+    },
+    "cv_pdf": {
+      "source": "https://drive.google.com/file/d/18_PNwYvtcUT2hxBE0SF8qxcK0Zf6MULW/view",
+      "path": "static/files/Yangshuai_Wang_CV.pdf",
+      "sha256": "da3d566da4bdf6efda3b0cc895b22f96b04f08fd3f3fa9a6e7135a3166da6397",
+      "bytes": 136376
     }
   },
   "profile": {
@@ -179,7 +186,36 @@
   ],
   "publications": [
     {
-      "num": 32,
+      "num": 28,
+      "author_note": null,
+      "authors": [
+        "Yanbo Zhan",
+        "me",
+        "Bing Hu",
+        "Hao Wang"
+      ],
+      "title": "Construction and a Priori Analysis of a Linear Elasticity Enhanced Multiscale Coupling Method for a Defective Atomistic Chain",
+      "year": 2026,
+      "status": "accepted",
+      "links": [
+        {
+          "type": "preprint",
+          "url": "https://arxiv.org/abs/2502.17164",
+          "provider": "arxiv",
+          "name": "Earlier preprint"
+        }
+      ],
+      "slug": "2025-a-general-framework-of-linear-elasticity",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-publications",
+      "source_checked": "2026-10-24",
+      "source_order": 28,
+      "source_text": "[28] Yanbo Zhan, Yangshuai Wang, Bing Hu and Hao Wang, Construction and a Priori Analysis of a Linear Elasticity Enhanced Multiscale Coupling Method for a Defective Atomistic Chain, accepted by J. Sci. Comput., 2026.",
+      "source_links": [],
+      "previous_title": "A General Framework of Linear Elasticity Enhanced Multiscale Coupling Methods for Crystalline Defects",
+      "venue": "J. Sci. Comput. (accepted)"
+    },
+    {
+      "num": 27,
       "author_note": "Co-corresponding author",
       "authors": [
         "Xiaoqing Liu",
@@ -192,14 +228,14 @@
       "links": [],
       "year": 2026,
       "status": "accepted",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
-      "source_order": 32,
-      "source_text": "[32] (Co-Corresponding author) Xiaoqing Liu, Yangshuai Wang and Lei Shen, Configuration Selection and Matrix-Aware Optimization for Data-Efficient Atomistic Foundation Models, accepted by J. Mater. Inf., 2026.",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-publications",
+      "source_checked": "2026-10-24",
+      "source_order": 27,
+      "source_text": "[27] (Co-Corresponding author) Xiaoqing Liu, Yangshuai Wang and Lei Shen, Configuration Selection and Matrix-Aware Optimization for Data-Efficient Atomistic Foundation Models, accepted by J. Mater. Inf., 2026.",
       "source_links": []
     },
     {
-      "num": 31,
+      "num": 26,
       "author_note": "Co-corresponding author",
       "authors": [
         "Qinyi Zhang",
@@ -219,16 +255,16 @@
       ],
       "year": 2026,
       "status": "accepted",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
-      "source_order": 31,
-      "source_text": "[31] (Co-Corresponding author) Qinyi Zhang, Duanyu Feng, Hao Wang and Yangshuai Wang, IADR: Interface-Augmented Neural Operator for Phase-Field Mean-Curvature Flow, accepted by NeurIPS 2026.",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-publications",
+      "source_checked": "2026-10-24",
+      "source_order": 26,
+      "source_text": "[26] (Co-Corresponding author) Qinyi Zhang, Duanyu Feng, Hao Wang and Yangshuai Wang, IADR: Interface-Augmented Neural Operator for Phase-Field Mean-Curvature Flow, accepted by NeurIPS 2026.",
       "source_links": [
         "https://openreview.net/forum?id=mMGBM26aqy#discussion"
       ]
     },
     {
-      "num": 30,
+      "num": 25,
       "author_note": "Corresponding author",
       "authors": [
         "Zhaohui Fu",
@@ -247,16 +283,16 @@
       ],
       "year": 2026,
       "status": "accepted",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
-      "source_order": 30,
-      "source_text": "[30] (Corresponding author) Zhaohui Fu, Duanyu Feng and Yangshuai Wang, LDD-RFM: Learnable Domain Decomposition for Random Feature Models via Variable Projection, accepted by NeurIPS 2026.",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-publications",
+      "source_checked": "2026-10-24",
+      "source_order": 25,
+      "source_text": "[25] (Corresponding author) Zhaohui Fu, Duanyu Feng and Yangshuai Wang, LDD-RFM: Learnable Domain Decomposition for Random Feature Models via Variable Projection, accepted by NeurIPS 2026.",
       "source_links": [
         "https://openreview.net/forum?id=OzYGQoPGki#discussion"
       ]
     },
     {
-      "num": 29,
+      "num": 24,
       "author_note": "Corresponding author",
       "authors": [
         "Jiale Linghu",
@@ -268,20 +304,20 @@
       "links": [],
       "year": 2026,
       "status": "accepted",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
-      "source_order": 29,
-      "source_text": "[29] (Corresponding author) Jiale Linghu and Yangshuai Wang, TensorSketch-Compressed High-Order Atomic Cluster Expansion Potentials: Accuracy, Mechanics, and Vibrational Thermodynamics, accepted by J. Phys. Chem. A, 2026.",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-publications",
+      "source_checked": "2026-10-24",
+      "source_order": 24,
+      "source_text": "[24] (Corresponding author) Jiale Linghu and Yangshuai Wang, TensorSketch-Compressed High-Order Atomic Cluster Expansion Potentials: Accuracy, Mechanics, and Vibrational Thermodynamics, accepted by J. Phys. Chem. A, 2026.",
       "source_links": []
     },
     {
-      "num": 28,
+      "num": 23,
       "author_note": null,
       "authors": [
         "me"
       ],
       "title": "Geometry-conditioned basin initialization for variational quantum eigensolvers in strongly correlated molecules",
-      "venue": "Phys. Rev. A (accepted)",
+      "venue": "Phys. Rev. A, 114:042421",
       "slug": "2026-geometry-conditioned-basin-initialization-for-variational-quantum",
       "links": [
         {
@@ -303,44 +339,17 @@
         ]
       },
       "year": 2026,
-      "status": "accepted",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
-      "source_order": 28,
-      "source_text": "[28] Yangshuai Wang, Geometry-conditioned basin initialization for variational quantum eigensolvers in strongly correlated molecules, accepted by Phys. Rev. A, 2026.",
-      "source_links": [
-        "https://authors.aps.org/Submissions/manuscripts/LS20181"
-      ]
-    },
-    {
-      "num": 27,
-      "author_note": "Corresponding author",
-      "authors": [
-        "Shivangi Kamat",
-        "me"
-      ],
-      "title": "Before Lean Checks: Candidate Exposure in Proof-Action Ranking",
-      "venue": "ICML 2026, AI4Math Workshop",
-      "year": 2026,
-      "links": [
-        {
-          "type": "url",
-          "url": "https://icml.cc/virtual/2026/82558",
-          "name": "Conference"
-        }
-      ],
-      "slug": "2026-before-lean-checks-candidate-exposure-in",
       "status": "published",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
-      "source_order": 27,
-      "source_text": "[27] (Corresponding author) Shivangi Kamat and Yangshuai Wang, Before Lean Checks: Candidate Exposure in Proof-Action Ranking, published in ICML 2026, AI4Math Workshop.",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-publications",
+      "source_checked": "2026-10-24",
+      "source_order": 23,
+      "source_text": "[23] Yangshuai Wang, Geometry-conditioned basin initialization for variational quantum eigensolvers in strongly correlated molecules, Phys. Rev. A, 114:042421, 2026.",
       "source_links": [
-        "https://icml.cc/virtual/2026/82558"
+        "https://journals.aps.org/pra/abstract/10.1103/j89c-3k2s"
       ]
     },
     {
-      "num": 26,
+      "num": 22,
       "author_note": null,
       "authors": [
         "Xinyi Wei",
@@ -362,16 +371,16 @@
       ],
       "slug": "2026-amplitude-expansion-phase-field-crystal-apfc",
       "status": "published",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
-      "source_order": 26,
-      "source_text": "[26] Xinyi Wei, Yangshuai Wang, Kai Jiang and Lei Zhang, Amplitude Expansion Phase Field Crystal (APFC) Modeling based Efficient Dislocation Simulations using Fourier Pseudospectral Method, J. Sci. Comput., 108:57, 2026.",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-publications",
+      "source_checked": "2026-10-24",
+      "source_order": 22,
+      "source_text": "[22] Xinyi Wei, Yangshuai Wang, Kai Jiang and Lei Zhang, Amplitude Expansion Phase Field Crystal (APFC) Modeling based Efficient Dislocation Simulations using Fourier Pseudospectral Method, J. Sci. Comput., 108:57, 2026.",
       "source_links": [
         "https://link.springer.com/epdf/10.1007/s10915-026-03376-8?sharing_token=S_RCrz-k2nLi2XKH7PMYDPe4RwlQNchNByi7wbcMAY6ytA1Xukv2AQZGTbDQqxrxR31inTpCxkhcWJzSFSPYZz7qKHgpM1ts2ZsgooTy3UMOOiHhO5uOW2_iiOIYocrZfs-KR5_L-he72eMJOvMy0MuUY25X_CwEm4ZOQGizKDY%3D"
       ]
     },
     {
-      "num": 25,
+      "num": 21,
       "author_note": "Corresponding author",
       "authors": [
         "Xinyi Wei",
@@ -380,19 +389,27 @@
         "Lei Zhang"
       ],
       "title": "Higher-Order Boundary Conditions for Atomistic Dislocation Simulations",
-      "venue": "SIAM J. Sci. Comput. (accepted)",
+      "venue": "SIAM J. Sci. Comput., 48(5)",
       "year": 2026,
-      "links": [],
+      "links": [
+        {
+          "type": "url",
+          "url": "https://doi.org/10.1137/25M1809215",
+          "name": "Publisher"
+        }
+      ],
       "slug": "2026-higher-order-boundary-conditions-for-atomistic-dislocation",
-      "status": "accepted",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
-      "source_order": 25,
-      "source_text": "[25] (Corresponding author) Xinyi Wei, Julian Braun, Yangshuai Wang and Lei Zhang, Higher-Order Boundary Conditions for Atomistic Dislocation Simulations, accepted by SIAM J Sci. Comp., 2026.",
-      "source_links": []
+      "status": "published",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-publications",
+      "source_checked": "2026-10-24",
+      "source_order": 21,
+      "source_text": "[21] (Corresponding author) Xinyi Wei, Julian Braun, Yangshuai Wang and Lei Zhang, Higher-Order Boundary Conditions for Atomistic Dislocation Simulations, SIAM J Sci. Comp., 48(5), 2026.",
+      "source_links": [
+        "https://epubs.siam.org/doi/abs/10.1137/25M1809215?journalCode=sjoce3"
+      ]
     },
     {
-      "num": 24,
+      "num": 20,
       "author_note": "Corresponding author",
       "authors": [
         "Yifan Yu",
@@ -412,16 +429,16 @@
       ],
       "slug": "2026-a-conformal-prediction-framework-for-uncertainty",
       "status": "published",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
-      "source_order": 24,
-      "source_text": "[24] (Corresponding author) Yifan Yu, Cheuk Hin Ho and Yangshuai Wang, A Conformal Prediction Framework for Uncertainty Quantification in Physics-Informed Neural Networks, J. Comp. Phys., 114979, 2026.",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-publications",
+      "source_checked": "2026-10-24",
+      "source_order": 20,
+      "source_text": "[20] (Corresponding author) Yifan Yu, Cheuk Hin Ho and Yangshuai Wang, A Conformal Prediction Framework for Uncertainty Quantification in Physics-Informed Neural Networks, J. Comp. Phys., 114979, 2026.",
       "source_links": [
         "https://doi.org/10.1016/j.jcp.2026.114979"
       ]
     },
     {
-      "num": 23,
+      "num": 19,
       "author_note": "Corresponding author",
       "authors": [
         "Cheuk Hin Ho",
@@ -440,139 +457,12 @@
       ],
       "slug": "2026-flexible-uncertainty-calibration-for-machine-learned-interat",
       "status": "published",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
-      "source_order": 23,
-      "source_text": "[23] (Corresponding author) Cheuk Hin Ho, Christoph Ortner and Yangshuai Wang, Flexible Uncertainty Calibration for Machine-Learned Interatomic Potentials, npj Comput. Mater., 2026.",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-publications",
+      "source_checked": "2026-10-24",
+      "source_order": 19,
+      "source_text": "[19] (Corresponding author) Cheuk Hin Ho, Christoph Ortner and Yangshuai Wang, Flexible Uncertainty Calibration for Machine-Learned Interatomic Potentials, npj Comput. Mater., 2026.",
       "source_links": [
         "https://doi.org/10.1038/s41524-026-02080-3"
-      ]
-    },
-    {
-      "num": 22,
-      "author_note": null,
-      "authors": [
-        "Xi'an Li",
-        "Jinran Wu",
-        "Xiao Ning",
-        "me",
-        "Lei Zhang"
-      ],
-      "title": "Bayesian Physics-Informed Neural Networks to Solve the PDEs with Noise or Incomplete Constraints",
-      "venue": "The Innovation Informatics (Editorial), 2:100039",
-      "volume": "2",
-      "pages": "100039",
-      "year": 2026,
-      "links": [
-        {
-          "type": "url",
-          "url": "https://www.the-innovation.org/article/doi/10.59717/j.xinn-inform.2026.100039",
-          "name": "Publisher"
-        }
-      ],
-      "slug": "2026-bayesian-physics-informed-neural-networks-to-solve",
-      "status": "published",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
-      "source_order": 22,
-      "source_text": "[22] Xi'an Li, Jinran Wu, Xiao Ning, Yangshuai Wang and Lei Zhang, Bayesian Physics-Informed Neural Networks to Solve the PDEs with Noise or Incomplete Constraints, Innov. Inform. (Editorial), 2:100039, 2026.",
-      "source_links": [
-        "https://www.the-innovation.org/article/doi/10.59717/j.xinn-inform.2026.100039"
-      ]
-    },
-    {
-      "num": 21,
-      "author_note": null,
-      "authors": [
-        "Peng Liu",
-        "Lidong Fang",
-        "me",
-        "Lei Zhang",
-        "Qingcheng Yang"
-      ],
-      "title": "Concurrent Atomistic-Continuum Coupling via Physics-Informed Neural Networks (PINNs-CAC) with Adaptive Energy Weighting and Direct Boundary Encoding",
-      "venue": "Appl. Math. Model., 116931",
-      "pages": "116931",
-      "year": 2026,
-      "links": [
-        {
-          "type": "url",
-          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0307904X26001927",
-          "name": "Publisher"
-        }
-      ],
-      "slug": "2026-concurrent-atomistic-continuum-coupling-via-physics-informed",
-      "status": "published",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
-      "source_order": 21,
-      "source_text": "[21] Peng Liu, Lidong Fang, Yangshuai Wang, Lei Zhang and Qingcheng Yang, Concurrent Atomistic-Continuum Coupling via Physics-Informed Neural Networks (PINNs-CAC) with Adaptive Energy Weighting and Direct Boundary Encoding, Appl. Math. Model., 116931, 2026.",
-      "source_links": [
-        "https://www.sciencedirect.com/science/article/abs/pii/S0307904X26001927"
-      ]
-    },
-    {
-      "num": 20,
-      "author_note": "Corresponding author",
-      "authors": [
-        "Xiaoqing Liu",
-        "me",
-        "Teng Zhao"
-      ],
-      "title": "Beyond Adam: Disentangling Optimizer Effects in the Fine-Tuning of Atomistic Foundation Models",
-      "venue": "AI for Science, 2(1)",
-      "volume": "2",
-      "issue": "1",
-      "year": 2026,
-      "links": [
-        {
-          "type": "url",
-          "url": "https://iopscience.iop.org/article/10.1088/3050-287X/ae5078",
-          "name": "Publisher"
-        }
-      ],
-      "slug": "2026-beyond-adam-disentangling-optimizer-effects-in",
-      "status": "published",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
-      "source_order": 20,
-      "source_text": "[20] (Corresponding author) Xiaoqing Liu, Yangshuai Wang and Teng Zhao, Beyond Adam: Disentangling Optimizer Effects in the Fine-Tuning of Atomistic Foundation Models, AI for Sci., 2(1), 2026.",
-      "source_links": [
-        "https://iopscience.iop.org/article/10.1088/3050-287X/ae5078"
-      ]
-    },
-    {
-      "num": 19,
-      "author_note": "Corresponding author",
-      "authors": [
-        "Hao Wang",
-        "me"
-      ],
-      "title": "Adaptive quasicontinuum methods and simulations for crystal defects with a theory based unified a posteriori error estimate",
-      "venue": "Comput. Phys. Commun., 322:110085",
-      "volume": "322",
-      "pages": "110085",
-      "year": 2026,
-      "links": [
-        {
-          "type": "url",
-          "url": "https://doi.org/10.1016/j.cpc.2026.110085",
-          "name": "Publisher"
-        }
-      ],
-      "slug": "2026-adaptive-multiscale-coupling-methods-of-molecular",
-      "status": "published",
-      "previous_title": "Adaptive Multiscale Coupling Methods of Molecular Mechanics Based on a Unified Framework of a Posteriori Error Estimates",
-      "correction": {
-        "reason": "Use final published title rather than the earlier title retained on Google Sites.",
-        "source": "https://www.sciencedirect.com/science/article/abs/pii/S0010465526000676"
-      },
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
-      "source_order": 19,
-      "source_text": "[19] (Corresponding author) Hao Wang and Yangshuai Wang, Adaptive Multiscale Coupling Methods of Molecular Mechanics Based on a Unified Framework of a Posteriori Error Estimates, Comput. Phys. Commun., 322:110085, 2026.",
-      "source_links": [
-        "https://www.sciencedirect.com/science/article/pii/S0010465526000676?dgcid=author"
       ]
     },
     {
@@ -609,12 +499,12 @@
         "reason": "Final journal author order differs from Google Sites and preprint order; use the published version.",
         "source": "https://doi.org/10.1063/5.0299305"
       },
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-publications",
+      "source_checked": "2026-10-24",
       "source_order": 18,
-      "source_text": "[18] (Corresponding author) Xiaoqing Liu, Yangshuai Wang, Kehan Zeng, Zedong Luo, Teng Zhao and Zhenli Xu, Fine-Tuning Universal Machine-Learned Interatomic Potentials: A Tutorial on Methods and Applications, J. Appl. Phys., 139:041101, 2026.",
+      "source_text": "[18] (Corresponding author) Xiaoqing Liu, Kehan Zeng, Zedong Luo, Yangshuai Wang, Teng Zhao and Zhenli Xu, Fine-Tuning Universal Machine-Learned Interatomic Potentials: A Tutorial on Methods and Applications, J. Appl. Phys., 139:041101, 2026.",
       "source_links": [
-        "https://arxiv.org/pdf/2506.21935"
+        "https://doi.org/10.1063/5.0299305"
       ]
     },
     {
@@ -642,8 +532,8 @@
       ],
       "slug": "2026-microevoeval-a-systematic-evaluation-framework-for",
       "status": "published",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-publications",
+      "source_checked": "2026-10-24",
       "source_order": 17,
       "source_text": "[17] (Co-corresponding author) Qinyi Zhang, Duanyu Feng, Ronghui Han, Yangshuai Wang and Hao Wang, MicroEvoEval: A Systematic Evaluation Framework for Image-Based Microstructure Evolution Prediction, Proceedings of the AAAI Conference on Artificial Intelligence, 40 (2), 1543-1551, 2026.",
       "source_links": [
@@ -677,8 +567,8 @@
       ],
       "slug": "2025-an-atomic-cluster-expansion-potential-for",
       "status": "published",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-publications",
+      "source_checked": "2026-10-24",
       "source_order": 16,
       "source_text": "[16] Yangshuai Wang, Drake Clark, Sambit Das, Ziyan Zhu, Daniel Massatt, Vikram Gavini, Mitchell Luskin and Christoph Ortner, An Atomic Cluster Expansion Potential for Twisted Multilayer Graphene, Mach. Learn.: Sci. Technol., 6:045040, 2025.",
       "source_links": [
@@ -714,8 +604,8 @@
         "et al."
       ],
       "authors_note": "Large collaboration; source lists the first six authors followed by et al. Yangshuai Wang is a coauthor.",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-publications",
+      "source_checked": "2026-10-24",
       "source_order": 15,
       "source_text": "[15] Ilyes Batatia, Philipp Benner, Yuan Chiang, Alin M. Elena, Dávid P. Kovács, and Janosh Riebesell et al. (62 authors not shown), A Foundation Model for Atomistic Materials Chemistry, J. Chem. Phys., 163:184110, 2025.",
       "source_links": [
@@ -745,8 +635,8 @@
       ],
       "slug": "2025-higher-order-far-field-boundary-conditions-for",
       "status": "published",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-publications",
+      "source_checked": "2026-10-24",
       "source_order": 14,
       "source_text": "[14] (Corresponding author) Julian Braun, Christoph Ortner, Yangshuai Wang and Lei Zhang, Higher Order Far-Field Boundary Conditions for Crystalline Defects, SIAM J. Numer. Anal., 63(2), 2025.",
       "source_links": [
@@ -775,8 +665,8 @@
       ],
       "slug": "2025-surrogate-models-for-vibrational-entropy-based",
       "status": "published",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-publications",
+      "source_checked": "2026-10-24",
       "source_order": 13,
       "source_text": "[13] (Corresponding author) Tina Torabi, Christoph Ortner and Yangshuai Wang, Surrogate models for vibrational entropy based on a spatial decomposition, SIAM Multiscale Model. Simul., 23(1), 2025.",
       "source_links": [
@@ -803,8 +693,8 @@
       ],
       "slug": "2025-a-posteriori-analysis-and-adaptive-algorithms",
       "status": "published",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-publications",
+      "source_checked": "2026-10-24",
       "source_order": 12,
       "source_text": "[12] Yangshuai Wang, A Posteriori Analysis and Adaptive Algorithms for Blended Type Atomistic-to-Continuum Coupling with Higher-Order Finite Elements, Comput. Phys. Commun., 310:109533, 2025.",
       "source_links": [
@@ -840,8 +730,8 @@
       ],
       "slug": "2025-meshac-a-3d-mesh-generation-and",
       "status": "published",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-publications",
+      "source_checked": "2026-10-24",
       "source_order": 11,
       "source_text": "[11] (Corresponding author) Kejie Fu, Mingjie Liao, Yangshuai Wang, Jianjun Chen and Lei Zhang, MeshAC: A 3D Mesh Generation and Adaptation Package for Multiscale Coupling Methods, Comput. Phys. Commun. (Computer Programs in Physics), 310:109523, 2025.",
       "source_links": [
@@ -872,8 +762,8 @@
       ],
       "slug": "2024-a-posteriori-error-estimate-and-adaptivity",
       "status": "published",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-publications",
+      "source_checked": "2026-10-24",
       "source_order": 10,
       "source_text": "[10] Yangshuai Wang, James Kermode, Christoph Ortner and Lei Zhang, A Posteriori Error Estimate and Adaptivity for QM/MM Models of Crystalline Defects, Comput. Methods Appl. Mech. Engrg., 428:117097, 2024.",
       "source_links": [
@@ -902,8 +792,8 @@
       ],
       "slug": "2024-a-theoretical-case-study-of-the",
       "status": "published",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-publications",
+      "source_checked": "2026-10-24",
       "source_order": 9,
       "source_text": "[9] Yangshuai Wang, Shashwat Patel and Christoph Ortner, A Theoretical Case Study of the Generalisation of Machine-learned Potentials, Comput. Methods Appl. Mech. Engrg., 422:116831, 2024.",
       "source_links": [
@@ -931,8 +821,8 @@
       ],
       "slug": "2023-efficient-a-posteriori-error-control-of",
       "status": "published",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-publications",
+      "source_checked": "2026-10-24",
       "source_order": 8,
       "source_text": "[8] Yangshuai Wang and Hao Wang, Efficient a Posteriori Error Control of a Consistent Atomistic/Continuum Coupling Method for Two Dimensional Crystalline Defects, J. Sci. Comput., 97:51, 2023.",
       "source_links": [
@@ -962,8 +852,8 @@
       ],
       "slug": "2023-elastic-far-field-decay-from-dislocations-in",
       "status": "published",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-publications",
+      "source_checked": "2026-10-24",
       "source_order": 7,
       "source_text": "[7] (Corresponding author) Derek Olson, Christoph Ortner, Yangshuai Wang and Lei Zhang, Elastic Far-field Decay from Dislocations in Multilattices, SIAM Multiscale Model. Simul., 21(4), 2023.",
       "source_links": [
@@ -991,8 +881,8 @@
       ],
       "slug": "2023-a-framework-for-a-generalisation-analysis",
       "status": "published",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-publications",
+      "source_checked": "2026-10-24",
       "source_order": 6,
       "source_text": "[6] (Corresponding author) Christoph Ortner and Yangshuai Wang, A Framework for a Generalisation Analysis of Machine-learned Interatomic Potentials, SIAM Multiscale Model. Simul., 21:1053-1080, 2023.",
       "source_links": [
@@ -1009,7 +899,7 @@
         "Jianjun Chen",
         "Lei Zhang"
       ],
-      "title": "Adaptive Multigrid Strategy for Large-scale Molecular Mechanics Optimization",
+      "title": "Adaptive multigrid strategy for geometry optimization of large-scale three dimensional molecular mechanics",
       "venue": "J. Comput. Phys., 485:112113",
       "volume": "485",
       "pages": "112113",
@@ -1023,12 +913,12 @@
       ],
       "slug": "2023-adaptive-multigrid-strategy-for-large-scale-molecular",
       "status": "published",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-publications",
+      "source_checked": "2026-10-24",
       "source_order": 5,
-      "source_text": "[5] (Corresponding author) Kejie Fu, Mingjie Liao, Yangshuai Wang, Jianjun Chen and Lei Zhang, Adaptive Multigrid Strategy for Large-scale Molecular Mechanics Optimization, J. Comp. Phys., 485,112113, 2023.",
+      "source_text": "[5] (Corresponding author) Kejie Fu, Mingjie Liao, Yangshuai Wang, Jianjun Chen and Lei Zhang, Adaptive multigrid strategy for geometry optimization of large-scale three dimensional molecular mechanics, J. Comp. Phys., 485,112113, 2023.",
       "source_links": [
-        "https://www.sciencedirect.com/science/article/pii/S0021999123002085?via%3Dihub"
+        "https://doi.org/10.1016/j.jcp.2023.112113"
       ]
     },
     {
@@ -1053,8 +943,8 @@
       ],
       "slug": "2022-qm-mm-methods-for-crystalline-defects-part",
       "status": "published",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-publications",
+      "source_checked": "2026-10-24",
       "source_order": 4,
       "source_text": "[4] (Corresponding author) Huajie Chen, Christoph Ortner and Yangshuai Wang, QM/MM Methods for Crystalline Defects. Part 3: Machine-learned MM Models, SIAM Multiscale Model. Simul., 20:1490-1518, 2022.",
       "source_links": [
@@ -1086,8 +976,8 @@
       ],
       "slug": "2021-a-posteriori-error-estimates-for-adaptive",
       "status": "published",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-publications",
+      "source_checked": "2026-10-24",
       "source_order": 3,
       "source_text": "[3] Yangshuai Wang, Huajie Chen, Mingjie Liao, Christoph Ortner, Hao Wang and Lei Zhang, A Posteriori Error Estimates for Adaptive QM/MM Coupling Methods, SIAM J Sci. Comp., 43:A2785-A2808, 2021.",
       "source_links": [
@@ -1121,12 +1011,12 @@
         "reason": "Oxford lists author order Yangshuai Wang, Lei Zhang, Hao Wang and final issue year 2021; online publication was 19 May 2020. Google Sites gives a different author order and the online year.",
         "source": "https://academic.oup.com/imajna/article-abstract/41/2/1465/5837821"
       },
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-publications",
+      "source_checked": "2026-10-24",
       "source_order": 2,
-      "source_text": "[2] Yangshuai Wang, Hao Wang and Lei Zhang, A Priori Analysis of a Higher Order Nonlinear Elasticity Model for an Atomistic Chain with Periodic Boundary Condition, IMA J. Numer. Anal., 41:1465-1495, 2020.",
+      "source_text": "[2] Yangshuai Wang, Lei Zhang and Hao Wang, A Priori Analysis of a Higher Order Nonlinear Elasticity Model for an Atomistic Chain with Periodic Boundary Condition, IMA J. Numer. Anal., 41:1465–1495, 2021.",
       "source_links": [
-        "https://academic.oup.com/imajna/article-abstract/41/2/1465/5837821?redirectedFrom=fulltext&login=false"
+        "https://doi.org/10.1093/imanum/draa004"
       ]
     },
     {
@@ -1153,8 +1043,8 @@
       ],
       "slug": "2019-adaptive-qm-mm-coupling-for-crystalline-defects",
       "status": "published",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
-      "source_checked": "2026-10-03",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-publications",
+      "source_checked": "2026-10-24",
       "source_order": 1,
       "source_text": "[1] (Alphabetic order) Huajie Chen, Mingjie Liao, Hao Wang, Yangshuai Wang and Lei Zhang, Adaptive QM/MM Coupling for Crystalline Defects, Comput. Methods Appl. Mech. Engrg., 354:351-368, 2019.",
       "source_links": [
@@ -1164,7 +1054,7 @@
   ],
   "preprints": [
     {
-      "num": 25,
+      "num": 24,
       "author_note": "Corresponding author",
       "authors": [
         "Chenyu Wang",
@@ -1183,15 +1073,15 @@
         }
       ],
       "source_url": "https://sites.google.com/view/yangshuaiwang/selected-preprints",
-      "source_checked": "2026-10-03",
-      "source_order": 25,
-      "source_text": "[25] (Corresponding author) Chenyu Wang, Yangshuai Wang and Lei Zhang, From Energy-Force Weighting to Primal-Dual Optimization of Machine-Learned Interatomic Potentials, 2026, arXiv preprint, under review.",
+      "source_checked": "2026-10-24",
+      "source_order": 24,
+      "source_text": "[24] (Corresponding author) Chenyu Wang, Yangshuai Wang and Lei Zhang, From Energy-Force Weighting to Primal-Dual Optimization of Machine-Learned Interatomic Potentials, 2026, arXiv preprint, under review.",
       "source_links": [
         "https://arxiv.org/abs/2610.00876"
       ]
     },
     {
-      "num": 24,
+      "num": 23,
       "author_note": "Co-corresponding author",
       "authors": [
         "Xingguo Wu",
@@ -1210,15 +1100,15 @@
         }
       ],
       "source_url": "https://sites.google.com/view/yangshuaiwang/selected-preprints",
-      "source_checked": "2026-10-03",
-      "source_order": 24,
-      "source_text": "[24] (Co-corresponding author) Xingguo Wu, Yangshuai Wang and Zhenli Xu, Moment-Informed Force Rescaling for Random-Batch Langevin Dynamics, 2026, arXiv preprint, under review.",
+      "source_checked": "2026-10-24",
+      "source_order": 23,
+      "source_text": "[23] (Co-corresponding author) Xingguo Wu, Yangshuai Wang and Zhenli Xu, Moment-Informed Force Rescaling for Random-Batch Langevin Dynamics, 2026, arXiv preprint, under review.",
       "source_links": [
         "https://arxiv.org/abs/2609.18389"
       ]
     },
     {
-      "num": 23,
+      "num": 22,
       "author_note": null,
       "authors": [
         "Jiawen Yu",
@@ -1235,15 +1125,13 @@
       "links": [],
       "link_note": "The Google Sites arXiv link identifies a different paper. Omitted until a correct public link is available.",
       "source_url": "https://sites.google.com/view/yangshuaiwang/selected-preprints",
-      "source_checked": "2026-10-03",
-      "source_order": 23,
-      "source_text": "[23] Jiawen Yu, Chaohong Guan, Xiaoqing Liu, Yangshuai Wang, Hong Zhu and Xiaoqin Zeng, Evaluating Universal Interatomic Potentials for Metallic Systems: From Elastic Response to Defect Energetics and Ideal Strength, 2026, arXiv preprint, under review.",
-      "source_links": [
-        "https://arxiv.org/abs/2608.19797"
-      ]
+      "source_checked": "2026-10-24",
+      "source_order": 22,
+      "source_text": "[22] Jiawen Yu, Chaohong Guan, Xiaoqing Liu, Yangshuai Wang, Hong Zhu and Xiaoqin Zeng, Evaluating Universal Interatomic Potentials for Metallic Systems: From Elastic Response to Defect Energetics and Ideal Strength, 2026, arXiv preprint, under review.",
+      "source_links": []
     },
     {
-      "num": 22,
+      "num": 21,
       "author_note": "Corresponding author",
       "authors": [
         "Zhaohui Fu",
@@ -1261,15 +1149,15 @@
         }
       ],
       "source_url": "https://sites.google.com/view/yangshuaiwang/selected-preprints",
-      "source_checked": "2026-10-03",
-      "source_order": 22,
-      "source_text": "[22] (Corresponding author) Zhaohui Fu and Yangshuai Wang, Optimal Sobolev Approximation by Deterministic and Random Shallow Sigmoidal Networks, 2026, arXiv preprint, under review.",
+      "source_checked": "2026-10-24",
+      "source_order": 21,
+      "source_text": "[21] (Corresponding author) Zhaohui Fu and Yangshuai Wang, Optimal Sobolev Approximation by Deterministic and Random Shallow Sigmoidal Networks, 2026, arXiv preprint, under review.",
       "source_links": [
         "https://arxiv.org/abs/2608.19797"
       ]
     },
     {
-      "num": 21,
+      "num": 20,
       "author_note": "Co-first author",
       "authors": [
         "Jiaye Chen",
@@ -1284,15 +1172,13 @@
       "links": [],
       "link_note": "The Google Sites arXiv link identifies a different paper. Omitted until a correct public link is available.",
       "source_url": "https://sites.google.com/view/yangshuaiwang/selected-preprints",
-      "source_checked": "2026-10-03",
-      "source_order": 21,
-      "source_text": "[21] (Co-first author) Jiaye Chen, Yangshuai Wang, Weizhu Bao and Xiaogang Liu, Autonomous Knowledge Distillation for an AI-Ready knowledge Layer, 2026, arXiv preprint, under review.",
-      "source_links": [
-        "https://arxiv.org/abs/2607.19786"
-      ]
+      "source_checked": "2026-10-24",
+      "source_order": 20,
+      "source_text": "[20] (Co-first author) Jiaye Chen, Yangshuai Wang, Weizhu Bao and Xiaogang Liu, Autonomous Knowledge Distillation for an AI-Ready knowledge Layer, 2026, arXiv preprint, under review.",
+      "source_links": []
     },
     {
-      "num": 20,
+      "num": 19,
       "author_note": "Corresponding author",
       "authors": [
         "Jiale Linghu",
@@ -1311,15 +1197,15 @@
         }
       ],
       "source_url": "https://sites.google.com/view/yangshuaiwang/selected-preprints",
-      "source_checked": "2026-10-03",
-      "source_order": 20,
-      "source_text": "[20] (Corresponding author) Jiale Linghu, Hao Dong and Yangshuai Wang, A Structure-Adaptive Random Feature Method for High-Dimensional Elliptic PDEs, 2026, arXiv preprint, under review.",
+      "source_checked": "2026-10-24",
+      "source_order": 19,
+      "source_text": "[19] (Corresponding author) Jiale Linghu, Hao Dong and Yangshuai Wang, A Structure-Adaptive Random Feature Method for High-Dimensional Elliptic PDEs, 2026, arXiv preprint, under review.",
       "source_links": [
         "https://arxiv.org/abs/2607.19786"
       ]
     },
     {
-      "num": 19,
+      "num": 18,
       "author_note": "Corresponding author",
       "authors": [
         "Jiale Linghu",
@@ -1337,15 +1223,15 @@
       ],
       "slug": "2026-residual-christoffel-sampling-for-random-feature-collocation",
       "source_url": "https://sites.google.com/view/yangshuaiwang/selected-preprints",
-      "source_checked": "2026-10-03",
-      "source_order": 19,
-      "source_text": "[19] (Corresponding author) Jiale Linghu and Yangshuai Wang, Residual-Christoffel Sampling for Random Feature Collocation of Linear PDEs , 2026, arXiv preprint, under review.",
+      "source_checked": "2026-10-24",
+      "source_order": 18,
+      "source_text": "[18] (Corresponding author) Jiale Linghu and Yangshuai Wang, Residual-Christoffel Sampling for Random Feature Collocation of Linear PDEs , 2026, arXiv preprint, under review.",
       "source_links": [
         "http://arxiv.org/abs/2607.13382"
       ]
     },
     {
-      "num": 18,
+      "num": 17,
       "author_note": "Corresponding author",
       "authors": [
         "Jiale Linghu",
@@ -1364,15 +1250,15 @@
       ],
       "slug": "2026-trainable-photonic-measurement-for-physics-informed-pde",
       "source_url": "https://sites.google.com/view/yangshuaiwang/selected-preprints",
-      "source_checked": "2026-10-03",
-      "source_order": 18,
-      "source_text": "[18] (Corresponding author) Jiale Linghu, Hao Dong and Yangshuai Wang, Trainable Photonic Measurement for Physics-Informed PDE Learning, 2026, arXiv preprint, under review.",
+      "source_checked": "2026-10-24",
+      "source_order": 17,
+      "source_text": "[17] (Corresponding author) Jiale Linghu, Hao Dong and Yangshuai Wang, Trainable Photonic Measurement for Physics-Informed PDE Learning, 2026, arXiv preprint, under review.",
       "source_links": [
         "http://arxiv.org/abs/2606.18713"
       ]
     },
     {
-      "num": 17,
+      "num": 16,
       "author_note": "Corresponding author",
       "authors": [
         "Xi'an Li",
@@ -1391,15 +1277,15 @@
       ],
       "slug": "2026-random-feature-kalman-filtering-for-linear",
       "source_url": "https://sites.google.com/view/yangshuaiwang/selected-preprints",
-      "source_checked": "2026-10-03",
-      "source_order": 17,
-      "source_text": "[17] (Corresponding author) Xi'an Li, Jiale Linghu and Yangshuai Wang, Random Feature Kalman Filtering for Linear PDE Data Assimilation, 2026, arXiv preprint, under review.",
+      "source_checked": "2026-10-24",
+      "source_order": 16,
+      "source_text": "[16] (Corresponding author) Xi'an Li, Jiale Linghu and Yangshuai Wang, Random Feature Kalman Filtering for Linear PDE Data Assimilation, 2026, arXiv preprint, under review.",
       "source_links": [
         "https://arxiv.org/abs/2606.16086"
       ]
     },
     {
-      "num": 16,
+      "num": 15,
       "author_note": "Corresponding author",
       "authors": [
         "Jiale Linghu",
@@ -1417,15 +1303,15 @@
       ],
       "slug": "2026-liquid-random-feature-methods-for-time-dependent",
       "source_url": "https://sites.google.com/view/yangshuaiwang/selected-preprints",
-      "source_checked": "2026-10-03",
-      "source_order": 16,
-      "source_text": "[16] (Corresponding author) Jiale Linghu and Yangshuai Wang, Liquid Random Feature Methods for Time-Dependent Partial Differential Equations, 2026, arXiv preprint, under review.",
+      "source_checked": "2026-10-24",
+      "source_order": 15,
+      "source_text": "[15] (Corresponding author) Jiale Linghu and Yangshuai Wang, Liquid Random Feature Methods for Time-Dependent Partial Differential Equations, 2026, arXiv preprint, under review.",
       "source_links": [
         "https://arxiv.org/abs/2606.15571"
       ]
     },
     {
-      "num": 15,
+      "num": 14,
       "author_note": "Corresponding author",
       "authors": [
         "Tina Torabi",
@@ -1444,15 +1330,15 @@
       ],
       "slug": "2026-local-surrogates-for-harmonic-vibrational-entropy",
       "source_url": "https://sites.google.com/view/yangshuaiwang/selected-preprints",
-      "source_checked": "2026-10-03",
-      "source_order": 15,
-      "source_text": "[15] (Corresponding author) Tina Torabi, Jiale Linghu and Yangshuai Wang, Local Surrogates for Harmonic Vibrational Entropy in Multilattices, 2026, arXiv preprint, under review.",
+      "source_checked": "2026-10-24",
+      "source_order": 14,
+      "source_text": "[14] (Corresponding author) Tina Torabi, Jiale Linghu and Yangshuai Wang, Local Surrogates for Harmonic Vibrational Entropy in Multilattices, 2026, arXiv preprint, under review.",
       "source_links": [
         "http://arxiv.org/abs/2605.26588"
       ]
     },
     {
-      "num": 14,
+      "num": 13,
       "author_note": "Corresponding author",
       "authors": [
         "Yifan Yu",
@@ -1470,15 +1356,15 @@
       ],
       "slug": "2026-geometry-preserving-nudged-elastic-band-and-dimer",
       "source_url": "https://sites.google.com/view/yangshuaiwang/selected-preprints",
-      "source_checked": "2026-10-03",
-      "source_order": 14,
-      "source_text": "[14] (Corresponding author) Yifan Yu and Yangshuai Wang, Geometry-Preserving Nudged Elastic Band and Dimer Methods under Anisotropic Force Uncertainty, 2026, arXiv preprint, under review.",
+      "source_checked": "2026-10-24",
+      "source_order": 13,
+      "source_text": "[13] (Corresponding author) Yifan Yu and Yangshuai Wang, Geometry-Preserving Nudged Elastic Band and Dimer Methods under Anisotropic Force Uncertainty, 2026, arXiv preprint, under review.",
       "source_links": [
         "https://arxiv.org/abs/2605.24401"
       ]
     },
     {
-      "num": 13,
+      "num": 12,
       "author_note": "Co-corresponding author",
       "authors": [
         "Haoran Zhou",
@@ -1498,15 +1384,15 @@
       ],
       "slug": "2026-a-discrete-time-random-feature-method-for",
       "source_url": "https://sites.google.com/view/yangshuaiwang/selected-preprints",
-      "source_checked": "2026-10-03",
-      "source_order": 13,
-      "source_text": "[13] (Co-corresponding author) Haoran Zhou, Zhaohui Fu, Yangshuai Wang and Xinlong Feng, A Discrete-Time Random Feature Method for Nonlinear Evolution Equations with Implicit-Explicit Runge--Kutta Time Stepping, 2026, arXiv preprint, under review.",
+      "source_checked": "2026-10-24",
+      "source_order": 12,
+      "source_text": "[12] (Co-corresponding author) Haoran Zhou, Zhaohui Fu, Yangshuai Wang and Xinlong Feng, A Discrete-Time Random Feature Method for Nonlinear Evolution Equations with Implicit-Explicit Runge--Kutta Time Stepping, 2026, arXiv preprint, under review.",
       "source_links": [
         "http://arxiv.org/abs/2604.25502"
       ]
     },
     {
-      "num": 12,
+      "num": 11,
       "author_note": "Corresponding author",
       "authors": [
         "Yihan Huang",
@@ -1524,15 +1410,15 @@
       ],
       "slug": "2026-analysis-of-hessian-variance-scaling-for",
       "source_url": "https://sites.google.com/view/yangshuaiwang/selected-preprints",
-      "source_checked": "2026-10-03",
-      "source_order": 12,
-      "source_text": "[12] (Corresponding author) Yihan Huang and Yangshuai Wang, Analysis of Hessian Variance Scaling for Local and Global Cost Functions in Variational Quantum Algorithms, 2026, arXiv preprint, under review.",
+      "source_checked": "2026-10-24",
+      "source_order": 11,
+      "source_text": "[11] (Corresponding author) Yihan Huang and Yangshuai Wang, Analysis of Hessian Variance Scaling for Local and Global Cost Functions in Variational Quantum Algorithms, 2026, arXiv preprint, under review.",
       "source_links": [
         "https://arxiv.org/abs/2602.00783"
       ]
     },
     {
-      "num": 11,
+      "num": 10,
       "author_note": "Co-first author",
       "authors": [
         "Yanbo Zhan",
@@ -1547,15 +1433,13 @@
       "slug": "2026-flexible-boundary-sequential-coupling-for-atomistic",
       "link_note": "The Google Sites arXiv link identifies a different paper. Omitted until a correct public link is available.",
       "source_url": "https://sites.google.com/view/yangshuaiwang/selected-preprints",
-      "source_checked": "2026-10-03",
-      "source_order": 11,
-      "source_text": "[11] (Co-first author) Yanbo Zhan, Yangshuai Wang, Xingyu Gao and Hao Wang, Flexible Boundary Sequential Coupling for Atomistic Simulation of Crystal Defects, 2026, arXiv preprint.",
-      "source_links": [
-        "https://arxiv.org/abs/2506.07401"
-      ]
+      "source_checked": "2026-10-24",
+      "source_order": 10,
+      "source_text": "[10] (Co-first author) Yanbo Zhan, Yangshuai Wang, Xingyu Gao and Hao Wang, Flexible Boundary Sequential Coupling for Atomistic Simulation of Crystal Defects, 2026, arXiv preprint.",
+      "source_links": []
     },
     {
-      "num": 10,
+      "num": 9,
       "author_note": null,
       "authors": [
         "Li Ding",
@@ -1570,13 +1454,13 @@
       "links": [],
       "slug": "2026-2d-proteinrag-mitigating-intent-context-misalignment-in-homo",
       "source_url": "https://sites.google.com/view/yangshuaiwang/selected-preprints",
-      "source_checked": "2026-10-03",
-      "source_order": 10,
-      "source_text": "[10] Li Ding, Duanyu Feng, Chen Huang, Yangshuai Wang and Wenqiang Lei, 2D-ProteinRAG: Mitigating Intent-Context Misalignment in Homology-Based Protein Question Answering, 2026, under review.",
+      "source_checked": "2026-10-24",
+      "source_order": 9,
+      "source_text": "[9] Li Ding, Duanyu Feng, Chen Huang, Yangshuai Wang and Wenqiang Lei, 2D-ProteinRAG: Mitigating Intent-Context Misalignment in Homology-Based Protein Question Answering, 2026, under review.",
       "source_links": []
     },
     {
-      "num": 9,
+      "num": 8,
       "author_note": "Corresponding author",
       "authors": [
         "Qingyu Meng",
@@ -1594,15 +1478,15 @@
       ],
       "slug": "2026-trainability-oriented-hybrid-quantum-regression-via-geometri",
       "source_url": "https://sites.google.com/view/yangshuaiwang/selected-preprints",
-      "source_checked": "2026-10-03",
-      "source_order": 9,
-      "source_text": "[9] (Corresponding author) Qingyu Meng and Yangshuai Wang, Trainability-Oriented Hybrid Quantum Regression via Geometric Preconditioning and Curriculum Optimization, 2026, arXiv preprint, under review.",
+      "source_checked": "2026-10-24",
+      "source_order": 8,
+      "source_text": "[8] (Corresponding author) Qingyu Meng and Yangshuai Wang, Trainability-Oriented Hybrid Quantum Regression via Geometric Preconditioning and Curriculum Optimization, 2026, arXiv preprint, under review.",
       "source_links": [
         "https://arxiv.org/abs/2601.11942"
       ]
     },
     {
-      "num": 8,
+      "num": 7,
       "author_note": null,
       "authors": [
         "me",
@@ -1621,15 +1505,13 @@
       "slug": "2025-nanotitan-an-ai-driven-memory-efficient-platform-for",
       "link_note": "The Google Sites arXiv link identifies a different paper. Omitted until a correct public link is available.",
       "source_url": "https://sites.google.com/view/yangshuaiwang/selected-preprints",
-      "source_checked": "2026-10-03",
-      "source_order": 8,
-      "source_text": "[8] Yangshuai Wang, Yongfa Guo, Zedong Luo, Xiaoqing Liu, Cheng Chen, Qi Zhou, Teng Zhao and Zhenli Xu, NanoTitan: An AI-Driven Memory-Efficient Platform for High-Performance Molecular Dynamics Simulation, 2025, arXiv preprint.",
-      "source_links": [
-        "https://arxiv.org/abs/2506.07401"
-      ]
+      "source_checked": "2026-10-24",
+      "source_order": 7,
+      "source_text": "[7] Yangshuai Wang, Yongfa Guo, Zedong Luo, Xiaoqing Liu, Cheng Chen, Qi Zhou, Teng Zhao and Zhenli Xu, NanoTitan: An AI-Driven Memory-Efficient Platform for High-Performance Molecular Dynamics Simulation, 2025, arXiv preprint.",
+      "source_links": []
     },
     {
-      "num": 7,
+      "num": 6,
       "author_note": "Co-first author",
       "authors": [
         "Xiaoqing Liu",
@@ -1643,7 +1525,7 @@
         "Zhenli Xu"
       ],
       "title": "An AI-Ready Fine-Tuning Framework for Accurate Machine-Learning Interatomic Potentials in Solid–Solid Battery Interfaces",
-      "year": 2025,
+      "year": 2026,
       "status": "under review",
       "links": [
         {
@@ -1653,17 +1535,17 @@
         }
       ],
       "slug": "2025-an-ai-ready-fine-tuning-framework-for-accurate",
-      "date_note": "Google Sites gives manuscript year 2025; arXiv first submission is 25 January 2026. Retain the source manuscript year, without asserting a 2025 arXiv deposit.",
+      "date_note": "Current Google Sites now gives 2026, consistent with the arXiv first-submission year. Original local slug retained.",
       "source_url": "https://sites.google.com/view/yangshuaiwang/selected-preprints",
-      "source_checked": "2026-10-03",
-      "source_order": 7,
-      "source_text": "[7] (Co-first author) Xiaoqing Liu, Xinyu Yu, Yangshuai Wang, Zhe-Tao Sun, Zedong Luo, Kehan Zeng, Teng Zhao, Shou-Hang Bo and Zhenli Xu, An AI-Ready Fine-Tuning Framework for Accurate Machine-Learning Interatomic Potentials in Solid–Solid Battery Interfaces, 2025, arXiv preprint, under review.",
+      "source_checked": "2026-10-24",
+      "source_order": 6,
+      "source_text": "[6] (Co-first author) Xiaoqing Liu, Xinyu Yu, Yangshuai Wang, Zhe-Tao Sun, Zedong Luo, Kehan Zeng, Teng Zhao, Shou-Hang Bo and Zhenli Xu, An AI-Ready Fine-Tuning Framework for Accurate Machine-Learning Interatomic Potentials in Solid–Solid Battery Interfaces, 2026, arXiv preprint, under review.",
       "source_links": [
         "https://arxiv.org/abs/2601.17847"
       ]
     },
     {
-      "num": 6,
+      "num": 5,
       "author_note": "Corresponding author",
       "authors": [
         "Xiaoqing Liu",
@@ -1683,15 +1565,15 @@
       ],
       "slug": "2025-a-study-on-the-fine-tuning-performance",
       "source_url": "https://sites.google.com/view/yangshuaiwang/selected-preprints",
-      "source_checked": "2026-10-03",
-      "source_order": 6,
-      "source_text": "[6] (Corresponding author) Xiaoqing Liu, Kehan Zeng, Yangshuai Wang and Teng Zhao, A Study on the Fine-Tuning Performance of Universal Machine-Learned Interatomic Potentials (U-MLIPs), 2025, arXiv preprint.",
+      "source_checked": "2026-10-24",
+      "source_order": 5,
+      "source_text": "[5] (Corresponding author) Xiaoqing Liu, Kehan Zeng, Yangshuai Wang and Teng Zhao, A Study on the Fine-Tuning Performance of Universal Machine-Learned Interatomic Potentials (U-MLIPs), 2025, arXiv preprint.",
       "source_links": [
         "https://arxiv.org/abs/2506.07401"
       ]
     },
     {
-      "num": 5,
+      "num": 4,
       "author_note": "Co-corresponding author",
       "authors": [
         "Junfeng Lu",
@@ -1710,38 +1592,11 @@
       ],
       "slug": "2025-formulation-and-analysis-of-blended-atomistic",
       "source_url": "https://sites.google.com/view/yangshuaiwang/selected-preprints",
-      "source_checked": "2026-10-03",
-      "source_order": 5,
-      "source_text": "[5] (Co-corresponding author) Junfeng Lu, Hao Wang and Yangshuai Wang, Formulation and Analysis of Blended Atomistic to Higher-Order Continuum Coupling Methods for Crystalline Defects, 2025, arXiv preprint.",
+      "source_checked": "2026-10-24",
+      "source_order": 4,
+      "source_text": "[4] (Co-corresponding author) Junfeng Lu, Hao Wang and Yangshuai Wang, Formulation and Analysis of Blended Atomistic to Higher-Order Continuum Coupling Methods for Crystalline Defects, 2025, arXiv preprint.",
       "source_links": [
         "https://arxiv.org/abs/2502.18854"
-      ]
-    },
-    {
-      "num": 4,
-      "author_note": "Co-corresponding author",
-      "authors": [
-        "Yanbo Zhan",
-        "me",
-        "Hao Wang"
-      ],
-      "title": "A General Framework of Linear Elasticity Enhanced Multiscale Coupling Methods for Crystalline Defects",
-      "year": 2025,
-      "status": "under review",
-      "links": [
-        {
-          "type": "preprint",
-          "url": "https://arxiv.org/abs/2502.17164",
-          "provider": "arxiv"
-        }
-      ],
-      "slug": "2025-a-general-framework-of-linear-elasticity",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-preprints",
-      "source_checked": "2026-10-03",
-      "source_order": 4,
-      "source_text": "[4] (Co-corresponding author) Yanbo Zhan, Yangshuai Wang and Hao Wang, A General Framework of Linear Elasticity Enhanced Multiscale Coupling Methods for Crystalline Defects, 2025, arXiv preprint, under review.",
-      "source_links": [
-        "https://arxiv.org/abs/2502.17164"
       ]
     },
     {
@@ -1764,7 +1619,7 @@
       ],
       "slug": "2025-many-body-coarse-grained-molecular-dynamics-with-the",
       "source_url": "https://sites.google.com/view/yangshuaiwang/selected-preprints",
-      "source_checked": "2026-10-03",
+      "source_checked": "2026-10-24",
       "source_order": 3,
       "source_text": "[3] Yangshuai Wang, Gabor Csanyi and Christoph Ortner, Many-Body Coarse-Grained Molecular Dynamics with the Atomic Cluster Expansion, 2025, arXiv preprint.",
       "source_links": [
@@ -1785,9 +1640,10 @@
     "status": "under contract",
     "slug": "book-mathematical-modeling-of-materials-at-the-atomic-scale",
     "source_url": "https://sites.google.com/view/yangshuaiwang/selected-preprints",
-    "source_checked": "2026-10-03",
+    "source_checked": "2026-10-24",
     "source_order": 2,
-    "source_text": "[2] Mitchell Luskin, Christoph Ortner and Yangshuai Wang, Mathematical Modeling of Materials at the Atomic Scale, Book Series Texts in Applied Mathematics, Springer Nature, under the contract."
+    "source_text": "[2] Mitchell Luskin, Christoph Ortner and Yangshuai Wang, Mathematical Modeling of Materials at the Atomic Scale, Book Series Texts in Applied Mathematics, Springer Nature, under the contract.",
+    "source_links": []
   },
   "thesis": {
     "num": 1,
@@ -1799,9 +1655,10 @@
     "year": 2021,
     "slug": "2021-thesis-some-progress-on-multi-scale-methods",
     "source_url": "https://sites.google.com/view/yangshuaiwang/selected-preprints",
-    "source_checked": "2026-10-03",
+    "source_checked": "2026-10-24",
     "source_order": 1,
-    "source_text": "[1] Yangshuai Wang, Some Progress on Multi-scale Methods in Materials Modeling, Shanghai Jiao Tong University, 2021."
+    "source_text": "[1] Yangshuai Wang, Some Progress on Multi-scale Methods in Materials Modeling, Shanghai Jiao Tong University, 2021.",
+    "source_links": []
   },
   "conferences_organizing": [
     {
@@ -1954,6 +1811,13 @@
   ],
   "teaching": [
     {
+      "term": "2026 Autumn",
+      "role": "Lecturer",
+      "code": "MA4230",
+      "course": "Matrix Computation",
+      "institution": "NUS"
+    },
+    {
       "term": "2025 Autumn",
       "role": "Lecturer",
       "code": "MA4270",
@@ -1987,41 +1851,6 @@
       "code": "MATH 100",
       "course": null,
       "institution": "UBC"
-    },
-    {
-      "term": "2021 Autumn",
-      "role": "Teaching Assistant",
-      "code": null,
-      "course": "Advanced Computational Methods",
-      "institution": "SJTU"
-    },
-    {
-      "term": "2019 Spring",
-      "role": "Teaching Assistant",
-      "code": null,
-      "course": "Numerical Methods for Partial Differential Equations",
-      "institution": "SJTU"
-    },
-    {
-      "term": "2018 Spring",
-      "role": "Teaching Assistant",
-      "code": null,
-      "course": "Applied Mathematics Methods",
-      "institution": "SJTU"
-    },
-    {
-      "term": "2017 Spring",
-      "role": "Teaching Assistant",
-      "code": null,
-      "course": "Scientific Computing",
-      "institution": "SJTU"
-    },
-    {
-      "term": "2017 Autumn",
-      "role": "Teaching Assistant",
-      "code": null,
-      "course": "Mathematical Analysis",
-      "institution": "SJTU"
     }
   ],
   "archived_preprints": [
@@ -2075,6 +1904,172 @@
       "slug": "2026-long-range-operator-learning-comparative-diagnostics-for",
       "archived_on": "2026-10-03",
       "archive_reason": "Absent from the current selected-preprints source. Preserved as a draft, excluded from the public website; not described as withdrawn."
+    }
+  ],
+  "archived_publications": [
+    {
+      "num": 27,
+      "author_note": "Corresponding author",
+      "authors": [
+        "Shivangi Kamat",
+        "me"
+      ],
+      "title": "Before Lean Checks: Candidate Exposure in Proof-Action Ranking",
+      "venue": "ICML 2026, AI4Math Workshop",
+      "year": 2026,
+      "links": [
+        {
+          "type": "url",
+          "url": "https://icml.cc/virtual/2026/82558",
+          "name": "Conference"
+        }
+      ],
+      "slug": "2026-before-lean-checks-candidate-exposure-in",
+      "status": "published",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
+      "source_checked": "2026-10-03",
+      "source_order": 27,
+      "source_text": "[27] (Corresponding author) Shivangi Kamat and Yangshuai Wang, Before Lean Checks: Candidate Exposure in Proof-Action Ranking, published in ICML 2026, AI4Math Workshop.",
+      "source_links": [
+        "https://icml.cc/virtual/2026/82558"
+      ],
+      "archived_on": "2026-10-24",
+      "archive_reason": "Absent from the current selected-publications source. Preserved as a draft, excluded from the public website; not described as withdrawn."
+    },
+    {
+      "num": 22,
+      "author_note": null,
+      "authors": [
+        "Xi'an Li",
+        "Jinran Wu",
+        "Xiao Ning",
+        "me",
+        "Lei Zhang"
+      ],
+      "title": "Bayesian Physics-Informed Neural Networks to Solve the PDEs with Noise or Incomplete Constraints",
+      "venue": "The Innovation Informatics (Editorial), 2:100039",
+      "volume": "2",
+      "pages": "100039",
+      "year": 2026,
+      "links": [
+        {
+          "type": "url",
+          "url": "https://www.the-innovation.org/article/doi/10.59717/j.xinn-inform.2026.100039",
+          "name": "Publisher"
+        }
+      ],
+      "slug": "2026-bayesian-physics-informed-neural-networks-to-solve",
+      "status": "published",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
+      "source_checked": "2026-10-03",
+      "source_order": 22,
+      "source_text": "[22] Xi'an Li, Jinran Wu, Xiao Ning, Yangshuai Wang and Lei Zhang, Bayesian Physics-Informed Neural Networks to Solve the PDEs with Noise or Incomplete Constraints, Innov. Inform. (Editorial), 2:100039, 2026.",
+      "source_links": [
+        "https://www.the-innovation.org/article/doi/10.59717/j.xinn-inform.2026.100039"
+      ],
+      "archived_on": "2026-10-24",
+      "archive_reason": "Absent from the current selected-publications source. Preserved as a draft, excluded from the public website; not described as withdrawn."
+    },
+    {
+      "num": 21,
+      "author_note": null,
+      "authors": [
+        "Peng Liu",
+        "Lidong Fang",
+        "me",
+        "Lei Zhang",
+        "Qingcheng Yang"
+      ],
+      "title": "Concurrent Atomistic-Continuum Coupling via Physics-Informed Neural Networks (PINNs-CAC) with Adaptive Energy Weighting and Direct Boundary Encoding",
+      "venue": "Appl. Math. Model., 116931",
+      "pages": "116931",
+      "year": 2026,
+      "links": [
+        {
+          "type": "url",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0307904X26001927",
+          "name": "Publisher"
+        }
+      ],
+      "slug": "2026-concurrent-atomistic-continuum-coupling-via-physics-informed",
+      "status": "published",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
+      "source_checked": "2026-10-03",
+      "source_order": 21,
+      "source_text": "[21] Peng Liu, Lidong Fang, Yangshuai Wang, Lei Zhang and Qingcheng Yang, Concurrent Atomistic-Continuum Coupling via Physics-Informed Neural Networks (PINNs-CAC) with Adaptive Energy Weighting and Direct Boundary Encoding, Appl. Math. Model., 116931, 2026.",
+      "source_links": [
+        "https://www.sciencedirect.com/science/article/abs/pii/S0307904X26001927"
+      ],
+      "archived_on": "2026-10-24",
+      "archive_reason": "Absent from the current selected-publications source. Preserved as a draft, excluded from the public website; not described as withdrawn."
+    },
+    {
+      "num": 20,
+      "author_note": "Corresponding author",
+      "authors": [
+        "Xiaoqing Liu",
+        "me",
+        "Teng Zhao"
+      ],
+      "title": "Beyond Adam: Disentangling Optimizer Effects in the Fine-Tuning of Atomistic Foundation Models",
+      "venue": "AI for Science, 2(1)",
+      "volume": "2",
+      "issue": "1",
+      "year": 2026,
+      "links": [
+        {
+          "type": "url",
+          "url": "https://iopscience.iop.org/article/10.1088/3050-287X/ae5078",
+          "name": "Publisher"
+        }
+      ],
+      "slug": "2026-beyond-adam-disentangling-optimizer-effects-in",
+      "status": "published",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
+      "source_checked": "2026-10-03",
+      "source_order": 20,
+      "source_text": "[20] (Corresponding author) Xiaoqing Liu, Yangshuai Wang and Teng Zhao, Beyond Adam: Disentangling Optimizer Effects in the Fine-Tuning of Atomistic Foundation Models, AI for Sci., 2(1), 2026.",
+      "source_links": [
+        "https://iopscience.iop.org/article/10.1088/3050-287X/ae5078"
+      ],
+      "archived_on": "2026-10-24",
+      "archive_reason": "Absent from the current selected-publications source. Preserved as a draft, excluded from the public website; not described as withdrawn."
+    },
+    {
+      "num": 19,
+      "author_note": "Corresponding author",
+      "authors": [
+        "Hao Wang",
+        "me"
+      ],
+      "title": "Adaptive quasicontinuum methods and simulations for crystal defects with a theory based unified a posteriori error estimate",
+      "venue": "Comput. Phys. Commun., 322:110085",
+      "volume": "322",
+      "pages": "110085",
+      "year": 2026,
+      "links": [
+        {
+          "type": "url",
+          "url": "https://doi.org/10.1016/j.cpc.2026.110085",
+          "name": "Publisher"
+        }
+      ],
+      "slug": "2026-adaptive-multiscale-coupling-methods-of-molecular",
+      "status": "published",
+      "previous_title": "Adaptive Multiscale Coupling Methods of Molecular Mechanics Based on a Unified Framework of a Posteriori Error Estimates",
+      "correction": {
+        "reason": "Use final published title rather than the earlier title retained on Google Sites.",
+        "source": "https://www.sciencedirect.com/science/article/abs/pii/S0010465526000676"
+      },
+      "source_url": "https://sites.google.com/view/yangshuaiwang/publications",
+      "source_checked": "2026-10-03",
+      "source_order": 19,
+      "source_text": "[19] (Corresponding author) Hao Wang and Yangshuai Wang, Adaptive Multiscale Coupling Methods of Molecular Mechanics Based on a Unified Framework of a Posteriori Error Estimates, Comput. Phys. Commun., 322:110085, 2026.",
+      "source_links": [
+        "https://www.sciencedirect.com/science/article/pii/S0010465526000676?dgcid=author"
+      ],
+      "archived_on": "2026-10-24",
+      "archive_reason": "Absent from the current selected-publications source. Preserved as a draft, excluded from the public website; not described as withdrawn."
     }
   ]
 }

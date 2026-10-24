@@ -96,8 +96,12 @@ def main():
             if "visitor-statistics" not in page.ids:
                 errors.append(f"{relative}: missing visitor statistics card")
 
+    cv_pdf = SITE / "files/Yangshuai_Wang_CV.pdf"
+    if not cv_pdf.exists() or not cv_pdf.read_bytes().startswith(b"%PDF-"):
+        errors.append("Missing or invalid public CV PDF")
+
     source = json.loads((ROOT / "_extraction/source-data.json").read_text())
-    for path in ["index.html", "publications/index.html", "preprints/index.html", "teaching/index.html", "conferences/index.html"]:
+    for path in ["index.html", "publications/index.html", "preprints/index.html", "teaching/index.html", "conferences/index.html", "cv/index.html"]:
         page = pages.get(SITE / path)
         if not page or page.h1 != 1:
             errors.append(f"{path}: expected exactly one h1")

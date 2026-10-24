@@ -16,10 +16,12 @@ peer_reviewed: false
 tags:
 - preprint
 featured: false
-source_order: 10
-source_checked: '2026-10-03'
+source_order: 9
+source_checked: '2026-10-24'
 source_url: https://sites.google.com/view/yangshuaiwang/selected-preprints
 status: under review
 summary: "2D-ProteinRAG: Mitigating Intent-Context Misalignment in Homology-Based Protein Question Answering. Preprint · Under review, 2026."
+links: []
+lastmod: '2026-10-24'
 ---
 Under review.

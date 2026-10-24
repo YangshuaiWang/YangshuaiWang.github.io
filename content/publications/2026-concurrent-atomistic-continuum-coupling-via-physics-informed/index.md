@@ -26,4 +26,6 @@ links:
   url: https://www.sciencedirect.com/science/article/abs/pii/S0307904X26001927
   name: Publisher
 summary: "Concurrent Atomistic-Continuum Coupling via Physics-Informed Neural Networks (PINNs-CAC) with Adaptive Energy Weighting and Direct Boundary Encoding. Appl. Math. Model., 116931, 2026."
+draft: true
+lastmod: '2026-10-24'
 ---

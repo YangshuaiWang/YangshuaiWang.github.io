@@ -14,7 +14,7 @@ tags:
 - book
 featured: false
 source_order: 2
-source_checked: '2026-10-03'
+source_checked: '2026-10-24'
 source_url: https://sites.google.com/view/yangshuaiwang/selected-preprints
 status: under contract
 summary: "Mathematical Modeling of Materials at the Atomic Scale. Texts in Applied Mathematics, Springer Nature (under contract)."

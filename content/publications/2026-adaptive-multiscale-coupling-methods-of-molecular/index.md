@@ -24,5 +24,7 @@ links:
   url: https://doi.org/10.1016/j.cpc.2026.110085
   name: Publisher
 summary: "Adaptive quasicontinuum methods and simulations for crystal defects with a theory based unified a posteriori error estimate. Comput. Phys. Commun., 322:110085, 2026."
+draft: true
+lastmod: '2026-10-24'
 ---
 *Corresponding author.*

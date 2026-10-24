@@ -1,5 +1,5 @@
 ---
-title: Adaptive Multigrid Strategy for Large-scale Molecular Mechanics Optimization
+title: Adaptive multigrid strategy for geometry optimization of large-scale three dimensional molecular mechanics
 authors:
 - Kejie Fu
 - Mingjie Liao
@@ -17,14 +17,15 @@ tags:
 - publication
 featured: false
 source_order: 5
-source_checked: '2026-10-03'
-source_url: https://sites.google.com/view/yangshuaiwang/publications
+source_checked: '2026-10-24'
+source_url: https://sites.google.com/view/yangshuaiwang/selected-publications
 status: published
 author_note: Corresponding author
 links:
 - type: url
   url: https://www.sciencedirect.com/science/article/pii/S0021999123002085
   name: Publisher
-summary: "Adaptive Multigrid Strategy for Large-scale Molecular Mechanics Optimization. J. Comput. Phys., 485:112113, 2023."
+summary: Adaptive multigrid strategy for geometry optimization of large-scale three dimensional molecular mechanics. J. Comput. Phys., 485:112113, 2023.
+lastmod: '2026-10-24'
 ---
 *Corresponding author.*

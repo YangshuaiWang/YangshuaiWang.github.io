@@ -23,5 +23,7 @@ links:
   url: https://icml.cc/virtual/2026/82558
   name: Conference
 summary: "Before Lean Checks: Candidate Exposure in Proof-Action Ranking. ICML 2026, AI4Math Workshop, 2026."
+draft: true
+lastmod: '2026-10-24'
 ---
 *Corresponding author.*

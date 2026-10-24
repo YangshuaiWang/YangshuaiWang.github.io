@@ -29,6 +29,10 @@ links:
     url: https://scholar.google.com/citations?user=MDfgwG0AAAAJ&hl=en
     label: Google Scholar
 
+  - icon: document-text
+    url: /cv/
+    label: Full CV
+
 interests:
   - AI for Science (AI4Science) & Foundation Models
   - Machine-Learned Interatomic Potentials (MLIPs)

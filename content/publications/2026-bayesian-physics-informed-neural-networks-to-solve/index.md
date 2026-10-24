@@ -25,4 +25,6 @@ links:
   url: https://www.the-innovation.org/article/doi/10.59717/j.xinn-inform.2026.100039
   name: Publisher
 summary: "Bayesian Physics-Informed Neural Networks to Solve the PDEs with Noise or Incomplete Constraints. The Innovation Informatics (Editorial), 2:100039, 2026."
+draft: true
+lastmod: '2026-10-24'
 ---
