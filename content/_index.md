@@ -18,8 +18,8 @@ sections:
     id: about
     content:
       username: me
-      research_headline: Mathematics & Computational Materials Science
-      research_summary: My research bridges mathematics and computational materials science through numerical analysis, multiscale modeling, and scientific machine learning.
+      research_headline: Interdisciplinary Research in Mathematics, Artificial Intelligence, and Materials Science
+      research_summary: My research integrates mathematics, artificial intelligence, and computational materials science to develop mathematical theory and computational methods for materials modeling.
       tags:
         - AI for Science (AI4Science) & Foundation Models
         - Machine-Learned Interatomic Potentials (MLIPs)
