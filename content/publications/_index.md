@@ -10,8 +10,9 @@ sections:
     content:
       heading_level: 1
       title: Selected Publications
+      heading_note: "(For a complete list of publications, please see my [CV](/cv/).)"
       text: |-
-        Selected published and accepted papers, with publication status shown for each entry. For a complete list of publications, please see my [CV](/cv/).
+        Selected published and accepted papers, with publication status shown for each entry.
 
         [Selected preprints and other writing →](/preprints/)
   - block: side-collection

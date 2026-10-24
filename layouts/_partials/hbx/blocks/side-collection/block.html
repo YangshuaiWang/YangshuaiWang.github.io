@@ -102,6 +102,9 @@
   <div class="md:grid md:grid-cols-12 md:gap-8">
     <div class="md:col-span-4">
       <h2 class="text-2xl md:text-3xl font-bold tracking-tight text-primary-700 dark:text-primary-400">{{ $title }}</h2>
+      {{ with index $content "heading_note" }}
+      <small class="block mt-3 text-sm leading-relaxed text-gray-600 dark:text-gray-400 academic-heading-note">{{ $page.RenderString . }}</small>
+      {{ end }}
     </div>
     <div class="academic-section-content md:col-span-8 mt-4 md:mt-0">
       {{ if $numbered }}
