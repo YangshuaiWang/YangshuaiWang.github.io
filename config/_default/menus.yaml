@@ -1,19 +1,14 @@
-# Navigation Links
-#   Single-page site: every entry anchors into a section on the homepage
-#   (matching the `id:` set on that section in content/_index.md) rather
-#   than navigating to a separate page. Publications/Preprints/Talks show a
-#   partial list on the homepage with a "see all" link to their own full,
-#   paginated archive page.
+# Navigation links: homepage sections and independent publication/preprint archives.
 
 main:
   - name: Home
     url: /#about
     weight: 10
   - name: Publications
-    url: /#publications
+    url: /publications/
     weight: 20
   - name: Preprints
-    url: /#preprints
+    url: /preprints/
     weight: 30
   - name: Talks
     url: /#talks

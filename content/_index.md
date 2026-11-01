@@ -5,26 +5,23 @@ summary: 'Yangshuai Wang（王阳帅） — numerical analysis, scientific compu
 seo:
   title: 'Yangshuai Wang | 王阳帅'
 date: 2022-10-24
-lastmod: 2026-10-24
+lastmod: 2026-11-01
 type: landing
 
-# Single-page CV: every section below lives on this one page, in reading
-# order, styled as a side-heading + indented-content row (side-section /
-# side-collection blocks). The nav bar (config/_default/menus.yaml) links
-# to each section's `id` as an in-page anchor. Publications/Preprints/Talks
-# show only a partial list with a "see all" link to their full archive page.
+# Homepage overview; full publication and preprint archives are linked in navigation.
 sections:
   - block: resume-biography
     id: about
     content:
       username: me
-      research_headline: Interdisciplinary Research in Mathematics, Artificial Intelligence, and Materials Science
-      research_summary: My research integrates mathematics, artificial intelligence, and computational materials science to develop mathematical theory and computational methods for materials modeling.
+      research_headline: Mathematics and AI for Materials Modeling
+      research_summary: My research develops mathematical theory and computational methods for materials modeling, combining multiscale analysis, numerical methods, and machine learning. I study atomic interactions, crystalline defects, microstructure evolution, and functional responses, alongside broader questions in PDE approximation and scientific machine learning. I also explore the use of large language models and AI agents for scientific knowledge extraction, mathematical modeling, and scientific discovery.
       tags:
-        - AI for Science (AI4Science) & Foundation Models
-        - Machine-Learned Interatomic Potentials (MLIPs)
-        - Multi-scale Modeling of Crystalline Defects
-        - Microstructure Evolution & Computational Materials Design
+        - Crystalline Defects and Multiscale Coupling
+        - Machine Learning and Mathematical Theory of Atomistic Models
+        - Scientific Machine Learning and Numerical Methods for PDEs
+        - Microstructure Evolution and Materials Dynamics
+        - Mathematical Modeling of Rare-Earth Functional Materials
     design:
       avatar:
         size: small
@@ -34,29 +31,25 @@ sections:
     content:
       title: Research Interests
       text: |-
-        My research is situated at the intersection of Numerical Analysis, Scientific Computing, and Computational Materials Science. I focus on developing mathematically rigorous and computationally efficient methods for molecular modeling and multi-scale simulation. My specific research directions include:
+        **1. Crystalline Defects and Multiscale Coupling**
 
-        **1. AI for Science (AI4Science) & Foundation Models**
+        I study the interaction between localized crystalline defects and long-range elastic fields, developing multiscale methods that connect quantum, atomistic, and continuum descriptions. My work focuses on locality, consistency and stability of coupling methods, and adaptive computation guided by error estimates.
 
-        - *LLMs for Scientific Discovery:* Investigating the integration of Large Language Models (LLMs) and specialized foundation models to accelerate scientific workflows, automate property prediction, and facilitate "inverse design" in materials science.
-        - *Scientific & Quantum Machine Learning:* Developing data-driven solvers and Quantum Machine Learning (QML) techniques for solving high-dimensional PDEs. My work emphasizes the development of robust numerical algorithms with a focus on Uncertainty Quantification (UQ) and the theoretical analysis of convergence and generalization.
+        **2. Machine Learning and Mathematical Theory of Atomistic Models**
 
-        **2. Machine-Learned Interatomic Potentials (MLIPs)**
+        I develop machine-learned atomistic models and computational algorithms based on many-body representations, including the atomic cluster expansion. I investigate how approximation, generalization, stability, and uncertainty affect predictions of energies, forces, and material responses.
 
-        - *Numerical Analysis of MLIPs:* Advancing the mathematical foundation of interatomic potentials by investigating approximation errors, stability, and the reliability of force-field predictions.
-        - *Multi-Fidelity & Coarse-Graining:* Developing systematic approaches for fine-tuning pre-trained models and constructing coarse-grained (CG) force fields for soft-matter systems.
-        - *Applications in Materials:* Applying these potentials to study complex phenomena in energy storage and conversion materials, ensuring a seamless integration of physics-based priors with data-driven flexibility.
+        **3. Scientific Machine Learning and Numerical Methods for PDEs**
 
-        **3. Multi-scale Modeling of Crystalline Defects**
+        I develop random feature methods and learning-based PDE solvers through approximation theory and numerical discretization. My work exploits geometric and multiscale structure to improve accuracy, stability, and computational efficiency, including for high-dimensional problems.
 
-        - *Coupling Methods:* Engineering and analyzing Atomistic-to-Continuum (A/C) and Quantum Mechanics/Molecular Mechanics (QM/MM) coupling schemes.
-        - *Rigorous Error Estimation:* Implementing both a priori and a posteriori error analysis to guide the development of adaptive algorithms that balance accuracy and computational cost.
-        - *Boundary Conditions:* Formulating sophisticated boundary conditions to accurately capture the long-range strain fields associated with crystalline defects.
+        **4. Microstructure Evolution and Materials Dynamics**
 
-        **4. Microstructure Evolution & Computational Materials Design**
+        I study the evolution of interfaces, phases, and defects, and how microscopic interactions shape materials dynamics at larger scales. I develop numerical methods and data-driven evolution models for phase-field, geometric-flow, and stochastic systems, connecting structural changes with material responses.
 
-        - *Data-Driven Microstructure Modeling:* Utilizing machine learning to decipher the kinetics of microstructure evolution in complex systems, including optical and magnetic materials.
-        - *Multi-scale Property Prediction:* Intersection of multiscale behavior and surrogate modeling to predict macroscopic material performance from mesoscopic morphological data, facilitating the accelerated design of high-performance materials.
+        **5. Mathematical Modeling of Rare-Earth Functional Materials**
+
+        I develop dynamical models of rare-earth functional materials, studying how energy transfer, nonlinear feedback, and spatial coupling give rise to their responses. My current focus is on rare-earth luminescence and photon avalanche, including the mechanisms underlying thresholds, strong nonlinearities, and response times.
 
   - block: side-section
     id: education
@@ -79,39 +72,6 @@ sections:
 
         **Postdoc**, University of British Columbia — Dec 2021 – Jul 2024
         Supervised by [Prof. Christoph Ortner](https://personal.math.ubc.ca/~ortner/).
-
-  - block: side-collection
-    id: publications
-    content:
-      title: Selected Publications
-      heading_note: "(For a complete list of publications, please see my [CV](/cv/).)"
-      count: 8
-      sort_by: source_order
-      numbered: true
-      filters:
-        folders:
-          - publications
-        tag: publication
-      archive:
-        link: /publications/
-    design:
-      view: citation
-
-  - block: side-collection
-    id: preprints
-    content:
-      title: Selected Preprints
-      count: 6
-      sort_by: source_order
-      numbered: true
-      filters:
-        folders:
-          - publications
-        tag: preprint
-      archive:
-        link: /preprints/
-    design:
-      view: citation
 
   - block: side-collection
     id: talks
