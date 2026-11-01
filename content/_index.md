@@ -31,23 +31,23 @@ sections:
     content:
       title: Research Interests
       text: |-
-        **1. Crystalline Defects and Multiscale Coupling**
+        ### 1. Crystalline Defects and Multiscale Coupling {#research-crystalline-defects-and-multiscale-coupling}
 
         I study the interaction between localized crystalline defects and long-range elastic fields, developing multiscale methods that connect quantum, atomistic, and continuum descriptions. My work focuses on locality, consistency and stability of coupling methods, and adaptive computation guided by error estimates.
 
-        **2. Machine Learning and Mathematical Theory of Atomistic Models**
+        ### 2. Machine Learning and Mathematical Theory of Atomistic Models {#research-machine-learning-and-mathematical-theory-of-atomistic-models}
 
         I develop machine-learned atomistic models and computational algorithms based on many-body representations, including the atomic cluster expansion. I investigate how approximation, generalization, stability, and uncertainty affect predictions of energies, forces, and material responses.
 
-        **3. Scientific Machine Learning and Numerical Methods for PDEs**
+        ### 3. Scientific Machine Learning and Numerical Methods for PDEs {#research-scientific-machine-learning-and-numerical-methods-for-pdes}
 
         I develop random feature methods and learning-based PDE solvers through approximation theory and numerical discretization. My work exploits geometric and multiscale structure to improve accuracy, stability, and computational efficiency, including for high-dimensional problems.
 
-        **4. Microstructure Evolution and Materials Dynamics**
+        ### 4. Microstructure Evolution and Materials Dynamics {#research-microstructure-evolution-and-materials-dynamics}
 
         I study the evolution of interfaces, phases, and defects, and how microscopic interactions shape materials dynamics at larger scales. I develop numerical methods and data-driven evolution models for phase-field, geometric-flow, and stochastic systems, connecting structural changes with material responses.
 
-        **5. Mathematical Modeling of Rare-Earth Functional Materials**
+        ### 5. Mathematical Modeling of Rare-Earth Functional Materials {#research-mathematical-modeling-of-rare-earth-functional-materials}
 
         I develop dynamical models of rare-earth functional materials, studying how energy transfer, nonlinear feedback, and spatial coupling give rise to their responses. My current focus is on rare-earth luminescence and photon avalanche, including the mechanisms underlying thresholds, strong nonlinearities, and response times.
 

@@ -14,6 +14,10 @@
   .academic-section h2 { margin: 0; line-height: 1.25; }
   .academic-section-content { min-width: 0; overflow-wrap: anywhere; }
   .academic-prose { max-width: none; }
+  /* Research anchors retain the previous paragraph-sized labels. The global
+     scroll-padding-top keeps their targets below the sticky navigation. */
+  #interests .academic-prose h3 { font-size: inherit; line-height: inherit; font-weight: 700; margin-top: 1.25em; margin-bottom: 1.25em; }
+  #interests .academic-prose h3:first-child { margin-top: 0; }
   .academic-prose > :first-child { margin-top: 0; }
   .academic-prose > :last-child { margin-bottom: 0; }
   .academic-table-scroll { max-width: 100%; overflow-x: auto; }

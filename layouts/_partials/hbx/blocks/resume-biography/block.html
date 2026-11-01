@@ -384,8 +384,8 @@
     {{ end }}
   <ul aria-label="Research areas" class="min-w-0 flex flex-wrap content-start justify-center md:justify-start gap-2 list-none p-0">
     {{ range $tags }}
-    <li class="inline-block max-w-full rounded bg-primary-50 dark:bg-primary-900/40 text-primary-800 dark:text-primary-200 text-sm font-medium px-3 py-2">
-      {{ . }}
+    <li class="inline-block max-w-full">
+      <a href="#research-{{ . | urlize }}" class="inline-block max-w-full rounded bg-primary-50 dark:bg-primary-900/40 text-primary-800 dark:text-primary-200 text-sm font-medium px-3 py-2">{{ . }}</a>
     </li>
     {{ end }}
   </ul>
