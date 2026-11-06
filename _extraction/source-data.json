@@ -1108,29 +1108,6 @@
       ]
     },
     {
-      "num": 22,
-      "author_note": null,
-      "authors": [
-        "Jiawen Yu",
-        "Chaohong Guan",
-        "Xiaoqing Liu",
-        "me",
-        "Hong Zhu",
-        "Xiaoqin Zeng"
-      ],
-      "title": "Evaluating Universal Interatomic Potentials for Metallic Systems: From Elastic Response to Defect Energetics and Ideal Strength",
-      "slug": "2026-evaluating-universal-interatomic-potentials-for-metallic-systems",
-      "year": 2026,
-      "status": "under review",
-      "links": [],
-      "link_note": "The Google Sites arXiv link identifies a different paper. Omitted until a correct public link is available.",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-preprints",
-      "source_checked": "2026-10-24",
-      "source_order": 22,
-      "source_text": "[22] Jiawen Yu, Chaohong Guan, Xiaoqing Liu, Yangshuai Wang, Hong Zhu and Xiaoqin Zeng, Evaluating Universal Interatomic Potentials for Metallic Systems: From Elastic Response to Defect Energetics and Ideal Strength, 2026, arXiv preprint, under review.",
-      "source_links": []
-    },
-    {
       "num": 21,
       "author_note": "Corresponding author",
       "authors": [
@@ -1854,6 +1831,31 @@
     }
   ],
   "archived_preprints": [
+    {
+      "num": 22,
+      "author_note": null,
+      "authors": [
+        "Jiawen Yu",
+        "Chaohong Guan",
+        "Xiaoqing Liu",
+        "me",
+        "Hong Zhu",
+        "Xiaoqin Zeng"
+      ],
+      "title": "Evaluating Universal Interatomic Potentials for Metallic Systems: From Elastic Response to Defect Energetics and Ideal Strength",
+      "slug": "2026-evaluating-universal-interatomic-potentials-for-metallic-systems",
+      "year": 2026,
+      "status": "under review",
+      "links": [],
+      "link_note": "The Google Sites arXiv link identifies a different paper. Omitted until a correct public link is available.",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-preprints",
+      "source_checked": "2026-10-24",
+      "source_order": 22,
+      "source_text": "[22] Jiawen Yu, Chaohong Guan, Xiaoqing Liu, Yangshuai Wang, Hong Zhu and Xiaoqin Zeng, Evaluating Universal Interatomic Potentials for Metallic Systems: From Elastic Response to Defect Energetics and Ideal Strength, 2026, arXiv preprint, under review.",
+      "source_links": [],
+      "archived_on": "2026-11-06",
+      "archive_reason": "Removed from the GitHub homepage Selected Preprints list at the author’s request. Preserved as a draft with its source record and full CV retained; not described as withdrawn."
+    },
     {
       "num": 19,
       "author_note": "Corresponding author",

@@ -4,6 +4,8 @@
 
 2026-10-10 同步：根据 [CV 页](https://sites.google.com/view/yangshuaiwang/cv)新增 NeurIPS Top Reviewer（2026）。逐条比对 32 篇已发表/已接收论文和 23 篇预印本，原文内容未变；简介、研究方向、教学、报告、书稿和学位论文亦无新增。论文 28 的来源链接已从作者投稿后台改为 APS 公开页面；GitHub 网站此前已使用相同论文的公开 DOI，保持不变。下方已知差异中的初始链接问题记录于 2026-10-03。
 
+2026-11-06 定向更新：应作者要求，从 GitHub 主页 Selected Preprints 移除 Jiawen Yu、Chaohong Guan、Xiaoqing Liu、Yangshuai Wang、Hong Zhu、Xiaoqin Zeng 的 *Evaluating Universal Interatomic Potentials for Metallic Systems: From Elastic Response to Defect Energetics and Ideal Strength*（2026）。按完整题目和作者匹配；2026-10-24 来源记录编号为 22。原文件设为 `draft: true`，完整来源记录移至 `source-data.json` 的 `archived_preprints`，当前精选预印本为 21 篇。完整 CV 和下方历史核对表保留；此变更不表示撤稿。
+
 ## 已知差异与处理
 
 - Preprint 23 (metallic systems) links to arXiv:2608.19797, which is Optimal Sobolev Approximation (preprint 22). Wrong link omitted; correct link unresolved.
@@ -124,6 +126,7 @@
 
 ## 本地保留但不再公开的旧条目
 
+- Evaluating Universal Interatomic Potentials for Metallic Systems: From Elastic Response to Defect Energetics and Ideal Strength — 2026-11-06 应作者要求从 GitHub 主页精选列表移除，保留为 `draft: true`；不表示撤稿。
 - Stopping Reliability in Adaptive Krylov-Shadow Quantum Fisher Information Estimation — 当前源站未列出，保留为 `draft: true`。
 - The Geometry of Adapter Placement in Equivariant Machine-Learned Interatomic Potentials — 当前源站未列出，保留为 `draft: true`。
 - Long-Range Operator Learning: Comparative Diagnostics for Transformer Reasoning and Equivariant Interatomic Potentials — 当前源站未列出，保留为 `draft: true`。

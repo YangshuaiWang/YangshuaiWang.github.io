@@ -18,12 +18,13 @@ peer_reviewed: false
 tags:
 - preprint
 featured: false
+draft: true
 source_order: 22
 source_checked: '2026-10-24'
 source_url: https://sites.google.com/view/yangshuaiwang/selected-preprints
 status: under review
 summary: "Evaluating Universal Interatomic Potentials for Metallic Systems: From Elastic Response to Defect Energetics and Ideal Strength. Preprint · Under review, 2026."
 links: []
-lastmod: '2026-10-24'
+lastmod: '2026-11-06'
 ---
 Under review.

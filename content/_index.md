@@ -5,7 +5,7 @@ summary: 'Yangshuai Wang（王阳帅） — numerical analysis, scientific compu
 seo:
   title: 'Yangshuai Wang | 王阳帅'
 date: 2022-10-24
-lastmod: 2026-11-01
+lastmod: 2026-11-06
 type: landing
 
 # Homepage overview; full publication and preprint archives are linked in navigation.
