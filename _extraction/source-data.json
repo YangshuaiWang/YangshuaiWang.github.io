@@ -1054,6 +1054,24 @@
   ],
   "preprints": [
     {
+      "num": 25,
+      "author_note": null,
+      "authors": [
+        "Jiale Linghu",
+        "me"
+      ],
+      "title": "A Posteriori Adaptivity for Multipole Boundary Conditions in Crystalline Defects",
+      "slug": "2026-a-posteriori-adaptivity-for-multipole-boundary-conditions-in-crystalline-defects",
+      "year": 2026,
+      "status": "under review",
+      "links": [],
+      "source_checked": "2026-11-06",
+      "source_order": 25,
+      "source_note": "Title, author order, year, and review status supplied by the author.",
+      "source_text": "A Posteriori Adaptivity for Multipole Boundary Conditions in Crystalline Defects; Jiale Linghu and Yangshuai Wang; under review; 2026.",
+      "source_links": []
+    },
+    {
       "num": 24,
       "author_note": "Corresponding author",
       "authors": [
