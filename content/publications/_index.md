@@ -1,7 +1,7 @@
 ---
 title: Selected Publications
 summary: Published and accepted research papers by Yangshuai Wang.
-lastmod: 2026-10-24
+lastmod: 2026-11-07
 type: landing
 cms_exclude: true
 sections:

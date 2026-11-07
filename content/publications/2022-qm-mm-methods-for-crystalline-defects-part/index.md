@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-11-07
 title: 'QM/MM Methods for Crystalline Defects. Part 3: Machine-learned MM Models'
 authors:
 - Huajie Chen
@@ -9,7 +10,7 @@ date_precision: year
 publication_types:
 - article-journal
 publication:
-  name: Multiscale Model. Simul., 20:1490–1518
+  name: SIAM Multiscale Model. Simul., 20:1490–1518
 peer_reviewed: true
 tags:
 - publication
@@ -23,6 +24,6 @@ links:
 - type: url
   url: https://epubs.siam.org/doi/10.1137/21M1441122
   name: Publisher
-summary: "QM/MM Methods for Crystalline Defects. Part 3: Machine-learned MM Models. Multiscale Model. Simul., 20:1490–1518, 2022."
+summary: "QM/MM Methods for Crystalline Defects. Part 3: Machine-learned MM Models. SIAM Multiscale Model. Simul., 20:1490–1518, 2022."
 ---
 *Corresponding author.*

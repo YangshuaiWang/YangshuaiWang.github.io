@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-11-07
 title: Elastic Far-field Decay from Dislocations in Multilattices
 authors:
 - Derek Olson
@@ -10,7 +11,7 @@ date_precision: year
 publication_types:
 - article-journal
 publication:
-  name: Multiscale Model. Simul., 21(4)
+  name: SIAM Multiscale Model. Simul., 21(4)
 peer_reviewed: true
 tags:
 - publication
@@ -24,6 +25,6 @@ links:
 - type: url
   url: https://epubs.siam.org/doi/full/10.1137/22M1502021
   name: Publisher
-summary: "Elastic Far-field Decay from Dislocations in Multilattices. Multiscale Model. Simul., 21(4), 2023."
+summary: "Elastic Far-field Decay from Dislocations in Multilattices. SIAM Multiscale Model. Simul., 21(4), 2023."
 ---
 *Corresponding author.*

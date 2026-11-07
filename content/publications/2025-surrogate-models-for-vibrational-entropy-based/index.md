@@ -1,4 +1,5 @@
 ---
+lastmod: 2026-11-07
 title: Surrogate models for vibrational entropy based on a spatial decomposition
 authors:
 - Tina Torabi
@@ -9,7 +10,7 @@ date_precision: year
 publication_types:
 - article-journal
 publication:
-  name: Multiscale Model. Simul., 23(1)
+  name: SIAM Multiscale Model. Simul., 23(1)
 peer_reviewed: true
 tags:
 - publication
@@ -23,6 +24,6 @@ links:
 - type: url
   url: https://epubs.siam.org/doi/abs/10.1137/24M165168X
   name: Publisher
-summary: "Surrogate models for vibrational entropy based on a spatial decomposition. Multiscale Model. Simul., 23(1), 2025."
+summary: "Surrogate models for vibrational entropy based on a spatial decomposition. SIAM Multiscale Model. Simul., 23(1), 2025."
 ---
 *Corresponding author.*
