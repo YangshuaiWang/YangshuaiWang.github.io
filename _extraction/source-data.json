@@ -1200,32 +1200,6 @@
       ]
     },
     {
-      "num": 18,
-      "author_note": "Corresponding author",
-      "authors": [
-        "Jiale Linghu",
-        "me"
-      ],
-      "title": "Residual-Christoffel Sampling for Random Feature Collocation of Linear PDEs",
-      "year": 2026,
-      "status": "under review",
-      "links": [
-        {
-          "type": "preprint",
-          "url": "https://arxiv.org/abs/2607.13382",
-          "provider": "arxiv"
-        }
-      ],
-      "slug": "2026-residual-christoffel-sampling-for-random-feature-collocation",
-      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-preprints",
-      "source_checked": "2026-10-24",
-      "source_order": 18,
-      "source_text": "[18] (Corresponding author) Jiale Linghu and Yangshuai Wang, Residual-Christoffel Sampling for Random Feature Collocation of Linear PDEs , 2026, arXiv preprint, under review.",
-      "source_links": [
-        "http://arxiv.org/abs/2607.13382"
-      ]
-    },
-    {
       "num": 17,
       "author_note": "Corresponding author",
       "authors": [
@@ -1924,6 +1898,32 @@
       "slug": "2026-long-range-operator-learning-comparative-diagnostics-for",
       "archived_on": "2026-10-03",
       "archive_reason": "Absent from the current selected-preprints source. Preserved as a draft, excluded from the public website; not described as withdrawn."
+    },
+    {
+      "num": 18,
+      "author_note": "Corresponding author",
+      "authors": [
+        "Jiale Linghu",
+        "me"
+      ],
+      "title": "Residual-Christoffel Sampling for Random Feature Collocation of Linear PDEs",
+      "year": 2026,
+      "status": "under review",
+      "links": [
+        {
+          "type": "preprint",
+          "url": "https://arxiv.org/abs/2607.13382",
+          "provider": "arxiv"
+        }
+      ],
+      "slug": "2026-residual-christoffel-sampling-for-random-feature-collocation",
+      "source_url": "https://sites.google.com/view/yangshuaiwang/selected-preprints",
+      "source_checked": "2026-10-24",
+      "source_order": 18,
+      "source_text": "[18] (Corresponding author) Jiale Linghu and Yangshuai Wang, Residual-Christoffel Sampling for Random Feature Collocation of Linear PDEs , 2026, arXiv preprint, under review.",
+      "source_links": [
+        "http://arxiv.org/abs/2607.13382"
+      ]
     }
   ],
   "archived_publications": [
