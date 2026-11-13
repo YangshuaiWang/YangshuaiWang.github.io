@@ -1054,6 +1054,26 @@
   ],
   "preprints": [
     {
+      "num": 26,
+      "author_note": null,
+      "authors": [
+        "Junfeng Lu",
+        "me",
+        "Bing Hu",
+        "Hao Wang"
+      ],
+      "title": "Accelerated Method for the Equilibria of the Energy-Based Blended Quasicontinuum Model for Crystalline Defects based on Gradient Flows",
+      "slug": "2026-accelerated-method-for-equilibria-energy-based-blended-quasicontinuum-gradient-flows",
+      "year": 2026,
+      "status": "submitted",
+      "links": [],
+      "source_checked": "2026-11-13",
+      "source_order": 26,
+      "source_note": "Title and author order checked against author-provided manuscript; submitted status supplied by author. No public manuscript link available.",
+      "source_text": "Accelerated Method for the Equilibria of the Energy-Based Blended Quasicontinuum Model for Crystalline Defects based on Gradient Flows; Junfeng Lu, Yangshuai Wang, Bing Hu and Hao Wang; submitted; 2026.",
+      "source_links": []
+    },
+    {
       "num": 25,
       "author_note": null,
       "authors": [
