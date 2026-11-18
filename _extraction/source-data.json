@@ -1054,6 +1054,33 @@
   ],
   "preprints": [
     {
+      "num": 27,
+      "author_note": "Co-corresponding author",
+      "authors": [
+        "Xiaoqing Liu",
+        "me",
+        "Lei Shen"
+      ],
+      "title": "Local topology hallucinations in universal machine-learned interatomic potentials",
+      "slug": "2026-local-topology-hallucinations-in-universal-machine-learned-interatomic-potentials",
+      "year": 2026,
+      "status": "preprint",
+      "links": [
+        {
+          "type": "preprint",
+          "url": "https://arxiv.org/html/2611.21489v1",
+          "provider": "arxiv"
+        }
+      ],
+      "source_checked": "2026-11-18",
+      "source_order": 27,
+      "source_url": "https://arxiv.org/html/2611.21489v1",
+      "source_text": "Local topology hallucinations in universal machine-learned interatomic potentials; Xiaoqing Liu, Yangshuai Wang and Lei Shen; arXiv:2611.21489; 2026.",
+      "source_links": [
+        "https://arxiv.org/html/2611.21489v1"
+      ]
+    },
+    {
       "num": 26,
       "author_note": null,
       "authors": [
