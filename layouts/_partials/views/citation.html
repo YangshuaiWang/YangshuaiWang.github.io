@@ -1,4 +1,17 @@
 {{ $item := .item }}
+{{ if $item.Params.citation_inline }}
+<article class="pub-list-item academic-citation">
+  <p class="academic-authors">
+    {{- with $item.Params.author_note }}({{ . }}) {{ end -}}
+    {{- $last := sub (len $item.Params.authors) 1 -}}
+    {{- range $i, $author := $item.Params.authors -}}
+      {{- if $i }}{{ if eq $i $last }} and {{ else }}, {{ end }}{{ end -}}
+      {{- if eq $author "me" }}<strong>Yangshuai Wang</strong>{{ else }}{{ $author }}{{ end -}}
+    {{- end }}, <em><a class="hover:underline" href="{{ $item.RelPermalink }}">{{ $item.Title }}</a></em>{{ with $item.Params.publication_year }}, {{ . }}{{ end }}
+    {{- range $item.Params.links }}{{ if eq .provider "arxiv" }}, <a class="text-primary-700 underline dark:text-primary-400" href="{{ .url | safeURL }}" rel="noopener">arXiv preprint</a>{{ end }}{{ end }}.
+  </p>
+</article>
+{{ else }}
 <article class="pub-list-item academic-citation">
   <p class="academic-citation-title"><a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a></p>
   <p class="academic-authors">{{ partial "academic-authors.html" $item }}</p>
@@ -6,3 +19,4 @@
   {{ with $item.Params.author_note }}<p class="academic-note">{{ . }}</p>{{ end }}
   {{ partial "academic-links.html" $item }}
 </article>
+{{ end }}
