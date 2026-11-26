@@ -8,6 +8,8 @@
 
 2026-11-06 新增：应作者要求，在 GitHub 主页 Selected Preprints 顶部加入 *A Posteriori Adaptivity for Multipole Boundary Conditions in Crystalline Defects*，作者依次为 Jiale Linghu、Yangshuai Wang，年份 2026，状态 under review。仅记录作者提供的信息，未添加公开链接、投稿期刊、作者角色或摘要；未填写具体出版月日。新条目 `source_order: 25`，高于此前最大值 24，原有条目编号及顺序不变；精选预印本现为 22 篇。首页及预印本列表的 `lastmod` 已为当日 2026-11-06；此前移除的 metallic-systems 论文继续保留为草稿，完整 CV 及既往核对记录不变。
 
+2026-11-26 定向更新：Selected Preprints 新增 [28] Yaru Liu、Yangshuai Wang、Xinlong Feng 的 *Unconditionally structure-preserving normalized exponential integrators of arbitrary order for the conservative Allen–Cahn equation*（2026）。未添加未经核实的公开稿件链接或审稿状态。下方历史核对表保持不变。
+
 ## 已知差异与处理
 
 - Preprint 23 (metallic systems) links to arXiv:2608.19797, which is Optimal Sobolev Approximation (preprint 22). Wrong link omitted; correct link unresolved.
