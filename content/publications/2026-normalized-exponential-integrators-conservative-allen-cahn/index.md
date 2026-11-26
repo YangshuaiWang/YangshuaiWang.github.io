@@ -9,7 +9,7 @@ date_precision: year
 publication_types:
 - manuscript
 publication:
-  name: Preprint
+  name: Preprint · Under review
 peer_reviewed: false
 tags:
 - preprint
@@ -17,8 +17,9 @@ featured: false
 source_order: 28
 source_checked: '2026-11-26'
 source_note: Title and author order checked against the author-provided manuscript title page. No public manuscript link was verified.
-status: preprint
+status: under review
 citation_inline: true
+author_note: Co-Corresponding author
 links: []
 lastmod: '2026-11-26'
 ---

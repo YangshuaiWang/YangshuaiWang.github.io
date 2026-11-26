@@ -1055,7 +1055,7 @@
   "preprints": [
     {
       "num": 28,
-      "author_note": null,
+      "author_note": "Co-Corresponding author",
       "authors": [
         "Yaru Liu",
         "me",
@@ -1064,12 +1064,12 @@
       "title": "Unconditionally structure-preserving normalized exponential integrators of arbitrary order for the conservative Allen–Cahn equation",
       "slug": "2026-normalized-exponential-integrators-conservative-allen-cahn",
       "year": 2026,
-      "status": "preprint",
+      "status": "under review",
       "links": [],
       "source_checked": "2026-11-26",
       "source_order": 28,
       "source_note": "Title and author order checked against the author-provided manuscript title page. No public manuscript link was verified.",
-      "source_text": "Unconditionally structure-preserving normalized exponential integrators of arbitrary order for the conservative Allen–Cahn equation; Yaru Liu, Yangshuai Wang and Xinlong Feng; 2026.",
+      "source_text": "Unconditionally structure-preserving normalized exponential integrators of arbitrary order for the conservative Allen–Cahn equation; Yaru Liu, Yangshuai Wang and Xinlong Feng; 2026; under review.",
       "source_links": []
     },
     {

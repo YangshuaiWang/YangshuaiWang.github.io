@@ -8,7 +8,7 @@
       {{- if $i }}{{ if eq $i $last }} and {{ else }}, {{ end }}{{ end -}}
       {{- if eq $author "me" }}<strong>Yangshuai Wang</strong>{{ else }}{{ $author }}{{ end -}}
     {{- end }}, <em><a class="hover:underline" href="{{ $item.RelPermalink }}">{{ $item.Title }}</a></em>{{ with $item.Params.publication_year }}, {{ . }}{{ end }}
-    {{- range $item.Params.links }}{{ if eq .provider "arxiv" }}, <a class="text-primary-700 underline dark:text-primary-400" href="{{ .url | safeURL }}" rel="noopener">arXiv preprint</a>{{ end }}{{ end }}.
+    {{- range $item.Params.links }}{{ if eq .provider "arxiv" }}, <a class="text-primary-700 underline dark:text-primary-400" href="{{ .url | safeURL }}" rel="noopener">arXiv preprint</a>{{ end }}{{ end }}{{ if eq $item.Params.status "under review" }}, under review{{ end }}.
   </p>
 </article>
 {{ else }}
